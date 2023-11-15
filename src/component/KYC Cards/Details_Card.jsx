@@ -2,20 +2,20 @@ import React from "react";
 import { DetailsCardStyled } from "./style";
 import kycLogo from "../../image/kyc card.png";
 
-function Details_Card() {
+function Details_Card(props) {
   return (
     <DetailsCardStyled>
       <div className="main-details-card">
         <div className="container-details-card">
           <div className="title-details-card">
             <img className="title-img" src={kycLogo} alt="" />
-            <span className="title-text"> General Info</span>
+            <span className="title-text"> {props.title}</span>
           </div>
           <div className="case-id-card">
-            <span className="case-id">Case Id : 01</span>
+            <span className="case-id">Case Id : {props.caseID}</span>
             <div className="status-card-div">
               <span className="status-card">Status:</span>
-              <span className="status"> finished</span>
+              <span className="status"> {props.status}</span>
             </div>
           </div>
           <div className="creation-card">
