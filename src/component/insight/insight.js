@@ -1,10 +1,14 @@
 import React from "react";
-import Sidebar from "../sidebar/sidebar";
-import { InsightStyled } from "./style";
+import Sidebar from "../sidebar/sidebar.js";
+import { InsightStyled } from "./style.js";
 import { LiaCoinsSolid } from "react-icons/lia";
 import Avatar from "../../image/avatar.png";
+// import KYCSanction from '../pages/KYCComply Pro/KYC Sanction check/KYCSanction.jsx';
+// import KYCCardLookup from "../pages/KYCComply Pro/KYC Card Lookup/KYCCardLookup.jsx";
 
-function insight() {
+
+
+function Insight({children}) {
   return (
     <>
       <InsightStyled>
@@ -25,12 +29,19 @@ function insight() {
                   <span className="Avatar-Text">Andrew Smith</span>
                 </div>
               </div>
+              
             </div>
+            {children}
+            
+           
           </div>
+          
         </div>
+        
       </InsightStyled>
+
     </>
   );
 }
 
-export default insight;
+export default Insight;

@@ -12,12 +12,14 @@ export const InsightStyled = styled.div`
   .Insight-Container {
     display: flex;
     width: 100%;
-    justify-content: end;
+    /* justify-content: end */
+    flex-direction:column;
 
     flex-wrap: wrap;
   }
   .Credit-Main-Section {
     display: flex;
+    justify-content:flex-end;
   }
   .Credit-Section {
     width: 156px;

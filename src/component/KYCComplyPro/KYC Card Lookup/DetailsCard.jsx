@@ -1,14 +1,13 @@
 import React from "react";
-import { DetailsCardStyled } from "./style";
-import kycLogo from "../../image/kyc card.png";
+import { DetailsCardStyle } from "./DetailsCardStyle";
 
-function Details_Card(props) {
+function DetailsCard(props) {
   return (
-    <DetailsCardStyled>
+    <DetailsCardStyle>
       <div className="main-details-card">
         <div className="container-details-card">
           <div className="title-details-card">
-            <img className="title-img" src={kycLogo} alt="" />
+            <img className="title-img" src={props.img} alt="" />
             <span className="title-text"> {props.title}</span>
           </div>
           <div className="case-id-card">
@@ -29,13 +28,13 @@ function Details_Card(props) {
             </div>
           </div>
           <div className="view-details-btn">
-            <button className="view-btn">View Details</button>>
+            <button className="view-btn">View Details</button>
           </div>
         </div>
       </div>
       
-    </DetailsCardStyled>
+    </DetailsCardStyle>
   );
 }
 
-export default Details_Card;
+export default DetailsCard;

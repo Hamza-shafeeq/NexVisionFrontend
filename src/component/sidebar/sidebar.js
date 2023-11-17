@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { SidebarStyled } from "./style";
 import Sidebarlogo from "../../image/logo.png";
 import { MidSidebarArray, SidebarArray } from "../../Array";
@@ -11,7 +11,7 @@ import { MdOutlineLogout } from "react-icons/md";
 
 function Sidebar() {
   const navigate = useNavigate();
-  const [selected, setSelected] = useState("");
+  // const [selected, setSelected] = useState("");
 
   return (
     <>
