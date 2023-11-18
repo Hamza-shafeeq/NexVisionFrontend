@@ -2,7 +2,7 @@ import React from "react";
 import DetailsCard from "../../../component/KYCComplyPro/KYC Card Lookup/DetailsCard";
 import { KycCardLookup } from "./kyc-card-lookup";
 import KYCHeader from "../../../component/KYCComplyPro/KYC Card Lookup/KYCHeader";
-import kycthird1 from "../../../image/kycthird1.svg";
+import kycCard from "../../../image/kycCardLook.svg";
 import Sidebar from "../../../component/sidebar/sidebar";
 
 export default function KYCCardLookup() {
@@ -15,7 +15,7 @@ export default function KYCCardLookup() {
             title="General Info"
             caseID="01"
             status="finished"
-            img={kycthird1}
+            img={kycCard}
           />
         </div>
       </Sidebar>

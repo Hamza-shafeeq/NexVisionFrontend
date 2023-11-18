@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const KycHeaderStyle = styled.div`
   display: flex;
   justify-content: center;
-  background-color: #1e025b;
+  background-color: #F4F4F4;
 
   .kyc-title {
     display: flex;
@@ -27,9 +27,9 @@ export const KycHeaderStyle = styled.div`
   }
 
   .kyc-title-text {
-    color: white;
+    color: black;
     font-weight: 700;
-    margin-left: -20px;
+    
   }
 
   .kyc-btn {
@@ -56,14 +56,14 @@ export const KycHeaderStyle = styled.div`
     border: none;
     outline: none;
     color: white;
-    background-color: #29105f;
+    background-color: #EDEAF4;
   }
   .kyc-search-box {
     display: flex;
     align-items: center;
-    background-color: #29105f;
+    background-color: #EDEAF4;
 
-    border: 2px #29105f solid;
+    /* border: 2px #591DDD solid; */
     padding: 4px;
     border-radius: 9px;
     cursor: pointer;
@@ -71,6 +71,14 @@ export const KycHeaderStyle = styled.div`
   .kyc-icon {
     width: 35px;
     height: 25px;
-    color: white;
+    color: #591DDD;
   }
+  .kyc-title-img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100px;
+    height:100px;
+  }
+
 `;

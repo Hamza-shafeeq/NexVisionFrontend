@@ -1,5 +1,5 @@
 import React from "react";
-import KYCOrganiztion from "../../../image/kycthirdTitle.svg";
+import kycthirdTitle from "../../../image/kycthirdTitle.svg";
 import { KycHeaderStyle } from "./KycHeaderStyle";
 import { CiSearch } from "react-icons/ci";
 
@@ -8,7 +8,7 @@ export default function KYCHeader() {
     <KycHeaderStyle>
       <div className="kyc-header-container">
         <div className="kyc-title">
-          <img className="kyc-title-img" src={KYCOrganiztion} alt="" />
+        <div className="kyc-title-img"><img className="title-img" src={kycthirdTitle} alt="" /></div>
           <span className="kyc-title-text"> KYC Sanction</span>
         </div>
         <div className="kyc-cta">

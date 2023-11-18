@@ -8,7 +8,9 @@ export default function KYCHeader() {
     <KycHeaderStyle>
       <div className="kyc-header-container">
         <div className="kyc-title">
-          <img className="kyc-title-img" src={kycthirdTitle} alt="" />
+          <div className="kyc-title-img">
+            <img className="title-img" src={kycthirdTitle} alt="" />
+          </div>
           <span className="kyc-title-text"> Third Party Intelligence</span>
         </div>
         <div className="kyc-cta">

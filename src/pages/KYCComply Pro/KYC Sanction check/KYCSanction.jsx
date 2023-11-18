@@ -2,7 +2,7 @@ import React from "react";
 import DetailsCard from "../../../component/KYCComplyPro/KYC Sanction Check/DetailsCard";
 import { KycSanction } from "./kyc-sanction";
 import KYCHeader from "../../../component/KYCComplyPro/KYC Sanction Check/KYCHeader";
-import kycthird1 from "../../../image/kycthird1.svg";
+import kycthird1 from "../../../image/kycCardLook.svg";
 import Sidebar from "../../../component/sidebar/sidebar";
 
 export default function KYCSanction() {

@@ -7,7 +7,9 @@ function DetailsCard(props) {
       <div className="main-details-card">
         <div className="container-details-card">
           <div className="title-details-card">
-            <img className="title-img" src={props.img} alt="" />
+            <div className="title-img">
+              <img className="img" src={props.img} alt="" />
+            </div>
             <span className="title-text"> {props.title}</span>
           </div>
           <div className="case-id-card">
@@ -32,7 +34,6 @@ function DetailsCard(props) {
           </div>
         </div>
       </div>
-      
     </DetailsCardStyle>
   );
 }
