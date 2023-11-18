@@ -3,12 +3,12 @@ import DetailsCard from "../../../component/KYCComplyPro/KYC Organization Intell
 import { KycOrganization } from "./kyc-organization";
 import KYCHeader from "../../../component/KYCComplyPro/KYC Organization Intelligence/KYCHeader";
 import kycthird1 from "../../../image/kycthird1.svg";
-import Insight from "../../../component/insight/Insight";
+import Sidebar from "../../../component/sidebar/sidebar";
 
 export default function KYCOrganization() {
   return (
     <KycOrganization>
-      <Insight>
+      <Sidebar>
       <KYCHeader />
       <div className="card-alignment">
         <DetailsCard
@@ -96,7 +96,7 @@ export default function KYCOrganization() {
           img={kycthird1}
         />
       </div>
-      </Insight>
+      </Sidebar>
     </KycOrganization>
   );
 }

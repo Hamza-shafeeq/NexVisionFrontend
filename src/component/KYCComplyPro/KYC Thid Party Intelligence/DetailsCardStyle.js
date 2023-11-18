@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const DetailsCardStyle = styled.div`
   background-color: #29135b;
-  width: 360px;
+  width: 330px;
   height: 280px;
   border-radius: 17px;
   border: 1px solid black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-top:15px;
+  margin-top: 15px;
 
   .title-text {
     color: white;

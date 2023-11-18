@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DetailsCardStyle = styled.div`
   background-color: #29135b;
-  width: 360px;
+  width: 330px;
   height: 280px;
   border-radius: 17px;
   border: 1px solid black;

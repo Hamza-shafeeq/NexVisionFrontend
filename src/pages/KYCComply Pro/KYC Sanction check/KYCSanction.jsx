@@ -3,12 +3,12 @@ import DetailsCard from "../../../component/KYCComplyPro/KYC Sanction Check/Deta
 import { KycSanction } from "./kyc-sanction";
 import KYCHeader from "../../../component/KYCComplyPro/KYC Sanction Check/KYCHeader";
 import kycthird1 from "../../../image/kycthird1.svg";
-import Insight from "../../../component/insight/Insight";
+import Sidebar from "../../../component/sidebar/sidebar";
 
 export default function KYCSanction() {
   return (
     <KycSanction>
-      <Insight >
+      <Sidebar >
       <KYCHeader />
       <div className="card-alignment">
         <DetailsCard
@@ -67,7 +67,7 @@ export default function KYCSanction() {
         />
         
       </div>
-      </Insight>
+      </Sidebar>
     </KycSanction>
   );
 }
