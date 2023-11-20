@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const DetailsCardStyle = styled.div`
-  background-color: #EEE6FE;
-  width: 400px;
+  background-color: #eee6fe;
+  width: 340px;
   height: 280px;
   border-radius: 17px;
   /* border: 1px solid black; */
@@ -21,11 +21,11 @@ export const DetailsCardStyle = styled.div`
   }
 
   .title-img {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    width: 100px; 
-    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
   }
 
   .case-id {
@@ -44,7 +44,7 @@ export const DetailsCardStyle = styled.div`
   }
   .status-card {
     font-weight: 600;
-    color:black;
+    color: black;
   }
   .status-card-div {
     display: flex;
@@ -58,7 +58,7 @@ export const DetailsCardStyle = styled.div`
     width: 85px;
     height: 25px;
     border-radius: 20px;
-    background-color: #9B75EC;
+    background-color: #9b75ec;
     font-size: 15px;
     font-weight: 550;
   }
@@ -76,7 +76,7 @@ export const DetailsCardStyle = styled.div`
 
   .view-btn {
     /* display: */
-    width: 360px;
+    width: 330px;
     height: 35px;
     background-color: #591ddd;
     color: white;

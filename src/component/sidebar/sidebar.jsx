@@ -20,6 +20,9 @@ function Sidebar({ children }) {
   const handleLinkClick = (link) => {
     setActiveLink(link);
     switch (link) {
+      case "insightAi":
+        navigate("/insightAi");
+        break;
       case "kyc-card-lookup":
         navigate("/kyc-card-lookup");
         break;
@@ -55,9 +58,9 @@ function Sidebar({ children }) {
               <p className="Sidebar-Main-Title-Section">Main</p>
               <span
                 className={`Sidebar-Links ${
-                  activeLink === "insight" ? "active" : ""
+                  activeLink === "insightAi" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("insight")}
+                onClick={() => handleLinkClick("insightAi")}
               >
                 <PiSuitcaseSimple className="Links-Logo" /> Insight Al
               </span>
