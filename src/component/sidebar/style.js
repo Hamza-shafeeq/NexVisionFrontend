@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const SidebarStyled = styled.div`
   display: flex;
-
   width: 100%;
   .SidebarMenu {
     background-color: #220367;

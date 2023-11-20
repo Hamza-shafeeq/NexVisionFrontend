@@ -21,18 +21,18 @@ function Sidebar({ children }) {
     setActiveLink(link);
     switch (link) {
       case "kyc-card-lookup":
-        navigate("/kyc-card-lookup"); // Replace with your desired path
+        navigate("/kyc-card-lookup");
         break;
       case "kyc-sanction-check":
-        navigate("/kyc-sanction-check"); // Replace with your desired path
+        navigate("/kyc-sanction-check");
         break;
       case "kyc-third-party":
-        navigate("/kyc-third-party"); // Replace with your desired path
+        navigate("/kyc-third-party");
         break;
       case "kyc-organization":
-        navigate("/kyc-organization"); // Replace with your desired path
+        navigate("/kyc-organization");
         break;
-      // Add more cases as needed
+
       case "about":
         setShowAbout(!showAbout);
         break;
@@ -138,9 +138,8 @@ function Sidebar({ children }) {
                   <div className="Sidebar-Links-Section">
                     <span
                       className={`Sidebar-Links ${
-                        activeLink === "management" ? "active" : ""
+                        activeLink === "" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("management")}
                     >
                       <PiSuitcaseSimple className="Links-Logo" /> Management
                       <RiArrowDropDownLine className="Links-Logo" />
