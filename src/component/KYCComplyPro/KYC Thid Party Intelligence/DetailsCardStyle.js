@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const DetailsCardStyle = styled.div`
-  background-color: #29135b;
-  width: 330px;
+  background-color: #EEE6FE;
+  width: 400px;
   height: 280px;
   border-radius: 17px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-top: 15px;
 
   .title-text {
-    color: white;
+    color: black;
     font-size: 16px;
     font-weight: 600;
     margin-left: -10px;
@@ -21,14 +21,15 @@ export const DetailsCardStyle = styled.div`
   }
 
   .title-img {
-    width: 100px;
-    fill: red;
-    /* color:red; */
-    /* background-color: green; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 100px; 
+    height:100px;
   }
 
   .case-id {
-    color: white;
+    color: black;
     font-weight: 600;
   }
 
@@ -43,6 +44,7 @@ export const DetailsCardStyle = styled.div`
   }
   .status-card {
     font-weight: 600;
+    color:black;
   }
   .status-card-div {
     display: flex;
@@ -56,13 +58,13 @@ export const DetailsCardStyle = styled.div`
     width: 85px;
     height: 25px;
     border-radius: 20px;
-    background-color: #591ddd;
+    background-color: #9B75EC;
     font-size: 15px;
     font-weight: 550;
   }
   .creation-card {
     margin-top: 15px;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -74,7 +76,7 @@ export const DetailsCardStyle = styled.div`
 
   .view-btn {
     /* display: */
-    width: 300px;
+    width: 360px;
     height: 35px;
     background-color: #591ddd;
     color: white;
