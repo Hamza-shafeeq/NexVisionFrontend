@@ -10,7 +10,7 @@ export const KycOrganization = styled.div`
     /* width: 100%; */
     /* justify-content: start; */
     margin-left: 50px;
-    gap: 10px;
+    gap: 40px;
     /* align-items:center; */
     /* flex-direction: row; */
   }

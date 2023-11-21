@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const KycSanction = styled.div`
+export const BrandSentinelStyle = styled.div`
   .card-alignment {
     display: flex;
     justify-content: start;

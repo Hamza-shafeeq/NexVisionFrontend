@@ -9,13 +9,14 @@ import KYCThirdParty from "./pages/KYCComply Pro/KYC Thirdparty/KYCThirdParty";
 import KYCOrganization from "./pages/KYCComply Pro/KYC Organization/KYCOrganization";
 import InsightAi from "./pages/insight/insightAi";
 import Otp from "./pages/otp/otp";
+import BrandSentinel from "./pages/SocialScan Pro/Brand Sentinel/BrandSentinel";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
-
+        <Route path="/brand-sentinel" element={<BrandSentinel />}></Route>
         <Route path="/kyc-card-lookup" element={<KYCCardLookup />}></Route>
         <Route path="/kyc-sanction-check" element={<KYCSanction />}></Route>
         <Route path="/kyc-third-party" element={<KYCThirdParty />}></Route>
