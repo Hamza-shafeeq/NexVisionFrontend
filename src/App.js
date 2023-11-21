@@ -10,6 +10,8 @@ import KYCOrganization from "./pages/KYCComply Pro/KYC Organization/KYCOrganizat
 import InsightAi from "./pages/insight/insightAi";
 import Otp from "./pages/otp/otp";
 import BrandSentinel from "./pages/SocialScan Pro/Brand Sentinel/BrandSentinel";
+import GSPRealTimeCrisis from "./pages/Global Shield Pro/Real Time Crisis/GSPRealTimeCrisis";
+import GSGeopolitical from "./pages/Global Shield Pro/Geopolitical Intelligence/GSGeopolitical";
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
         <Route path="/kyc-organization" element={<KYCOrganization />}></Route>
         <Route path="/insightAi" element={<InsightAi />}></Route>
         <Route path="/otp" element={<Otp />}></Route>
+        <Route path="/real-time-crisis" element={<GSPRealTimeCrisis />}></Route>
+        <Route path="/geopolitical-intelligence" element={<GSGeopolitical />}></Route>
+
+
       </Routes>
     </BrowserRouter>
   );
