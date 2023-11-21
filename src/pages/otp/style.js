@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
-export const HomepageStyled = styled.div`
+export const OtppageStyled = styled.div`
   width: 100%;
   height: 100vh;
+  background-color: #1e0652;
   .Signup-Main-Section {
     display: flex;
     width: 100%;
@@ -19,10 +20,10 @@ export const HomepageStyled = styled.div`
     flex-direction: column;
     width: 100%;
   }
-  .Contact {
-    color: #591ddd;
+  .Contact-1 {
+    color: white;
   }
-  .Signup-Navbar {
+  .Signup-Navbar-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@ export const HomepageStyled = styled.div`
     height: 60px;
     border: 2px solid #8154e4;
     width: 57%;
-    background-color: #eae5f6;
+    background-color: #382463;
   }
 
   .navbar {
@@ -93,6 +94,7 @@ export const HomepageStyled = styled.div`
     border: none;
     outline: none;
     color: #5d646e;
+    background-color: #402b6c;
   }
   .FormBox {
     border: 2px #916ae8 solid;
@@ -100,7 +102,7 @@ export const HomepageStyled = styled.div`
     border-radius: 9px;
     cursor: pointer;
     display: flex;
-    background-color: white;
+    background-color: #402b6c;
     align-items: center;
   }
   .FormIcon {
@@ -162,7 +164,7 @@ export const HomepageStyled = styled.div`
   }
   .Welcome-Text {
     font-size: 18px;
-
+    color: white;
     font-weight: 600;
   }
   .Forget-Text-Section {
@@ -203,6 +205,7 @@ export const HomepageStyled = styled.div`
   }
   .Form-Box-Title {
     font-size: 17px;
+    color: white;
   }
   .Form-Box-Text {
     display: flex;
@@ -260,6 +263,7 @@ export const HomepageStyled = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    color: white;
     gap: 40px;
   }
   .Footer-CopyRight {

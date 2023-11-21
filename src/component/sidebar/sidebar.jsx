@@ -175,7 +175,7 @@ function Sidebar({ children }) {
                     <IoIosInformationCircleOutline className="Links-Logo" />
                     Help
                   </span>
-                  <span className="Sidebar-Links1">
+                  <span className="Sidebar-Links" onClick={() => navigate("/")}>
                     <MdOutlineLogout className="Links-Logo" />
                     Logout Account
                   </span>

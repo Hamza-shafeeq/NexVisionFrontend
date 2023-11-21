@@ -8,6 +8,7 @@ import KYCSanction from "./pages/KYCComply Pro/KYC Sanction check/KYCSanction";
 import KYCThirdParty from "./pages/KYCComply Pro/KYC Thirdparty/KYCThirdParty";
 import KYCOrganization from "./pages/KYCComply Pro/KYC Organization/KYCOrganization";
 import InsightAi from "./pages/insight/insightAi";
+import Otp from "./pages/otp/otp";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/kyc-third-party" element={<KYCThirdParty />}></Route>
         <Route path="/kyc-organization" element={<KYCOrganization />}></Route>
         <Route path="/insightAi" element={<InsightAi />}></Route>
+        <Route path="/otp" element={<Otp />}></Route>
       </Routes>
     </BrowserRouter>
   );
