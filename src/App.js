@@ -22,7 +22,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
-        <Route path="/brand-sentinel" element={<BrandSentinel />}></Route>
         <Route path="/kyc-card-lookup" element={<KYCCardLookup />}></Route>
         <Route path="/kyc-sanction-check" element={<KYCSanction />}></Route>
         <Route path="/kyc-third-party" element={<KYCThirdParty />}></Route>
@@ -30,17 +29,15 @@ function App() {
         <Route path="/insightAi" element={<InsightAi />}></Route>
         <Route path="/otp" element={<Otp />}></Route>
         <Route path="/real-time-crisis" element={<GSPRealTimeCrisis />}></Route>
-        <Route path="/geopolitical-intelligence" element={<GSGeopolitical />}></Route>
+        <Route
+          path="/geopolitical-intelligence"
+          element={<GSGeopolitical />}
+        ></Route>
         <Route path="/email-lookup" element={<ANPEmailLookup />}></Route>
         <Route path="/phone-lookup" element={<ANPPhoneLookup />}></Route>
         <Route path="/darknet" element={<DHPDarknet />}></Route>
         <Route path="/discovery" element={<DHPDiscovery />}></Route>
-
-        
-
-
-
-
+        <Route path="/brand-sentinel" element={<BrandSentinel />}></Route>
       </Routes>
     </BrowserRouter>
   );

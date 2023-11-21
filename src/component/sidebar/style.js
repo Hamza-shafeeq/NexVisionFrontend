@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const SidebarStyled = styled.div`
   display: flex;
   width: 100%;
+
   .SidebarMenu {
     background-color: #220367;
     width: 272px;
@@ -36,7 +37,7 @@ export const SidebarStyled = styled.div`
     display: flex;
     gap: 13px;
     padding-left: 35px;
-    color: #8980a0;
+    color: white;
     align-items: center;
     font-weight: 550;
     font-size: 15px;
@@ -164,7 +165,6 @@ export const SidebarStyled = styled.div`
   .Avatar-Text-Section {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
   }
 `;

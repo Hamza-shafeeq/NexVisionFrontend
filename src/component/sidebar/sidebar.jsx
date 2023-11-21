@@ -3,7 +3,7 @@ import { SidebarStyled } from "./style";
 import Sidebarlogo from "../../image/logo.png";
 
 import { PiSuitcaseSimple } from "react-icons/pi";
-import { useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoIosInformationCircleOutline } from "react-icons/io";
@@ -16,8 +16,12 @@ function Sidebar({ children }) {
   const navigate = useNavigate();
   const [showAbout, setShowAbout] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
+  const [showKYCDropdown, setShowKYCDropdown] = useState(true);
 
   const handleLinkClick = (link) => {
+    if (link !== "kyccomplypro") {
+      setShowKYCDropdown(false);
+    }
     setActiveLink(link);
     switch (link) {
       case "insightAi":
@@ -44,6 +48,11 @@ function Sidebar({ children }) {
     }
   };
 
+  const toggleKYCDropdown = () => {
+    // Function to toggle the KYC dropdown
+    setShowKYCDropdown(!showKYCDropdown);
+  };
+
   return (
     <>
       <SidebarStyled>
@@ -66,45 +75,104 @@ function Sidebar({ children }) {
               </span>
               <span
                 className={`Sidebar-Links ${
-                  activeLink === "management" ? "active" : ""
+                  activeLink === "armor" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("management")}
+                onClick={() => handleLinkClick("Armor")}
               >
                 <PiSuitcaseSimple className="Links-Logo" /> ArmorNet Pro
                 <RiArrowDropDownLine className="Links-Logo" />
               </span>
               <span
                 className={`Sidebar-Links ${
-                  activeLink === "kyc-card-lookup" ? "active" : ""
+                  activeLink === "hub" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("kyc-card-lookup")}
+                onClick={() => handleLinkClick("Hub")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> KYC Card Lookup
+                <PiSuitcaseSimple className="Links-Logo" /> DetectiveHub Pro
+                <RiArrowDropDownLine className="Links-Logo" />
               </span>
               <span
                 className={`Sidebar-Links ${
-                  activeLink === "kyc-sanction-check" ? "active" : ""
+                  activeLink === "global" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("kyc-sanction-check")}
+                onClick={() => handleLinkClick("Global")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> KYC Sanction Check
+                <PiSuitcaseSimple className="Links-Logo" /> Global Sheild Pro
+                <RiArrowDropDownLine className="Links-Logo" />
               </span>
               <span
                 className={`Sidebar-Links ${
-                  activeLink === "kyc-third-party" ? "active" : ""
+                  activeLink === "social" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("kyc-third-party")}
+                onClick={() => handleLinkClick("Social")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> KYC Third Party
+                <PiSuitcaseSimple className="Links-Logo" /> Social Scan Pro
+                <RiArrowDropDownLine className="Links-Logo" />
               </span>
-              <span
+              <div
                 className={`Sidebar-Links ${
-                  activeLink === "kyc-organization" ? "active" : ""
+                  activeLink === "kyccomplypro" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("kyc-organization")}
+                onClick={toggleKYCDropdown}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> KYC Organization
-              </span>
+                <PiSuitcaseSimple className="Links-Logo" /> KYCComplyPro
+                <RiArrowDropDownLine className="Links-Logo" />
+              </div>
+              {showKYCDropdown && ( // This will conditionally render the dropdown content
+                <div className="Dropdown-Content">
+                  <div className="Dropdown-Content">
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "kyc-third-party" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("kyc-third-party")}
+                    >
+                      Third Party Intelligence
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "kyc-organization" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("kyc-organization")}
+                    >
+                      Organization Intelligence
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "kyc-sanction-check" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("kyc-sanction-check")}
+                    >
+                      Sanction Check
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "aml" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("Aml")}
+                    >
+                      AML Lookup
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "transaction" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("Transaction")}
+                    >
+                      Transaction Lookup
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "kyc-card-lookup" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("kyc-card-lookup")}
+                    >
+                      Card BIN Lookup
+                    </span>
+                  </div>
+                </div>
+              )}
+
               <span
                 className={`Sidebar-Links ${
                   activeLink === "investigate" ? "active" : ""
