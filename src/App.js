@@ -12,6 +12,10 @@ import Otp from "./pages/otp/otp";
 import BrandSentinel from "./pages/SocialScan Pro/Brand Sentinel/BrandSentinel";
 import GSPRealTimeCrisis from "./pages/Global Shield Pro/Real Time Crisis/GSPRealTimeCrisis";
 import GSGeopolitical from "./pages/Global Shield Pro/Geopolitical Intelligence/GSGeopolitical";
+import ANPEmailLookup from "./pages/ArmorNet Pro/ANP Email Lookup/ANPEmailLookup";
+import ANPPhoneLookup from "./pages/ArmorNet Pro/ANP Phone Lookup/ANPPhoneLookup";
+import DHPDarknet from "./pages/Detectivehub Pro/ANP Phone Lookup/DHPDarknet";
+import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
 
 function App() {
   return (
@@ -27,6 +31,14 @@ function App() {
         <Route path="/otp" element={<Otp />}></Route>
         <Route path="/real-time-crisis" element={<GSPRealTimeCrisis />}></Route>
         <Route path="/geopolitical-intelligence" element={<GSGeopolitical />}></Route>
+        <Route path="/email-lookup" element={<ANPEmailLookup />}></Route>
+        <Route path="/phone-lookup" element={<ANPPhoneLookup />}></Route>
+        <Route path="/darknet" element={<DHPDarknet />}></Route>
+        <Route path="/discovery" element={<DHPDiscovery />}></Route>
+
+        
+
+
 
 
       </Routes>
