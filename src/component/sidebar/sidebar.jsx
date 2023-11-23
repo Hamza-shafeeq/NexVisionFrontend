@@ -16,7 +16,11 @@ function Sidebar({ children }) {
   const navigate = useNavigate();
   const [showAbout, setShowAbout] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
-  const [showKYCDropdown, setShowKYCDropdown] = useState(true);
+  const [showKYCDropdown, setShowKYCDropdown] = useState(false);
+  const [showARMORDropdown, setShowARMORDropdown] = useState(false);
+  const [showHubDropdown, setShowHubDropdown] = useState(false);
+  const [showGlobalDropdown, setShowGlobalDropdown] = useState(false);
+  const [showSocialDropdown, setShowSocialDropdown] = useState(false);
 
   const handleLinkClick = (link) => {
     if (link !== "kyccomplypro") {
@@ -49,10 +53,21 @@ function Sidebar({ children }) {
   };
 
   const toggleKYCDropdown = () => {
-    // Function to toggle the KYC dropdown
     setShowKYCDropdown(!showKYCDropdown);
   };
+  const toggleARMORDropdown = () => {
+    setShowARMORDropdown(!showARMORDropdown);
+  };
+  const toggleHubDropdown = () => {
+    setShowHubDropdown(!showHubDropdown);
+  };
 
+  const toggleGlobalDropdown = () => {
+    setShowGlobalDropdown(!showGlobalDropdown);
+  };
+  const toggleSocialDropdown = () => {
+    setShowSocialDropdown(!showSocialDropdown);
+  };
   return (
     <>
       <SidebarStyled>
@@ -73,42 +88,165 @@ function Sidebar({ children }) {
               >
                 <PiSuitcaseSimple className="Links-Logo" /> Insight Al
               </span>
-              <span
+              <div
                 className={`Sidebar-Links ${
                   activeLink === "armor" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("Armor")}
+                onClick={toggleARMORDropdown}
               >
                 <PiSuitcaseSimple className="Links-Logo" /> ArmorNet Pro
                 <RiArrowDropDownLine className="Links-Logo" />
-              </span>
-              <span
+              </div>
+              {showARMORDropdown && ( // This will conditionally render the dropdown content
+                <div className="Dropdown-Content">
+                  <div className="Dropdown-Content">
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "risk" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("risk")}
+                    >
+                      Risk Shield
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "email" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("email")}
+                    >
+                      Email Lockup
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "Phone" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("Phone")}
+                    >
+                      Phone Lockup
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "IP" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("IP")}
+                    >
+                      IP Lockup
+                    </span>
+                  </div>
+                </div>
+              )}
+
+              <div
                 className={`Sidebar-Links ${
                   activeLink === "hub" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("Hub")}
+                onClick={toggleHubDropdown}
               >
                 <PiSuitcaseSimple className="Links-Logo" /> DetectiveHub Pro
                 <RiArrowDropDownLine className="Links-Logo" />
-              </span>
-              <span
+              </div>
+              {showHubDropdown && ( // This will conditionally render the dropdown content
+                <div className="Dropdown-Content">
+                  <div className="Dropdown-Content">
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "darknet" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("darknet")}
+                    >
+                      Darknet
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "discovery" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("discovery")}
+                    >
+                      Discovery
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "surface" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("surface")}
+                    >
+                      Surface
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "cloud" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("cloud")}
+                    >
+                      Cloud File
+                    </span>
+                  </div>
+                </div>
+              )}
+              <div
                 className={`Sidebar-Links ${
                   activeLink === "global" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("Global")}
+                onClick={() => toggleGlobalDropdown("global")}
               >
                 <PiSuitcaseSimple className="Links-Logo" /> Global Sheild Pro
                 <RiArrowDropDownLine className="Links-Logo" />
-              </span>
-              <span
+              </div>
+              {showGlobalDropdown && (
+                <div className="Dropdown-Content">
+                  <div className="Dropdown-Content">
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "real" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("real")}
+                    >
+                      Real-time Crisis Management
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "geopolitical" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("geopolitical")}
+                    >
+                      Geopolitical Intelligence
+                    </span>
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "election" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("election")}
+                    >
+                      Election intelligence
+                    </span>
+                  </div>
+                </div>
+              )}
+              <div
                 className={`Sidebar-Links ${
                   activeLink === "social" ? "active" : ""
                 }`}
-                onClick={() => handleLinkClick("Social")}
+                onClick={() => toggleSocialDropdown("social")}
               >
                 <PiSuitcaseSimple className="Links-Logo" /> Social Scan Pro
                 <RiArrowDropDownLine className="Links-Logo" />
-              </span>
+              </div>
+
+              {showSocialDropdown && (
+                <div className="Dropdown-Content">
+                  <div className="Dropdown-Content">
+                    <span
+                      className={`Sidebar-Links ${
+                        activeLink === "brand" ? "active" : ""
+                      }`}
+                      onClick={() => handleLinkClick("brand")}
+                    >
+                      Brand Sentinel
+                    </span>
+                  </div>
+                </div>
+              )}
+
               <div
                 className={`Sidebar-Links ${
                   activeLink === "kyccomplypro" ? "active" : ""
@@ -243,7 +381,10 @@ function Sidebar({ children }) {
                     <IoIosInformationCircleOutline className="Links-Logo" />
                     Help
                   </span>
-                  <span className="Sidebar-Links" onClick={() => navigate("/")}>
+                  <span
+                    className="Sidebar-Links1"
+                    onClick={() => navigate("/")}
+                  >
                     <MdOutlineLogout className="Links-Logo" />
                     Logout Account
                   </span>

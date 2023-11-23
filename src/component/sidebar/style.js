@@ -93,19 +93,33 @@ export const SidebarStyled = styled.div`
     margin-left: 20px;
   }
   .Sidebar-Links1 {
+    color: #cc8889;
     display: flex;
-    gap: 4px;
+    gap: 13px;
     padding-left: 35px;
-    color: #8980a0;
+
     align-items: center;
     font-weight: 550;
     font-size: 15px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 40px;
+    white-space: nowrap;
+  }
+  .Sidebar-Links1:hover {
+    width: 185px;
+    border-radius: 11px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #4617b2;
   }
   .Credit-Main-Section {
     display: flex;
     flex-direction: column;
-    height: 100px;
+
     width: 100%;
   }
   .sidebar-header {

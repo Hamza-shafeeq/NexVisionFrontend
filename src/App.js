@@ -14,7 +14,7 @@ import GSPRealTimeCrisis from "./pages/Global Shield Pro/Real Time Crisis/GSPRea
 import GSGeopolitical from "./pages/Global Shield Pro/Geopolitical Intelligence/GSGeopolitical";
 import ANPEmailLookup from "./pages/ArmorNet Pro/ANP Email Lookup/ANPEmailLookup";
 import ANPPhoneLookup from "./pages/ArmorNet Pro/ANP Phone Lookup/ANPPhoneLookup";
-import DHPDarknet from "./pages/Detectivehub Pro/ANP Phone Lookup/DHPDarknet";
+import DHPDarknet from "./pages/Detectivehub Pro/DHP Darknet/DHPDarknet";
 import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
 
 function App() {
