@@ -30,96 +30,115 @@ export default function KYCThirdParty() {
             caseID="01"
             status="finished"
             img={kycthird2}
+            navigateLink = '/general-info-details'
           />
           <DetailsCard
             title="Affirm"
             caseID="01"
             status="finished"
             img={kycthird2}
+            navigateLink = '/affirm-details'
+            
           />
           <DetailsCard
             title="OSINT"
             caseID="01"
             status="finished"
             img={kycthird3}
+            navigateLink = '/osint-details'
+
           />
           <DetailsCard
             title="Data Breach"
             caseID="01"
             status="finished"
             img={kycthird4}
+            navigateLink = '/data-breach-details'
+
           />
           <DetailsCard
             title="Public Search Engine"
             caseID="01"
             status="finished"
             img={kycthird5}
+            navigateLink = '/public-search-engine-details'
           />
           <DetailsCard
             title="Company Registries"
             caseID="01"
             status="finished"
             img={kycthird6}
+            navigateLink = '/company-registries-details'
           />
           <DetailsCard
             title="Court Archives"
             caseID="01"
             status="finished"
             img={kycthird7}
+            navigateLink = '/court-archives-details'
           />
           <DetailsCard
             title="Leaks"
             caseID="01"
             status="finished"
             img={kycthird8}
+            navigateLink = '/leaks-details'
           />
           <DetailsCard
             title="Document Librarires"
             caseID="01"
             status="finished"
             img={kycthird9}
+            navigateLink = '/document-libraries-details'
           />
           <DetailsCard
             title="Personal Info"
             caseID="01"
             status="finished"
             img={kycthird10}
+            navigateLink = '/personal-info-details'
           />
           <DetailsCard
             title="Public"
             caseID="01"
             status="finished"
             img={kycthird10}
+            navigateLink = '/public-details'
           />
           <DetailsCard
             title="Sanctions"
             caseID="01"
             status="finished"
             img={kycthird11}
+            navigateLink = '/sanctions-details'
           />
           <DetailsCard
             title="Procurement"
             caseID="01"
             status="finished"
             img={kycthird12}
+            navigateLink = '/procurement-details'
           />
           <DetailsCard
             title="Gazettes"
             caseID="01"
             status="incomplete"
             img={kycthird13}
+            navigateLink = '/gazettes-details'
           />
           <DetailsCard
             title="Land resgistry"
             caseID="01"
             status="finished"
             img={kycthird14}
+            navigateLink = '/land-registries-details'
           />
           <DetailsCard
             title="Air and Maritime Registers"
             caseID="01"
             status="incomplete"
             img={kycthird15}
+            navigateLink = '/air-and-maritime-details'
           />
         </div>
       </Sidebar>

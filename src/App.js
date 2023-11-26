@@ -39,7 +39,23 @@ function App() {
         <Route path="/darknet" element={<DHPDarknet />}></Route>
         <Route path="/discovery" element={<DHPDiscovery />}></Route>
         <Route path="/brand-sentinel" element={<BrandSentinel />}></Route>
-        <Route path="/thirdview" element={<Thirdview />}></Route>
+        <Route path="/general-info-details" element={<Thirdview />}></Route>
+        <Route path="/affirm-details" element={<Thirdview />}></Route>
+        <Route path="/osint-details" element={<Thirdview />}></Route>
+        <Route path="/data-breach-details" element={<Thirdview />}></Route>
+        <Route path="/public-search-engine-details" element={<Thirdview />}></Route>
+        <Route path="/company-registries-details" element={<Thirdview />}></Route>
+        <Route path="/court-archives-details" element={<Thirdview />}></Route>
+        <Route path="/leaks-details" element={<Thirdview />}></Route>
+        <Route path="/document-libraries-details" element={<Thirdview />}></Route>
+        <Route path="/personal-info-details" element={<Thirdview />}></Route>
+        <Route path="/public-details" element={<Thirdview />}></Route>
+        <Route path="/sanctions-details" element={<Thirdview />}></Route>
+        <Route path="/procurement-details" element={<Thirdview />}></Route>
+        <Route path="/gazettes-details" element={<Thirdview />}></Route>
+        <Route path="/land-registries-details" element={<Thirdview />}></Route>
+        <Route path="/air-and-maritime-details" element={<Thirdview />}></Route>
+
       </Routes>
     </BrowserRouter>
   );
