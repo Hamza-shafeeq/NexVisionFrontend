@@ -19,6 +19,13 @@ import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
 import General from "./component/generaldetails/general.jsx";
 import OnlineSocialProfileDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/OnlineSocialProfileDetails.jsx";
 import GeneralInfoDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/General Info Details.jsx";
+import EmailDetails from "./component/ArmorNet Pro details/Email Lookup Details/Email Details/EmailDetails.jsx";
+import ValidityDetails from "./component/ArmorNet Pro details/Email Lookup Details/Validity Details/ValidityDetails.jsx";
+import OnlineSocialProfilesDetails from "./component/ArmorNet Pro details/Email Lookup Details/Online Social Profiles Details/OnlineSocialProfilesDetails.jsx";
+import DomainDetails from "./component/ArmorNet Pro details/Email Lookup Details/Domain Details/DomainDetails.jsx";
+import ReputationDetails from "./component/ArmorNet Pro details/Email Lookup Details/Reputation Details/ReputationDetails.jsx";
+import EmailGeneralInfoDetails from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/GeneralInfoDetails.jsx"
+
 
 function App() {
   return (
@@ -68,6 +75,18 @@ function App() {
           path="/phone-lookup/general-info-details"
           element={<GeneralInfoDetails  />}
         ></Route>
+        <Route path="/email-lookup/email-details" element={<EmailDetails />}></Route>
+        <Route path="/email-lookup/validity-details" element={<ValidityDetails />}></Route>
+        <Route path="/email-lookup/online-social-profiles-details" element={<OnlineSocialProfilesDetails />}></Route>
+        <Route path="/email-lookup/domain-details" element={<DomainDetails />}></Route>
+        <Route path="/email-lookup/reputation-details" element={<ReputationDetails />}></Route>
+        <Route path="/email-lookup/general-info-details" element={<EmailGeneralInfoDetails />}></Route>
+
+
+
+
+
+
       </Routes>
     </BrowserRouter>
   );

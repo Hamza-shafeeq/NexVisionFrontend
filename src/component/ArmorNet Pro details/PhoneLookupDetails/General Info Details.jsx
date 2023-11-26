@@ -26,6 +26,7 @@ function GeneralInfoDetails() {
                     type="text"
                     className="phone-lookup-input"
                     placeholder="no data"
+                    disabled
                   ></input>
                 </div>
               </div>

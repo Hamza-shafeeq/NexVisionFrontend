@@ -26,6 +26,7 @@ function OnlineSocialProfileDetails() {
                     type="text"
                     className="phone-lookup-input"
                     placeholder="no profiles found"
+                    disabled
                   ></input>
                 </div>
               </div>

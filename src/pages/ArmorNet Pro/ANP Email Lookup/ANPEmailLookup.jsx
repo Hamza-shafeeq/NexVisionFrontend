@@ -16,50 +16,57 @@ export default function ANPPhoneLookup() {
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/email-details"
           />
           <DetailsCard
             title="Validity"
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/validity-details"
           />
           <DetailsCard
-            title="Domian"
+            title="Domain"
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/domain-details"
           />
           <DetailsCard
             title="Reputation"
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/reputation-details"
           />
           <DetailsCard
             title="General Info"
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/general-info-details"
           />
           <DetailsCard
             title="Online Social Profiles"
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/online-social-profiles-details"
           />
           <DetailsCard
             title="Registered Social Profiles"
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/validity-details"
           />
           <DetailsCard
             title="Data Breaches"
             caseID="01"
             status="finished"
             img={anpEmail1}
+            navigateLink="/email-lookup/validity-details"
           />
-          
         </div>
       </AnpEmailLookup>
     </Sidebar>
