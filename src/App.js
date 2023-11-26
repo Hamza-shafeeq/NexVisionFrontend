@@ -26,6 +26,12 @@ import DomainDetails from "./component/ArmorNet Pro details/Email Lookup Details
 import ReputationDetails from "./component/ArmorNet Pro details/Email Lookup Details/Reputation Details/ReputationDetails.jsx";
 import EmailGeneralInfoDetails from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/GeneralInfoDetails.jsx";
 import Databreach from "./component/third party view details/data breach/databreach.jsx";
+import Companydetails from "./component/third party view details/company registeries details/companydetails.jsx";
+import Courtdetails from "./component/third party view details/court details/courtdetails.jsx";
+import LeaksDetails from "./component/third party view details/leaks details/LeaksDetails.jsx";
+import DocumentDetails from "./component/third party view details/Document Libraries details/DocumentDetails.jsx";
+import PublicDetails from "./component/third party view details/public details/Public.jsx";
+import PersonalDetails from "./component/third party view details/Personal details/Personaldetails.jsx";
 
 function App() {
   return (
@@ -56,12 +62,24 @@ function App() {
           path="/public-search-engine-details"
           element={<General />}
         ></Route>
-        <Route path="/company-registries-details" element={<General />}></Route>
-        <Route path="/court-archives-details" element={<General />}></Route>
-        <Route path="/leaks-details" element={<General />}></Route>
-        <Route path="/document-libraries-details" element={<General />}></Route>
-        <Route path="/personal-info-details" element={<General />}></Route>
-        <Route path="/public-details" element={<General />}></Route>
+        <Route
+          path="/company-registries-details"
+          element={<Companydetails />}
+        ></Route>
+        <Route
+          path="/court-archives-details"
+          element={<Courtdetails />}
+        ></Route>
+        <Route path="/leaks-details" element={<LeaksDetails />}></Route>
+        <Route
+          path="/document-libraries-details"
+          element={<DocumentDetails />}
+        ></Route>
+        <Route
+          path="/personal-info-details"
+          element={<PersonalDetails />}
+        ></Route>
+        <Route path="/public-details" element={<PublicDetails />}></Route>
         <Route path="/sanctions-details" element={<General />}></Route>
         <Route path="/procurement-details" element={<General />}></Route>
         <Route path="/gazettes-details" element={<General />}></Route>
