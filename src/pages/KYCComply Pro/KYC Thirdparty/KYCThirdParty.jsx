@@ -17,8 +17,6 @@ import kycthird13 from "../../../image/kyc thirdparty/13.svg";
 import kycthird14 from "../../../image/kyc thirdparty/14.svg";
 import kycthird15 from "../../../image/kyc thirdparty/15.svg";
 
-
-
 import Sidebar from "../../../component/sidebar/sidebar";
 
 export default function KYCThirdParty() {

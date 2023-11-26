@@ -81,7 +81,7 @@ function Sidebar({ children }) {
             <div className="Sidebar-Full-Menu">
               <p className="Sidebar-Main-Title-Section">Main</p>
               <span
-                className={`Sidebar-Links ${
+                className={`Sidebar-Links2 ${
                   activeLink === "insightAi" ? "active" : ""
                 }`}
                 onClick={() => handleLinkClick("insightAi")}
@@ -89,7 +89,7 @@ function Sidebar({ children }) {
                 <PiSuitcaseSimple className="Links-Logo" /> Insight Al
               </span>
               <div
-                className={`Sidebar-Links ${
+                className={`Sidebar-Links4 ${
                   activeLink === "armor" ? "active" : ""
                 }`}
                 onClick={toggleARMORDropdown}
@@ -97,11 +97,11 @@ function Sidebar({ children }) {
                 <PiSuitcaseSimple className="Links-Logo" /> ArmorNet Pro
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
-              {showARMORDropdown && ( // This will conditionally render the dropdown content
+              {showARMORDropdown && (
                 <div className="Dropdown-Content">
                   <div className="Dropdown-Content">
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "risk" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("risk")}
@@ -109,7 +109,7 @@ function Sidebar({ children }) {
                       Risk Shield
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "email" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("email")}
@@ -117,7 +117,7 @@ function Sidebar({ children }) {
                       Email Lockup
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "Phone" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("Phone")}
@@ -125,7 +125,7 @@ function Sidebar({ children }) {
                       Phone Lockup
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "IP" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("IP")}
@@ -145,11 +145,11 @@ function Sidebar({ children }) {
                 <PiSuitcaseSimple className="Links-Logo" /> DetectiveHub Pro
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
-              {showHubDropdown && ( // This will conditionally render the dropdown content
+              {showHubDropdown && (
                 <div className="Dropdown-Content">
                   <div className="Dropdown-Content">
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "darknet" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("darknet")}
@@ -157,7 +157,7 @@ function Sidebar({ children }) {
                       Darknet
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "discovery" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("discovery")}
@@ -165,7 +165,7 @@ function Sidebar({ children }) {
                       Discovery
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "surface" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("surface")}
@@ -173,7 +173,7 @@ function Sidebar({ children }) {
                       Surface
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "cloud" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("cloud")}
@@ -196,7 +196,7 @@ function Sidebar({ children }) {
                 <div className="Dropdown-Content">
                   <div className="Dropdown-Content">
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "real" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("real")}
@@ -204,7 +204,7 @@ function Sidebar({ children }) {
                       Real-time Crisis Management
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "geopolitical" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("geopolitical")}
@@ -212,7 +212,7 @@ function Sidebar({ children }) {
                       Geopolitical Intelligence
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "election" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("election")}
@@ -236,7 +236,7 @@ function Sidebar({ children }) {
                 <div className="Dropdown-Content">
                   <div className="Dropdown-Content">
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "brand" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("brand")}
@@ -256,11 +256,11 @@ function Sidebar({ children }) {
                 <PiSuitcaseSimple className="Links-Logo" /> KYCComplyPro
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
-              {showKYCDropdown && ( // This will conditionally render the dropdown content
+              {showKYCDropdown && (
                 <div className="Dropdown-Content">
                   <div className="Dropdown-Content">
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "kyc-third-party" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("kyc-third-party")}
@@ -268,7 +268,7 @@ function Sidebar({ children }) {
                       Third Party Intelligence
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "kyc-organization" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("kyc-organization")}
@@ -276,7 +276,7 @@ function Sidebar({ children }) {
                       Organization Intelligence
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "kyc-sanction-check" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("kyc-sanction-check")}
@@ -284,7 +284,7 @@ function Sidebar({ children }) {
                       Sanction Check
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "aml" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("Aml")}
@@ -292,7 +292,7 @@ function Sidebar({ children }) {
                       AML Lookup
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown${
                         activeLink === "transaction" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("Transaction")}
@@ -300,7 +300,7 @@ function Sidebar({ children }) {
                       Transaction Lookup
                     </span>
                     <span
-                      className={`Sidebar-Links ${
+                      className={`Sidebar-Links-drown ${
                         activeLink === "kyc-card-lookup" ? "active" : ""
                       }`}
                       onClick={() => handleLinkClick("kyc-card-lookup")}
@@ -377,7 +377,7 @@ function Sidebar({ children }) {
 
               <div className="Sidebar-Container">
                 <div className="Sidebar-Links-Section">
-                  <span className="Sidebar-Links">
+                  <span className="Sidebar-Links6">
                     <IoIosInformationCircleOutline className="Links-Logo" />
                     Help
                   </span>

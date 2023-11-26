@@ -16,6 +16,7 @@ import ANPEmailLookup from "./pages/ArmorNet Pro/ANP Email Lookup/ANPEmailLookup
 import ANPPhoneLookup from "./pages/ArmorNet Pro/ANP Phone Lookup/ANPPhoneLookup";
 import DHPDarknet from "./pages/Detectivehub Pro/DHP Darknet/DHPDarknet";
 import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
+import Thirdview from "./component/thirdpartydetails/thirddetails";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/darknet" element={<DHPDarknet />}></Route>
         <Route path="/discovery" element={<DHPDiscovery />}></Route>
         <Route path="/brand-sentinel" element={<BrandSentinel />}></Route>
+        <Route path="/thirdview" element={<Thirdview />}></Route>
       </Routes>
     </BrowserRouter>
   );

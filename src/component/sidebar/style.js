@@ -44,7 +44,69 @@ export const SidebarStyled = styled.div`
     margin-bottom: 10px;
     cursor: pointer;
     height: 40px;
+    justify-content: space-between;
     white-space: nowrap;
+  }
+  .Sidebar-Links2 {
+    display: flex;
+    gap: 13px;
+    padding-left: 35px;
+    color: white;
+    align-items: center;
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 40px;
+    white-space: nowrap;
+  }
+  .Sidebar-Links4 {
+    display: flex;
+    gap: 10px;
+    padding-left: 35px;
+    color: white;
+    align-items: center;
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 40px;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+  .Sidebar-Links6 {
+    display: flex;
+    gap: 10px;
+    padding-left: 35px;
+    color: white;
+    align-items: center;
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 40px;
+    white-space: nowrap;
+  }
+  .Sidebar-Links-drown {
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+    color: white;
+    align-items: center;
+
+    font-size: 13px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 40px;
+    white-space: nowrap;
+  }
+  .Sidebar-Links-drown:hover {
+    width: 196px;
+    border-radius: 11px;
+    margin-left: 10px;
+    align-items: center;
+    gap: 8px;
+    background-color: #4617b2;
   }
   .Sidebar-Links.active {
     width: 196px;

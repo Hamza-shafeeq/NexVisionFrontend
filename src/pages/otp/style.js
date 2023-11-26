@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const OtppageStyled = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #1e0652;
+
   .Signup-Main-Section {
     display: flex;
     width: 100%;
@@ -18,10 +18,11 @@ export const OtppageStyled = styled.div`
     display: flex;
     align-items: baseline;
     flex-direction: column;
+
     width: 100%;
   }
   .Contact-1 {
-    color: white;
+    color: #591ddd;
   }
   .Signup-Navbar-1 {
     display: flex;
@@ -32,7 +33,7 @@ export const OtppageStyled = styled.div`
     height: 60px;
     border: 2px solid #8154e4;
     width: 57%;
-    background-color: #382463;
+    background-color: #eae5f6;
   }
 
   .navbar {
@@ -76,7 +77,7 @@ export const OtppageStyled = styled.div`
     align-items: center;
     flex-direction: column;
     padding-right: 90px;
-    gap: 35px;
+    gap: 20px;
   }
   .Sign-Form-Section {
     display: flex;
@@ -94,7 +95,6 @@ export const OtppageStyled = styled.div`
     border: none;
     outline: none;
     color: #5d646e;
-    background-color: #402b6c;
   }
   .FormBox {
     border: 2px #916ae8 solid;
@@ -102,7 +102,7 @@ export const OtppageStyled = styled.div`
     border-radius: 9px;
     cursor: pointer;
     display: flex;
-    background-color: #402b6c;
+
     align-items: center;
   }
   .FormIcon {
@@ -164,7 +164,7 @@ export const OtppageStyled = styled.div`
   }
   .Welcome-Text {
     font-size: 18px;
-    color: white;
+
     font-weight: 600;
   }
   .Forget-Text-Section {
@@ -180,65 +180,16 @@ export const OtppageStyled = styled.div`
     font-weight: 500;
     cursor: pointer;
   }
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 55px;
-    height: 27px;
-  }
 
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: 0.4s;
-  }
   .Form-Box-Title {
     font-size: 17px;
-    color: white;
   }
   .Form-Box-Text {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    left: 4px;
-    bottom: 4px;
-    background-color: #591ddd;
-    transition: 0.4s;
-  }
 
-  input:checked + .slider {
-    background-color: #e0e0e0;
-  }
-
-  input:checked + .slider:before {
-    transform: translateX(26px);
-  }
-
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-
-  .slider.round:before {
-    border-radius: 50%;
-  }
   .Signup-Image-Section {
     display: flex;
     margin-top: -81px;
@@ -263,7 +214,7 @@ export const OtppageStyled = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    color: white;
+
     gap: 40px;
   }
   .Footer-CopyRight {
