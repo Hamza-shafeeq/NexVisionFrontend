@@ -16,7 +16,7 @@ import ANPEmailLookup from "./pages/ArmorNet Pro/ANP Email Lookup/ANPEmailLookup
 import ANPPhoneLookup from "./pages/ArmorNet Pro/ANP Phone Lookup/ANPPhoneLookup";
 import DHPDarknet from "./pages/Detectivehub Pro/DHP Darknet/DHPDarknet";
 import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
-import General from "./component/generaldetails/general.jsx";
+import General from "./component/third party view details/generaldetails/general.jsx";
 import OnlineSocialProfileDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/OnlineSocialProfileDetails.jsx";
 import GeneralInfoDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/General Info Details.jsx";
 import EmailDetails from "./component/ArmorNet Pro details/Email Lookup Details/Email Details/EmailDetails.jsx";
@@ -24,8 +24,8 @@ import ValidityDetails from "./component/ArmorNet Pro details/Email Lookup Detai
 import OnlineSocialProfilesDetails from "./component/ArmorNet Pro details/Email Lookup Details/Online Social Profiles Details/OnlineSocialProfilesDetails.jsx";
 import DomainDetails from "./component/ArmorNet Pro details/Email Lookup Details/Domain Details/DomainDetails.jsx";
 import ReputationDetails from "./component/ArmorNet Pro details/Email Lookup Details/Reputation Details/ReputationDetails.jsx";
-import EmailGeneralInfoDetails from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/GeneralInfoDetails.jsx"
-
+import EmailGeneralInfoDetails from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/GeneralInfoDetails.jsx";
+import Databreach from "./component/third party view details/data breach/databreach.jsx";
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
         <Route path="/general-info-details" element={<General />}></Route>
         <Route path="/affirm-details" element={<General />}></Route>
         <Route path="/osint-details" element={<General />}></Route>
-        <Route path="/data-breach-details" element={<General />}></Route>
+        <Route path="/data-breach-details" element={<Databreach />}></Route>
         <Route
           path="/public-search-engine-details"
           element={<General />}
@@ -71,22 +71,34 @@ function App() {
           path="/phone-lookup/online-social-profiles-details"
           element={<OnlineSocialProfileDetails />}
         ></Route>
-         <Route
+        <Route
           path="/phone-lookup/general-info-details"
-          element={<GeneralInfoDetails  />}
+          element={<GeneralInfoDetails />}
         ></Route>
-        <Route path="/email-lookup/email-details" element={<EmailDetails />}></Route>
-        <Route path="/email-lookup/validity-details" element={<ValidityDetails />}></Route>
-        <Route path="/email-lookup/online-social-profiles-details" element={<OnlineSocialProfilesDetails />}></Route>
-        <Route path="/email-lookup/domain-details" element={<DomainDetails />}></Route>
-        <Route path="/email-lookup/reputation-details" element={<ReputationDetails />}></Route>
-        <Route path="/email-lookup/general-info-details" element={<EmailGeneralInfoDetails />}></Route>
-
-
-
-
-
-
+        <Route
+          path="/email-lookup/email-details"
+          element={<EmailDetails />}
+        ></Route>
+        <Route
+          path="/email-lookup/validity-details"
+          element={<ValidityDetails />}
+        ></Route>
+        <Route
+          path="/email-lookup/online-social-profiles-details"
+          element={<OnlineSocialProfilesDetails />}
+        ></Route>
+        <Route
+          path="/email-lookup/domain-details"
+          element={<DomainDetails />}
+        ></Route>
+        <Route
+          path="/email-lookup/reputation-details"
+          element={<ReputationDetails />}
+        ></Route>
+        <Route
+          path="/email-lookup/general-info-details"
+          element={<EmailGeneralInfoDetails />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );

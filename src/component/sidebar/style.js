@@ -24,7 +24,7 @@ export const SidebarStyled = styled.div`
   }
   .Sidebar-Logo {
     padding-top: 10px;
-    width: 225px;
+    width: 205px;
   }
   .Sidebar-Main-Title-Section {
     padding-left: 40px;
@@ -60,6 +60,14 @@ export const SidebarStyled = styled.div`
     height: 40px;
     white-space: nowrap;
   }
+  .Sidebar-Links2:hover {
+    width: 196px;
+    border-radius: 11px;
+    margin-left: 10px;
+    align-items: center;
+    gap: 8px;
+    background-color: #4617b2;
+  }
   .Sidebar-Links4 {
     display: flex;
     gap: 10px;
@@ -74,6 +82,14 @@ export const SidebarStyled = styled.div`
     justify-content: space-between;
     white-space: nowrap;
   }
+  .Sidebar-Links4:hover {
+    width: 196px;
+    border-radius: 11px;
+    margin-left: 10px;
+    align-items: center;
+    gap: 8px;
+    background-color: #4617b2;
+  }
   .Sidebar-Links6 {
     display: flex;
     gap: 10px;
@@ -87,10 +103,18 @@ export const SidebarStyled = styled.div`
     height: 40px;
     white-space: nowrap;
   }
+  .Sidebar-Links6:hover {
+    width: 196px;
+    border-radius: 11px;
+    margin-left: 10px;
+    align-items: center;
+    gap: 8px;
+    background-color: #4617b2;
+  }
   .Sidebar-Links-drown {
     display: flex;
     gap: 10px;
-    margin-left: 58px;
+    margin-left: 47px;
     color: white;
     align-items: center;
 
@@ -103,7 +127,7 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links-drown:hover {
-    width: 170px;
+    width: 150px;
     border-radius: 11px;
     margin-left: 60px;
     padding-left: 25px;

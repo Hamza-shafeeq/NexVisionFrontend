@@ -1,8 +1,8 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../sidebar/sidebar";
-import i from "../../image/i.png";
+import Sidebar from "../../sidebar/sidebar";
+import i from "../../../image/i.png";
 
 function General() {
   return (
@@ -10,21 +10,22 @@ function General() {
       <ThirdviewStyled>
         <Sidebar>
           <div className="Third-View-Main-Section">
+            {" "}
+            <div className="Third-Header-Section">
+              <h1 className="Third-View-Title">Third Party</h1>
+
+              <span className="Third-View-Text">
+                <RiArrowGoBackFill className="Back-logo" />
+                Back
+              </span>
+            </div>
             <div className="Third-View-Container">
-              <div className="Third-Header-Section">
-                <h1 className="Third-View-Title">Third Party</h1>
-
-                <span className="Third-View-Text">
-                  <RiArrowGoBackFill className="Back-logo" />
-                  Back
-                </span>
+              {" "}
+              <div className="General-Info-Section">
+                <span className="General-Info-Title">General-Info</span>
+                <img className="img" src={i} alt="" />
               </div>
-
               <div className="GeneralSection">
-                <div className="General-Info-Section">
-                  <span className="General-Info-Title">General-Info</span>
-                  <img className="img" src={i} alt="" />
-                </div>
                 <div className="General-Top-Section">
                   <span className="General-title">Name</span>
                   <span className="General-title">AKA</span>
