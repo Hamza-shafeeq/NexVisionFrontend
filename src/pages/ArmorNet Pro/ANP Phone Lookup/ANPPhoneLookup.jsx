@@ -16,12 +16,16 @@ export default function ANPPhoneLookup() {
             caseID="01"
             status="finished"
             img={anpPhone1}
+            navigateLink = "/phone-lookup/online-social-profiles-details"
+
           />
           <DetailsCard
             title="General Info"
             caseID="01"
             status="finished"
             img={anpPhone1}
+            navigateLink = "/phone-lookup/general-info-details"
+
           />
           
           

@@ -2,9 +2,9 @@ import React from "react";
 import { PhoneLookupDetailsStyled } from "./style";
 
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../sidebar/sidebar";
+import Sidebar from "../../sidebar/sidebar";
 
-function PhoneLookupDetails() {
+function GeneralInfoDetails() {
   return (
     <>
       <PhoneLookupDetailsStyled>
@@ -21,12 +21,12 @@ function PhoneLookupDetails() {
               </div>
               <div className="phone-lookup-deatils">
                 <div className="phone-lookup-fields">
-                  <h3>Online Social Profiles</h3>
-                  <input type="text" className="phone-lookup-input" placeholder="no profiles found"></input>
-                </div>
-                <div className="phone-lookup-fields">
                   <h3>General Info</h3>
-                  <input type="text" className="phone-lookup-input" placeholder="no data"></input>
+                  <input
+                    type="text"
+                    className="phone-lookup-input"
+                    placeholder="no data"
+                  ></input>
                 </div>
               </div>
             </div>
@@ -37,4 +37,4 @@ function PhoneLookupDetails() {
   );
 }
 
-export default PhoneLookupDetails;
+export default GeneralInfoDetails;

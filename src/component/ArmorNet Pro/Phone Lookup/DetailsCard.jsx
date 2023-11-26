@@ -1,7 +1,10 @@
 import React from "react";
 import { DetailsCardStyle } from "./DetailsCardStyle";
+import { useNavigate } from "react-router-dom";
 
 function DetailsCard(props) {
+  const navigate = useNavigate();
+
   return (
     <DetailsCardStyle>
       <div className="main-details-card">
@@ -31,7 +34,7 @@ function DetailsCard(props) {
             </div>
           </div>
           <div className="view-details-btn">
-            <button className="view-btn">View Details</button>
+            <button className="view-btn"  onClick={() => navigate(props.navigateLink)}>View Details</button>
           </div>
         </div>
       </div>

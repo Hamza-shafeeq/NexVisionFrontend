@@ -16,8 +16,9 @@ import ANPEmailLookup from "./pages/ArmorNet Pro/ANP Email Lookup/ANPEmailLookup
 import ANPPhoneLookup from "./pages/ArmorNet Pro/ANP Phone Lookup/ANPPhoneLookup";
 import DHPDarknet from "./pages/Detectivehub Pro/DHP Darknet/DHPDarknet";
 import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
-import PhoneLookupDetails from "./component/ArmorNet Pro details/PhoneLookupDetails.jsx";
 import General from "./component/generaldetails/general.jsx";
+import OnlineSocialProfileDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/OnlineSocialProfileDetails.jsx";
+import GeneralInfoDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/General Info Details.jsx";
 
 function App() {
   return (
@@ -60,8 +61,12 @@ function App() {
         <Route path="/land-registries-details" element={<General />}></Route>
         <Route path="/air-and-maritime-details" element={<General />}></Route>
         <Route
-          path="/phone-lookup-details"
-          element={<PhoneLookupDetails />}
+          path="/phone-lookup/online-social-profiles-details"
+          element={<OnlineSocialProfileDetails />}
+        ></Route>
+         <Route
+          path="/phone-lookup/general-info-details"
+          element={<GeneralInfoDetails  />}
         ></Route>
       </Routes>
     </BrowserRouter>
