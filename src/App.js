@@ -16,9 +16,8 @@ import ANPEmailLookup from "./pages/ArmorNet Pro/ANP Email Lookup/ANPEmailLookup
 import ANPPhoneLookup from "./pages/ArmorNet Pro/ANP Phone Lookup/ANPPhoneLookup";
 import DHPDarknet from "./pages/Detectivehub Pro/DHP Darknet/DHPDarknet";
 import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
-import Thirdview from "./component/thirdpartydetails/thirddetails";
-import  PhoneLookupDetails from "./component/ArmorNet Pro details/PhoneLookupDetails.jsx";
-
+import PhoneLookupDetails from "./component/ArmorNet Pro details/PhoneLookupDetails.jsx";
+import General from "./component/generaldetails/general.jsx";
 
 function App() {
   return (
@@ -41,24 +40,29 @@ function App() {
         <Route path="/darknet" element={<DHPDarknet />}></Route>
         <Route path="/discovery" element={<DHPDiscovery />}></Route>
         <Route path="/brand-sentinel" element={<BrandSentinel />}></Route>
-        <Route path="/general-info-details" element={<Thirdview />}></Route>
-        <Route path="/affirm-details" element={<Thirdview />}></Route>
-        <Route path="/osint-details" element={<Thirdview />}></Route>
-        <Route path="/data-breach-details" element={<Thirdview />}></Route>
-        <Route path="/public-search-engine-details" element={<Thirdview />}></Route>
-        <Route path="/company-registries-details" element={<Thirdview />}></Route>
-        <Route path="/court-archives-details" element={<Thirdview />}></Route>
-        <Route path="/leaks-details" element={<Thirdview />}></Route>
-        <Route path="/document-libraries-details" element={<Thirdview />}></Route>
-        <Route path="/personal-info-details" element={<Thirdview />}></Route>
-        <Route path="/public-details" element={<Thirdview />}></Route>
-        <Route path="/sanctions-details" element={<Thirdview />}></Route>
-        <Route path="/procurement-details" element={<Thirdview />}></Route>
-        <Route path="/gazettes-details" element={<Thirdview />}></Route>
-        <Route path="/land-registries-details" element={<Thirdview />}></Route>
-        <Route path="/air-and-maritime-details" element={<Thirdview />}></Route>
-        <Route path="/phone-lookup-details" element={<PhoneLookupDetails />}></Route>
-
+        <Route path="/general-info-details" element={<General />}></Route>
+        <Route path="/affirm-details" element={<General />}></Route>
+        <Route path="/osint-details" element={<General />}></Route>
+        <Route path="/data-breach-details" element={<General />}></Route>
+        <Route
+          path="/public-search-engine-details"
+          element={<General />}
+        ></Route>
+        <Route path="/company-registries-details" element={<General />}></Route>
+        <Route path="/court-archives-details" element={<General />}></Route>
+        <Route path="/leaks-details" element={<General />}></Route>
+        <Route path="/document-libraries-details" element={<General />}></Route>
+        <Route path="/personal-info-details" element={<General />}></Route>
+        <Route path="/public-details" element={<General />}></Route>
+        <Route path="/sanctions-details" element={<General />}></Route>
+        <Route path="/procurement-details" element={<General />}></Route>
+        <Route path="/gazettes-details" element={<General />}></Route>
+        <Route path="/land-registries-details" element={<General />}></Route>
+        <Route path="/air-and-maritime-details" element={<General />}></Route>
+        <Route
+          path="/phone-lookup-details"
+          element={<PhoneLookupDetails />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );

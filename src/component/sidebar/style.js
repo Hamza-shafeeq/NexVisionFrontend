@@ -90,20 +90,24 @@ export const SidebarStyled = styled.div`
   .Sidebar-Links-drown {
     display: flex;
     gap: 10px;
-    padding-left: 30px;
+    margin-left: 58px;
     color: white;
     align-items: center;
 
+    justify-content: flex-start;
     font-size: 13px;
     margin-bottom: 10px;
+    padding-left: 30px;
     cursor: pointer;
     height: 40px;
     white-space: nowrap;
   }
   .Sidebar-Links-drown:hover {
-    width: 196px;
+    width: 170px;
     border-radius: 11px;
-    margin-left: 10px;
+    margin-left: 60px;
+    padding-left: 25px;
+
     align-items: center;
     gap: 8px;
     background-color: #4617b2;
