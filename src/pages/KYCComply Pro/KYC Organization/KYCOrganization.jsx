@@ -50,7 +50,7 @@ export default function KYCOrganization() {
           caseID="01"
           status="finished"
           img={kycOrg4}
-          navigateLink="/organization-intelligence/gazettes-details"
+          navigateLink="/organization-intelligence/osint-details"
 
         />
         <DetailsCard
@@ -90,41 +90,42 @@ export default function KYCOrganization() {
           caseID="01"
           status="finished"
           img={kycOrg9}
+          navigateLink="/organization-intelligence/public-details"
         />
         <DetailsCard
           title="Company Registries"
           caseID="01"
           status="finished"
           img={kycOrg10}
-          navigateLink="/organization-intelligence/gazettes-details"
+          navigateLink="/organization-intelligence/company-registries-details"
         />
         <DetailsCard
           title="Person of Interest"
           caseID="01"
           status="finished"
           img={kycOrg11}
-          navigateLink="/organization-intelligence/gazettes-details"
+          navigateLink="/organization-intelligence/person-of-interest-details"
         />
         <DetailsCard
           title="Licenses and Concessions"
           caseID="01"
           status="finished"
           img={kycOrg12}
-          navigateLink="/organization-intelligence/gazettes-details"
+          navigateLink="/organization-intelligence/licenses-and-concessions-details"
         />
         <DetailsCard
           title="Leaks"
           caseID="01"
           status="finished"
           img={kycOrg13}
-          navigateLink="/organization-intelligence/gazettes-details"
+          navigateLink="/organization-intelligence/leaks-details"
         />
         <DetailsCard
           title="Public Search Engine"
           caseID="01"
           status="incomplete"
           img={kycOrg11}
-          navigateLink="/organization-intelligence/gazettes-details"
+          navigateLink="/organization-intelligence/public-search-engine-details"
         />
       </div>
       </Sidebar>

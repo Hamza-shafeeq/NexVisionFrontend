@@ -44,8 +44,13 @@ import OrganizationGazettesDetails from './component/KYCComplyPro Details/Organi
 import OrganizationGreyLiteratureDetails from './component/KYCComplyPro Details/Organization Intelligence details/Grey Literature details/GreyLiteratureDetails.jsx';
 import OrganizationDocumentLibrariesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Document Libraries Details/DocumentLibrariesDetails.jsx';
 import OrganizationFinancialRecordsDetails from './component/KYCComplyPro Details/Organization Intelligence details/Financial Records Details/FinancialRecordsDetails.jsx';
-
-
+import OrganizationPublicDetails from './component/KYCComplyPro Details/Organization Intelligence details/Public Details/PublicDetails.jsx';
+import OrganizationCompanyRegistriesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Company Registries Details/CompanyRegistriesDetails.jsx';
+import OrganizationPersonOfInterestDetails from './component/KYCComplyPro Details/Organization Intelligence details/Person of Interest Details/PersonOfInterestDetails.jsx';
+import OrganizationLicencesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Licences and Concessions Details/LicencesDetails.jsx';
+import OrganizationLeaksDetails from './component/KYCComplyPro Details/Organization Intelligence details/Leaks Details/LeaksDetails.jsx';
+import OrganizationPublicSearchEngineDetails from './component/KYCComplyPro Details/Organization Intelligence details/Public Search Engine Details/PublicSearchDetails.jsx';
+import OrganizationOSINTDetails from './component/KYCComplyPro Details/Organization Intelligence details/OSINT Details/OSINTDetails.jsx';
 
 
 function App() {
@@ -148,6 +153,16 @@ function App() {
         <Route path="/organization-intelligence/grey-literature-details" element={<OrganizationGreyLiteratureDetails />}></Route>
         <Route path="/organization-intelligence/document-libraries-details" element={<OrganizationDocumentLibrariesDetails />}></Route>
         <Route path="/organization-intelligence/financial-records-details" element={<OrganizationFinancialRecordsDetails />}></Route>
+        <Route path="/organization-intelligence/public-details" element={<OrganizationPublicDetails />}></Route>
+        <Route path="/organization-intelligence/company-registries-details" element={<OrganizationCompanyRegistriesDetails />}></Route>
+        <Route path="/organization-intelligence/person-of-interest-details" element={<OrganizationPersonOfInterestDetails />}></Route>
+        <Route path="/organization-intelligence/licenses-and-concessions-details" element={<OrganizationLicencesDetails />}></Route>
+        <Route path="/organization-intelligence/leaks-details" element={<OrganizationLeaksDetails />}></Route>
+        <Route path="/organization-intelligence/public-search-engine-details" element={<OrganizationPublicSearchEngineDetails />}></Route>
+        <Route path="/organization-intelligence/osint-details" element={<OrganizationOSINTDetails />}></Route>
+
+
+
 
 
 
