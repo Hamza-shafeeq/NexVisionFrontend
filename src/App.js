@@ -37,6 +37,14 @@ import Gazettesdetails from './component/KYCComplyPro Details/third party view d
 import LandResgistry from './component/KYCComplyPro Details/third party view details/Land Resgistry details/LandResgistry.jsx'
 import AirRegisters from './component/KYCComplyPro Details/third party view details/Air and Maritime Registers details/AirRegisters.jsx'
 import LeaksDetails from './component/KYCComplyPro Details/third party view details/leaks details/LeaksDetails.jsx'
+import OrganizationGeneralDetails from './component/KYCComplyPro Details/Organization Intelligence details/generaldetails/general.jsx';
+import OrganizationProcurementDetails from './component/KYCComplyPro Details/Organization Intelligence details/Procurementdetails/ProcurementDetails.jsx';
+import OrganizationSanctionsDetails from './component/KYCComplyPro Details/Organization Intelligence details/Sanctions details/SanctionsDetails.jsx';
+import OrganizationGazettesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Gazettes details/GazettesDetails.jsx';
+import OrganizationGreyLiteratureDetails from './component/KYCComplyPro Details/Organization Intelligence details/Grey Literature details/GreyLiteratureDetails.jsx';
+import OrganizationDocumentLibrariesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Document Libraries Details/DocumentLibrariesDetails.jsx';
+import OrganizationFinancialRecordsDetails from './component/KYCComplyPro Details/Organization Intelligence details/Financial Records Details/FinancialRecordsDetails.jsx';
+
 
 
 
@@ -132,6 +140,18 @@ function App() {
           element={<EmailGeneralInfoDetails />}
         ></Route>
         <Route path="/real-time-crisis/map" element={<Map Location={location}  zoomLevel={17}/>}></Route>
+
+        <Route path="/organization-intelligence/general-details" element={<OrganizationGeneralDetails />}></Route>
+        <Route path="/organization-intelligence/procurement-details" element={<OrganizationProcurementDetails />}></Route>
+        <Route path="/organization-intelligence/sanctions-details" element={<OrganizationSanctionsDetails />}></Route>
+        <Route path="/organization-intelligence/gazettes-details" element={<OrganizationGazettesDetails />}></Route>
+        <Route path="/organization-intelligence/grey-literature-details" element={<OrganizationGreyLiteratureDetails />}></Route>
+        <Route path="/organization-intelligence/document-libraries-details" element={<OrganizationDocumentLibrariesDetails />}></Route>
+        <Route path="/organization-intelligence/financial-records-details" element={<OrganizationFinancialRecordsDetails />}></Route>
+
+
+
+        
 
       </Routes>
     </BrowserRouter>

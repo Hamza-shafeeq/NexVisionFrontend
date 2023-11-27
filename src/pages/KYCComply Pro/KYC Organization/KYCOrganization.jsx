@@ -29,48 +29,61 @@ export default function KYCOrganization() {
           caseID="01"
           status="finished"
           img={kycOrg1}
+          navigateLink = '/organization-intelligence/general-details'
         />
         <DetailsCard
           title="Sanctions"
           caseID="01"
           status="finished"
           img={kycOrg2}
+          navigateLink = "/organization-intelligence/sanctions-details"
         />
         <DetailsCard
           title="Procurement"
           caseID="01"
           status="finished"
           img={kycOrg3}
+          navigateLink="/organization-intelligence/procurement-details"
         />
         <DetailsCard
           title="OSINT"
           caseID="01"
           status="finished"
           img={kycOrg4}
+          navigateLink="/organization-intelligence/gazettes-details"
+
         />
         <DetailsCard
           title="Gazettes"
           caseID="01"
           status="finished"
           img={kycOrg5}
+          navigateLink="/organization-intelligence/gazettes-details"
+
         />
         <DetailsCard
           title="Grey Literature"
           caseID="01"
           status="finished"
           img={kycOrg6}
+          navigateLink="/organization-intelligence/grey-literature-details"
+
         />
         <DetailsCard
           title="Document Libraries"
           caseID="01"
           status="finished"
           img={kycOrg7}
+          navigateLink="/organization-intelligence/document-libraries-details"
+
         />
         <DetailsCard
           title="Financial records"
           caseID="01"
           status="finished"
           img={kycOrg8}
+          navigateLink="/organization-intelligence/financial-records-details"
+
         />
         <DetailsCard
           title="Public"
@@ -83,30 +96,35 @@ export default function KYCOrganization() {
           caseID="01"
           status="finished"
           img={kycOrg10}
+          navigateLink="/organization-intelligence/gazettes-details"
         />
         <DetailsCard
           title="Person of Interest"
           caseID="01"
           status="finished"
           img={kycOrg11}
+          navigateLink="/organization-intelligence/gazettes-details"
         />
         <DetailsCard
           title="Licenses and Concessions"
           caseID="01"
           status="finished"
           img={kycOrg12}
+          navigateLink="/organization-intelligence/gazettes-details"
         />
         <DetailsCard
           title="Leaks"
           caseID="01"
           status="finished"
           img={kycOrg13}
+          navigateLink="/organization-intelligence/gazettes-details"
         />
         <DetailsCard
           title="Public Search Engine"
           caseID="01"
           status="incomplete"
           img={kycOrg11}
+          navigateLink="/organization-intelligence/gazettes-details"
         />
       </div>
       </Sidebar>
