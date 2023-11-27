@@ -16,7 +16,6 @@ import ANPEmailLookup from "./pages/ArmorNet Pro/ANP Email Lookup/ANPEmailLookup
 import ANPPhoneLookup from "./pages/ArmorNet Pro/ANP Phone Lookup/ANPPhoneLookup";
 import DHPDarknet from "./pages/Detectivehub Pro/DHP Darknet/DHPDarknet";
 import DHPDiscovery from "./pages/Detectivehub Pro/DHP Discovery/DHPDiscovery";
-import General from "./component/third party view details/generaldetails/general.jsx";
 import OnlineSocialProfileDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/OnlineSocialProfileDetails.jsx";
 import GeneralInfoDetails from "./component/ArmorNet Pro details/PhoneLookupDetails/General Info Details.jsx";
 import EmailDetails from "./component/ArmorNet Pro details/Email Lookup Details/Email Details/EmailDetails.jsx";
@@ -25,18 +24,20 @@ import OnlineSocialProfilesDetails from "./component/ArmorNet Pro details/Email 
 import DomainDetails from "./component/ArmorNet Pro details/Email Lookup Details/Domain Details/DomainDetails.jsx";
 import ReputationDetails from "./component/ArmorNet Pro details/Email Lookup Details/Reputation Details/ReputationDetails.jsx";
 import EmailGeneralInfoDetails from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/GeneralInfoDetails.jsx";
-import Databreach from "./component/third party view details/data breach/databreach.jsx";
-import Companydetails from "./component/third party view details/company registeries details/companydetails.jsx";
-import Courtdetails from "./component/third party view details/court details/courtdetails.jsx";
-import LeaksDetails from "./component/third party view details/leaks details/LeaksDetails.jsx";
-import DocumentDetails from "./component/third party view details/Document Libraries details/DocumentDetails.jsx";
-import PublicDetails from "./component/third party view details/public details/Public.jsx";
-import PersonalDetails from "./component/third party view details/Personal details/Personaldetails.jsx";
 import Map from "./component/Global Shield Pro Details/Map/Map.jsx";
-import ProcurementDetails from "./component/third party view details/Procurementdetails/ProcurementDetails.jsx";
-import Gazettesdetails from "./component/third party view details/Gazettes details/Gazettes.jsx";
-import LandResgistry from "./component/third party view details/Land Resgistry details/LandResgistry.jsx";
-import AirRegisters from "./component/third party view details/Air and Maritime Registers details/AirRegisters.jsx";
+import General from './component/KYCComplyPro Details/third party view details/generaldetails/general.jsx'
+import Databreach from './component/KYCComplyPro Details/third party view details/data breach/databreach.jsx'
+import Companydetails from './component/KYCComplyPro Details/third party view details/company registeries details/companydetails.jsx'
+import Courtdetails from './component/KYCComplyPro Details/third party view details/court details/courtdetails.jsx'
+import DocumentDetails from './component/KYCComplyPro Details/third party view details/Document Libraries details/DocumentDetails.jsx'
+import PersonalDetails from './component/KYCComplyPro Details/third party view details/Personal details/Personaldetails.jsx'
+import PublicDetails from './component/KYCComplyPro Details/third party view details/public details/Public.jsx'
+import ProcurementDetails from './component/KYCComplyPro Details/third party view details/Procurementdetails/ProcurementDetails.jsx'
+import Gazettesdetails from './component/KYCComplyPro Details/third party view details/Gazettes details/Gazettes.jsx'
+import LandResgistry from './component/KYCComplyPro Details/third party view details/Land Resgistry details/LandResgistry.jsx'
+import AirRegisters from './component/KYCComplyPro Details/third party view details/Air and Maritime Registers details/AirRegisters.jsx'
+import LeaksDetails from './component/KYCComplyPro Details/third party view details/leaks details/LeaksDetails.jsx'
+
 
 
 function App() {

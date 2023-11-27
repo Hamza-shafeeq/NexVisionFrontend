@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function AirRegisters() {
+function PublicDetails() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,9 +23,7 @@ function AirRegisters() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">
-                  Air and Maritime Registers{" "}
-                </span>
+                <span className="General-Info-Title">Public</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -40,24 +38,16 @@ function AirRegisters() {
                   </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">
-                    DOMINIQUE A. MESTDAGH
-                  </span>
-                  <span className="General-bottom-title2">
-                    Slovenia Vessels Registry
-                  </span>
+                  <span className="General-bottom-title">XXXXXXXXXX</span>
+                  <span className="General-bottom-title2">Canva 2019</span>
                 </div>
                 <div className="General-Top-Section">
-                  <span className="General-title">SLAVICA SLAVICA</span>
-                  <span className="General-title3">
-                    Slovenia Vessels Registry
-                  </span>
+                  <span className="General-title">Xxxxxxxxxx17</span>
+                  <span className="General-title3">Canva 2019</span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">SRETAN STANKOVIČ</span>
-                  <span className="General-bottom-title4">
-                    Slovenia Vessels Registry
-                  </span>
+                  <span className="General-bottom-title">Xxxxxxxxxx1026</span>
+                  <span className="General-bottom-title4">MyFitnessPal</span>
                 </div>
               </div>
               <div class="button-container">
@@ -77,4 +67,4 @@ function AirRegisters() {
   );
 }
 
-export default AirRegisters;
+export default PublicDetails;

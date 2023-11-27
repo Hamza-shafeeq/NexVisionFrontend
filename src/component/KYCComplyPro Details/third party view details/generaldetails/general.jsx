@@ -1,8 +1,8 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 
 function General() {
   return (

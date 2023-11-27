@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function Gazettesdetails() {
+function AirRegisters() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,7 +23,9 @@ function Gazettesdetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Gazettes </span>
+                <span className="General-Info-Title">
+                  Air and Maritime Registers{" "}
+                </span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -38,21 +40,23 @@ function Gazettesdetails() {
                   </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">сос а а а а</span>
+                  <span className="General-bottom-title">
+                    DOMINIQUE A. MESTDAGH
+                  </span>
                   <span className="General-bottom-title2">
-                    The Official Gazette of the Replublic of North Macedonia
+                    Slovenia Vessels Registry
                   </span>
                 </div>
                 <div className="General-Top-Section">
-                  <span className="General-title">А. Миленко</span>
+                  <span className="General-title">SLAVICA SLAVICA</span>
                   <span className="General-title3">
-                    The Official Gazette of the Replublic of North Macedonia
+                    Slovenia Vessels Registry
                   </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">C. A. A</span>
+                  <span className="General-bottom-title">SRETAN STANKOVIČ</span>
                   <span className="General-bottom-title4">
-                    The Official Gazette of the Replublic of North Macedonia
+                    Slovenia Vessels Registry
                   </span>
                 </div>
               </div>
@@ -73,4 +77,4 @@ function Gazettesdetails() {
   );
 }
 
-export default Gazettesdetails;
+export default AirRegisters;

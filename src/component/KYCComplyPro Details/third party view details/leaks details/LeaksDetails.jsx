@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function Companydetails() {
+function LeaksDetails() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,7 +23,7 @@ function Companydetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Company Registries</span>
+                <span className="General-Info-Title">Leaks</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -38,25 +38,19 @@ function Companydetails() {
                   </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">
-                    xxxxxxxxxx, xxxxxxxxxx
-                  </span>
+                  <span className="General-bottom-title">A Marlow</span>
                   <span className="General-bottom-title2">
-                    Venezuela Procurement Registration Registry
+                    HBGary leaked emails
                   </span>
                 </div>
                 <div className="General-Top-Section">
-                  <span className="General-title">xxxxxxxxxxx, xxxxxxxxxx</span>
-                  <span className="General-title3">
-                    Venezuela Procurement Registration Registry
-                  </span>
+                  <span className="General-title">Woolson, Martha A.</span>
+                  <span className="General-title3">HBGary leaked emails</span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">
-                    xxxxxxxxxxxxxxx, xxxxxxxxxxxxxxxx
-                  </span>
+                  <span className="General-bottom-title">Michael, Jim A..</span>
                   <span className="General-bottom-title4">
-                    Venezuela Procurement Registration Registry
+                    HBGary leaked emails
                   </span>
                 </div>
               </div>
@@ -77,4 +71,4 @@ function Companydetails() {
   );
 }
 
-export default Companydetails;
+export default LeaksDetails;

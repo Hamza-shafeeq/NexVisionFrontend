@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function LandResgistry() {
+function ProcurementDetails() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,7 +23,7 @@ function LandResgistry() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Land Resgistry</span>
+                <span className="General-Info-Title">Procurement</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -38,24 +38,16 @@ function LandResgistry() {
                   </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">
-                    TARIQ A A A DEHRAB
-                  </span>
-                  <span className="General-bottom-title2">
-                    Slovak Land Registry
-                  </span>
+                  <span className="General-bottom-title">AAA</span>
+                  <span className="General-bottom-title2">Facebook</span>
                 </div>
                 <div className="General-Top-Section">
-                  <span className="General-title">Aliya A A MATAQI</span>
-                  <span className="General-title3">Slovak Land Registry</span>
+                  <span className="General-title">AAA</span>
+                  <span className="General-title3">Facebook</span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">
-                    Asaad A A ALBANWAN
-                  </span>
-                  <span className="General-bottom-title4">
-                    Slovak Land Registry
-                  </span>
+                  <span className="General-bottom-title">AAA</span>
+                  <span className="General-bottom-title4">Facebook</span>
                 </div>
               </div>
               <div class="button-container">
@@ -75,4 +67,4 @@ function LandResgistry() {
   );
 }
 
-export default LandResgistry;
+export default ProcurementDetails;

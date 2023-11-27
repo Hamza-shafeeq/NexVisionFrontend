@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function PersonalDetails() {
+function Courtdetails() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,7 +23,7 @@ function PersonalDetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Personal Info</span>
+                <span className="General-Info-Title">Court </span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -38,16 +38,22 @@ function PersonalDetails() {
                   </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">AAA</span>
-                  <span className="General-bottom-title2">Facebook</span>
+                  <span className="General-bottom-title">Тарасов А. А</span>
+                  <span className="General-bottom-title2">
+                    Russian Court Cases (РосПравосудие, 2015)
+                  </span>
                 </div>
                 <div className="General-Top-Section">
-                  <span className="General-title">AAA</span>
-                  <span className="General-title3">Facebook</span>
+                  <span className="General-title">Бойков А. А.</span>
+                  <span className="General-title3">
+                    Russian Court Cases (РосПравосудие, 2015)
+                  </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">AAA</span>
-                  <span className="General-bottom-title4">Facebook</span>
+                  <span className="General-bottom-title">Кошак А. А.</span>
+                  <span className="General-bottom-title4">
+                    Russian Court Cases (РосПравосудие, 2015)
+                  </span>
                 </div>
               </div>
               <div class="button-container">
@@ -67,4 +73,4 @@ function PersonalDetails() {
   );
 }
 
-export default PersonalDetails;
+export default Courtdetails;

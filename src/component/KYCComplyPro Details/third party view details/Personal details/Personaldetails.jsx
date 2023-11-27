@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function ProcurementDetails() {
+function PersonalDetails() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,7 +23,7 @@ function ProcurementDetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Procurement</span>
+                <span className="General-Info-Title">Personal Info</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -67,4 +67,4 @@ function ProcurementDetails() {
   );
 }
 
-export default ProcurementDetails;
+export default PersonalDetails;

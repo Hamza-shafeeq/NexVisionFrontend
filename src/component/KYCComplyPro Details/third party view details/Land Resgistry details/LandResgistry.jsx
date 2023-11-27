@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function DocumentDetails() {
+function LandResgistry() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,7 +23,7 @@ function DocumentDetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Document Libraries</span>
+                <span className="General-Info-Title">Land Resgistry</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -38,21 +38,23 @@ function DocumentDetails() {
                   </span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Касенов А*А.</span>
+                  <span className="General-bottom-title">
+                    TARIQ A A A DEHRAB
+                  </span>
                   <span className="General-bottom-title2">
-                    Kazakhstan Registry of geological reports
+                    Slovak Land Registry
                   </span>
                 </div>
                 <div className="General-Top-Section">
-                  <span className="General-title">Заячковский А. А.</span>
-                  <span className="General-title3">
-                    Kazakhstan Registry of geological reports
-                  </span>
+                  <span className="General-title">Aliya A A MATAQI</span>
+                  <span className="General-title3">Slovak Land Registry</span>
                 </div>
                 <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Ахметов Я; А.</span>
+                  <span className="General-bottom-title">
+                    Asaad A A ALBANWAN
+                  </span>
                   <span className="General-bottom-title4">
-                    Kazakhstan Registry of geological reports
+                    Slovak Land Registry
                   </span>
                 </div>
               </div>
@@ -73,4 +75,4 @@ function DocumentDetails() {
   );
 }
 
-export default DocumentDetails;
+export default LandResgistry;

@@ -1,11 +1,11 @@
 import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
-import Sidebar from "../../sidebar/sidebar";
-import i from "../../../image/i.png";
+import Sidebar from "../../../sidebar/sidebar";
+import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function PublicDetails() {
+function Databreach() {
   return (
     <>
       <ThirdviewStyled>
@@ -23,7 +23,7 @@ function PublicDetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Public</span>
+                <span className="General-Info-Title">Breach</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -67,4 +67,4 @@ function PublicDetails() {
   );
 }
 
-export default PublicDetails;
+export default Databreach;
