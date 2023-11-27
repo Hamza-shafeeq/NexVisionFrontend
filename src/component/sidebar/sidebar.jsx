@@ -43,6 +43,32 @@ function Sidebar({ children }) {
       case "kyc-organization":
         navigate("/kyc-organization");
         break;
+      case "real-time-crisis":
+        navigate("/real-time-crisis");
+        break;
+      case "geopolitical-intelligence":
+        navigate("/geopolitical-intelligence");
+        break;
+
+      case "email-lookup":
+        navigate("/email-lookup");
+        break;
+
+      case "phone-lookup":
+        navigate("/phone-lookup");
+        break;
+
+      case "darknet":
+        navigate("/darknet");
+        break;
+
+      case "discovery":
+        navigate("/discovery");
+        break;
+
+      case "brand-sentinel":
+        navigate("/brand-sentinel");
+        break;
 
       case "about":
         setShowAbout(!showAbout);
@@ -110,17 +136,17 @@ function Sidebar({ children }) {
                     </span>
                     <span
                       className={`Sidebar-Links-drown ${
-                        activeLink === "email" ? "active" : ""
+                        activeLink === "email-lookup" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("email")}
+                      onClick={() => handleLinkClick("email-lookup")}
                     >
                       Email Lockup
                     </span>
                     <span
                       className={`Sidebar-Links-drown ${
-                        activeLink === "Phone" ? "active" : ""
+                        activeLink === "phone-lookup" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("Phone")}
+                      onClick={() => handleLinkClick("phone-lookup")}
                     >
                       Phone Lockup
                     </span>
@@ -197,17 +223,21 @@ function Sidebar({ children }) {
                   <div className="Dropdown-Content">
                     <span
                       className={`Sidebar-Links-drown ${
-                        activeLink === "real" ? "active" : ""
+                        activeLink === "real-time-crisis" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("real")}
+                      onClick={() => handleLinkClick("real-time-crisis")}
                     >
                       Real-time Crisis Management
                     </span>
                     <span
                       className={`Sidebar-Links-drown ${
-                        activeLink === "geopolitical" ? "active" : ""
+                        activeLink === "geopolitical-intelligence"
+                          ? "active"
+                          : ""
                       }`}
-                      onClick={() => handleLinkClick("geopolitical")}
+                      onClick={() =>
+                        handleLinkClick("geopolitical-intelligence")
+                      }
                     >
                       Geopolitical Intelligence
                     </span>
@@ -237,9 +267,9 @@ function Sidebar({ children }) {
                   <div className="Dropdown-Content">
                     <span
                       className={`Sidebar-Links-drown ${
-                        activeLink === "brand" ? "active" : ""
+                        activeLink === "brand-sentinel" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("brand")}
+                      onClick={() => handleLinkClick("brand-sentinel")}
                     >
                       Brand Sentinel
                     </span>
