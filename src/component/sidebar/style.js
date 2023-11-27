@@ -114,7 +114,7 @@ export const SidebarStyled = styled.div`
   .Sidebar-Links-drown {
     display: flex;
     gap: 10px;
-    margin-left: 47px;
+    margin-left: 10px;
     color: white;
     align-items: center;
 
