@@ -16,6 +16,7 @@ export default function GSPRealTimeCrisis() {
             caseID="01"
             status="finished"
             img={rtcMap}
+            navigateLink = '/real-time-crisis/map'
           />
         </div>
       </Sidebar>

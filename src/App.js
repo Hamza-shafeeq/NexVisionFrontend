@@ -32,8 +32,17 @@ import LeaksDetails from "./component/third party view details/leaks details/Lea
 import DocumentDetails from "./component/third party view details/Document Libraries details/DocumentDetails.jsx";
 import PublicDetails from "./component/third party view details/public details/Public.jsx";
 import PersonalDetails from "./component/third party view details/Personal details/Personaldetails.jsx";
+import Map from "./component/Global Shield Pro Details/Map/Map.jsx";
+
 
 function App() {
+
+  const location = {
+    address: '1600 Amphitheatre Parkway, Mountain View, california.',
+    lat: 37.42216,
+    lng: -122.08427,
+  }
+
   return (
     <BrowserRouter>
       <Routes>
@@ -117,6 +126,8 @@ function App() {
           path="/email-lookup/general-info-details"
           element={<EmailGeneralInfoDetails />}
         ></Route>
+        <Route path="/real-time-crisis/map" element={<Map Location={location}  zoomLevel={17}/>}></Route>
+
       </Routes>
     </BrowserRouter>
   );
