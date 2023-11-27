@@ -11,13 +11,11 @@ export const ThirdviewStyled = styled.div`
   }
   .Third-View-Container {
     display: flex;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: #faf8ff;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
-    height: 250px;
-    margin-left: 50px;
-
+    height: 298px;
     align-items: center;
     justify-content: center;
     border-radius: 17px;
@@ -36,11 +34,11 @@ export const ThirdviewStyled = styled.div`
     font-weight: 500;
   }
   .GeneralSection {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+    align-items: center; */
+    /* flex-direction: column; */
+    padding-bottom: 100px;
     width: 1000px;
     height: 130px;
   }
@@ -54,27 +52,39 @@ export const ThirdviewStyled = styled.div`
     height: 60px;
   }
   .General-Top-Section {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-color: #efeef1;
-    gap: 69px;
+    width: 100%;
+    height: 100px;
+
+    /* gap: 69px;
     width: 100%;
     font-size: 17px;
     height: 100px;
-    border-radius: 12px;
+    border-radius: 12px; */
   }
+
+  .General-Table-Section {
+    width: 1000px;
+    text-align: center;
+    height: 130px;
+  }
+
   .General-Bottom-Section {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 
     background-color: #ffffff;
-    justify-content: center;
+    width: 100%;
+    height: 100px;
+    /* justify-content: center;
 
     gap: 63px;
     font-size: 17px;
     width: 100%;
     height: 100px;
-    border-radius: 10px;
+    border-radius: 10px; */
   }
 `;

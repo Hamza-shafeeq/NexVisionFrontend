@@ -12,7 +12,7 @@ function General() {
           <div className="Third-View-Main-Section">
             {" "}
             <div className="Third-Header-Section">
-              <h1 className="Third-View-Title">Third Party</h1>
+              <h1 className="Third-View-Title">Organization Intelligence</h1>
 
               <span className="Third-View-Text">
                 <RiArrowGoBackFill className="Back-logo" />
@@ -26,26 +26,26 @@ function General() {
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
-                <div className="General-Top-Section">
-                  <span className="General-title">Name</span>
-                  <span className="General-title">AKA</span>
-                  <span className="General-title">Case ID</span>
-                  <span className="General-title">Birthdate</span>
-                  <span className="General-title">Country</span>
-                  <span className="General-title">Nationality</span>
-                  <span className="General-title">Email</span>
-                  <span className="General-title">Phone</span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Robin</span>
-                  <span className="General-bottom-title">243</span>
-                  <span className="General-bottom-title">1</span>
-                  <span className="General-bottom-title">1997-02-25</span>
-                  <span className="General-bottom-title">France</span>
-                  <span className="General-bottom-title">France</span>
-                  <span className="General-bottom-title">abc@gmail.com</span>
-                  <span className="General-bottom-title">xxxxxxxxxx</span>
-                </div>
+                <table className="General-Table-Section">
+                  <tr className="General-Top-Section">
+                    <th className="General-title">Name</th>
+                    <th className="General-title">AKA</th>
+                    <th className="General-title">Case ID</th>
+                    <th className="General-title">Country</th>
+                    <th className="General-title">Email</th>
+                    <th className="General-title">Phone</th>
+                    <th className="General-title">Website</th>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">Robin</td>
+                    <td className="General-bottom-title">243</td>
+                    <td className="General-bottom-title">1</td>
+                    <td className="General-bottom-title">France</td>
+                    <td className="General-bottom-title">abc@gmail.com</td>
+                    <td className="General-bottom-title">xxxxxxxxxx</td>
+                    <td className="General-bottom-title">www.aisight.com</td>
+                  </tr>
+                </table>
               </div>
             </div>
           </div>

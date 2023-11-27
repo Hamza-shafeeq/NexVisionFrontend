@@ -5,7 +5,7 @@ import Sidebar from "../../../sidebar/sidebar";
 import i from "../../../../image/i.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function Gazettesdetails() {
+function GazettesDetails() {
   return (
     <>
       <ThirdviewStyled>
@@ -13,7 +13,7 @@ function Gazettesdetails() {
           <div className="Third-View-Main-Section">
             {" "}
             <div className="Third-Header-Section">
-              <h1 className="Third-View-Title">Third Party</h1>
+              <h1 className="Third-View-Title">Organization Intelligence</h1>
 
               <span className="Third-View-Text">
                 <RiArrowGoBackFill className="Back-logo" />
@@ -23,38 +23,40 @@ function Gazettesdetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Gazettes </span>
+                <span className="General-Info-Title">Gazettes</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
-                <div className="General-Top-Section">
-                  <span className="General-title">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Title
-                  </span>
-                  <span className="General-title1">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Source
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">сос а а а а</span>
-                  <span className="General-bottom-title2">
-                    The Official Gazette of the Replublic of North Macedonia
-                  </span>
-                </div>
-                <div className="General-Top-Section">
-                  <span className="General-title">А. Миленко</span>
-                  <span className="General-title3">
-                    The Official Gazette of the Replublic of North Macedonia
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">C. A. A</span>
-                  <span className="General-bottom-title4">
-                    The Official Gazette of the Replublic of North Macedonia
-                  </span>
-                </div>
+                <table className="General-Table-Section">
+                  <tr className="General-Top-Section">
+                    <th className="General-title">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Title
+                    </th>
+                    <th className="General-title1">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Source
+                    </th>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">myo a a a myo</td>
+                    <td className="General-bottom-title2">
+                      The Official Gazette of the Replublic of North Macedonia
+                    </td>
+                  </tr>
+                  <tr className="General-Top-Section">
+                    <td className="General-title">А. Скопје</td>
+                    <td className="General-title3">
+                      The Official Gazette of the Replublic of North Macedonia
+                    </td>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">A & A</td>
+                    <td className="General-bottom-title4">
+                      Swiss Official Gazette of Commerce
+                    </td>
+                  </tr>
+                </table>
               </div>
               <div class="button-container">
                 <button className="Previous-Button">Previous</button>
@@ -73,4 +75,4 @@ function Gazettesdetails() {
   );
 }
 
-export default Gazettesdetails;
+export default GazettesDetails;

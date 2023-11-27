@@ -11,13 +11,11 @@ export const ThirdviewStyled = styled.div`
   }
   .Third-View-Container {
     display: flex;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     background-color: #faf8ff;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
-    height: 325px;
-    margin-left: 50px;
-
+    height: 450px;
     align-items: center;
     justify-content: center;
     border-radius: 17px;
@@ -36,20 +34,13 @@ export const ThirdviewStyled = styled.div`
     font-weight: 500;
   }
   .GeneralSection {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 10px;
+    align-items: center; */
+    /* flex-direction: column; */
+    padding-bottom: 100px;
     width: 1000px;
-    height: 200px;
-  }
-  .General-title {
-    padding-left: 10px;
-    color: #7a7a7b;
-  }
-  .General-title1 {
-    color: #7a7a7b;
+    height: 130px;
   }
   .General-Info-Section {
     display: flex;
@@ -61,39 +52,40 @@ export const ThirdviewStyled = styled.div`
     height: 60px;
   }
   .General-Top-Section {
-    display: flex;
+    /* display: flex;
     align-items: center;
+    justify-content: center; */
     background-color: #efeef1;
-    gap: 69px;
+    width: 100%;
+    height: 60px;
+
+    /* gap: 69px;
     width: 100%;
     font-size: 17px;
     height: 100px;
-    border-radius: 12px;
+    border-radius: 12px; */
   }
+
+  .General-Table-Section {
+    width: 1000px;
+    text-align: center;
+    height: 130px;
+  }
+
   .General-Bottom-Section {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
+
     background-color: #ffffff;
+    width: 100%;
+    height: 60px;
+    /* justify-content: center;
+
+    gap: 63px;
     font-size: 17px;
-    padding-left: 10px;
-    color: #7a7a7b;
-    width: 99%;
-    gap: 69px;
+    width: 100%;
     height: 100px;
-    border-radius: 10px;
-  }
-  .General-title1 {
-    padding-left: 70px;
-  }
-  .General-bottom-title2 {
-    padding-left: 19px;
-  }
-  .General-title3 {
-    padding-left: 23px;
-    color: #7a7a7b;
-  }
-  .General-bottom-title4 {
-    padding-left: 10px;
+    border-radius: 10px; */
   }
 
   .button-container {
@@ -102,6 +94,7 @@ export const ThirdviewStyled = styled.div`
     gap: 10px;
     align-items: center;
     width: 90%;
+    height: 150px;
   }
   .Previous-Button {
     width: 124px;

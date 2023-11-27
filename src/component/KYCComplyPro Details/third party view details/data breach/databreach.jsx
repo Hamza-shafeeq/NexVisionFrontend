@@ -23,32 +23,34 @@ function Databreach() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Breach</span>
+                <span className="General-Info-Title">Data Breach</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
-                <div className="General-Top-Section">
-                  <span className="General-title">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Title
-                  </span>
-                  <span className="General-title1">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Source
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">XXXXXXXXXX</span>
-                  <span className="General-bottom-title2">Canva 2019</span>
-                </div>
-                <div className="General-Top-Section">
-                  <span className="General-title">Xxxxxxxxxx17</span>
-                  <span className="General-title3">Canva 2019</span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Xxxxxxxxxx1026</span>
-                  <span className="General-bottom-title4">MyFitnessPal</span>
-                </div>
+                <table className="General-Table-Section">
+                  <tr className="General-Top-Section">
+                    <th className="General-title">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Title
+                    </th>
+                    <th className="General-title1">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Source
+                    </th>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">XXXXXXXXXX</td>
+                    <td className="General-bottom-title2">XXXXXXXXXX</td>
+                  </tr>
+                  <tr className="General-Top-Section">
+                    <td className="General-title">Xxxxxxxxxx17</td>
+                    <td className="General-title3">Canva 2019</td>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">Xxxxxxxxxx1026</td>
+                    <td className="General-bottom-title4">MyFitnessPal</td>
+                  </tr>
+                </table>
               </div>
               <div class="button-container">
                 <button className="Previous-Button">Previous</button>

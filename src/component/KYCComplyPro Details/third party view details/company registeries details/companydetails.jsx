@@ -27,38 +27,40 @@ function Companydetails() {
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
-                <div className="General-Top-Section">
-                  <span className="General-title">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Title
-                  </span>
-                  <span className="General-title1">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Source
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">
-                    xxxxxxxxxx, xxxxxxxxxx
-                  </span>
-                  <span className="General-bottom-title2">
-                    Venezuela Procurement Registration Registry
-                  </span>
-                </div>
-                <div className="General-Top-Section">
-                  <span className="General-title">xxxxxxxxxxx, xxxxxxxxxx</span>
-                  <span className="General-title3">
-                    Venezuela Procurement Registration Registry
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">
-                    xxxxxxxxxxxxxxx, xxxxxxxxxxxxxxxx
-                  </span>
-                  <span className="General-bottom-title4">
-                    Venezuela Procurement Registration Registry
-                  </span>
-                </div>
+                <table className="General-Table-Section">
+                  <tr className="General-Top-Section">
+                    <th className="General-title">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Title
+                    </th>
+                    <th className="General-title1">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Source
+                    </th>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">
+                      xxxxxxxxxx, xxxxxxxxxx
+                    </td>
+                    <td className="General-bottom-title2">
+                      Venezuela Procurement Registration Registry
+                    </td>
+                  </tr>
+                  <tr className="General-Top-Section">
+                    <td className="General-title">xxxxxxxxxxx, xxxxxxxxxx</td>
+                    <td className="General-title3">
+                      Venezuela Procurement Registration Registry
+                    </td>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">
+                      xxxxxxxxxxxxxxx, xxxxxxxxxxxxxxxx
+                    </td>
+                    <td className="General-bottom-title4">
+                      Venezuela Procurement Registration Registry
+                    </td>
+                  </tr>
+                </table>
               </div>
               <div class="button-container">
                 <button className="Previous-Button">Previous</button>

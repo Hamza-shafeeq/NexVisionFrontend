@@ -13,7 +13,7 @@ function DocumentDetails() {
           <div className="Third-View-Main-Section">
             {" "}
             <div className="Third-Header-Section">
-              <h1 className="Third-View-Title">Third Party</h1>
+              <h1 className="Third-View-Title">Organization Intelligence</h1>
 
               <span className="Third-View-Text">
                 <RiArrowGoBackFill className="Back-logo" />
@@ -27,34 +27,36 @@ function DocumentDetails() {
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
-                <div className="General-Top-Section">
-                  <span className="General-title">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Title
-                  </span>
-                  <span className="General-title1">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Source
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Касенов А*А.</span>
-                  <span className="General-bottom-title2">
-                    Kazakhstan Registry of geological reports
-                  </span>
-                </div>
-                <div className="General-Top-Section">
-                  <span className="General-title">Заячковский А. А.</span>
-                  <span className="General-title3">
-                    Kazakhstan Registry of geological reports
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Ахметов Я; А.</span>
-                  <span className="General-bottom-title4">
-                    Kazakhstan Registry of geological reports
-                  </span>
-                </div>
+                <table className="General-Table-Section">
+                  <tr className="General-Top-Section">
+                    <th className="General-title">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Title
+                    </th>
+                    <th className="General-title1">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Source
+                    </th>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">Касенов А*А.</td>
+                    <td className="General-bottom-title2">
+                      Kazakhstan Registry of geological reports
+                    </td>
+                  </tr>
+                  <tr className="General-Top-Section">
+                    <td className="General-title">Заячковский А. А.</td>
+                    <td className="General-title3">
+                      Kazakhstan Registry of geological reports
+                    </td>
+                  </tr>
+                  <tr className="General-Top-Section">
+                    <td className="General-title">Ахметов Я; А.</td>
+                    <td className="General-title3">
+                      Kazakhstan Registry of geological reports
+                    </td>
+                  </tr>
+                </table>
               </div>
               <div class="button-container">
                 <button className="Previous-Button">Previous</button>

@@ -27,32 +27,34 @@ function LeaksDetails() {
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
-                <div className="General-Top-Section">
-                  <span className="General-title">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Title
-                  </span>
-                  <span className="General-title1">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Source
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">A Marlow</span>
-                  <span className="General-bottom-title2">
-                    HBGary leaked emails
-                  </span>
-                </div>
-                <div className="General-Top-Section">
-                  <span className="General-title">Woolson, Martha A.</span>
-                  <span className="General-title3">HBGary leaked emails</span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Michael, Jim A..</span>
-                  <span className="General-bottom-title4">
-                    HBGary leaked emails
-                  </span>
-                </div>
+                <table className="General-Table-Section">
+                  <tr className="General-Top-Section">
+                    <th className="General-title">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Title
+                    </th>
+                    <th className="General-title1">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Source
+                    </th>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">A Marlow</td>
+                    <td className="General-bottom-title2">
+                      HBGary leaked emails
+                    </td>
+                  </tr>
+                  <tr className="General-Top-Section">
+                    <td className="General-title">Woolson, Martha A.</td>
+                    <td className="General-title3">HBGary leaked emails</td>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">Michael, Jim A.</td>
+                    <td className="General-bottom-title4">
+                      HBGary leaked emails
+                    </td>
+                  </tr>
+                </table>
               </div>
               <div class="button-container">
                 <button className="Previous-Button">Previous</button>

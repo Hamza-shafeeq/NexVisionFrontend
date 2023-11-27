@@ -23,38 +23,38 @@ function Courtdetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Court </span>
+                <span className="General-Info-Title">Court Archives</span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
-                <div className="General-Top-Section">
-                  <span className="General-title">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Title
-                  </span>
-                  <span className="General-title1">
-                    <LuArrowDownUp className="Arrow-Logo" />
-                    Source
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Тарасов А. А</span>
-                  <span className="General-bottom-title2">
-                    Russian Court Cases (РосПравосудие, 2015)
-                  </span>
-                </div>
-                <div className="General-Top-Section">
-                  <span className="General-title">Бойков А. А.</span>
-                  <span className="General-title3">
-                    Russian Court Cases (РосПравосудие, 2015)
-                  </span>
-                </div>
-                <div className="General-Bottom-Section">
-                  <span className="General-bottom-title">Кошак А. А.</span>
-                  <span className="General-bottom-title4">
-                    Russian Court Cases (РосПравосудие, 2015)
-                  </span>
-                </div>
+                <table className="General-Table-Section">
+                  <tr className="General-Top-Section">
+                    <th className="General-title">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Title
+                    </th>
+                    <th className="General-title1">
+                      <LuArrowDownUp className="Arrow-Logo" />
+                      Source
+                    </th>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">Тарасов А. А.</td>
+                    <td className="General-bottom-title2">XXXXXXXXXX</td>
+                  </tr>
+                  <tr className="General-Top-Section">
+                    <td className="General-title">Бойков А. А.</td>
+                    <td className="General-title3">
+                      Russian Court Cases (РосПравосудие, 2015)
+                    </td>
+                  </tr>
+                  <tr className="General-Bottom-Section">
+                    <td className="General-bottom-title">Кошак А. А.</td>
+                    <td className="General-bottom-title4">
+                      Russian Court Cases (РосПравосудие, 2015)
+                    </td>
+                  </tr>
+                </table>
               </div>
               <div class="button-container">
                 <button className="Previous-Button">Previous</button>
