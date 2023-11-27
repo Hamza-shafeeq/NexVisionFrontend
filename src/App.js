@@ -33,6 +33,10 @@ import DocumentDetails from "./component/third party view details/Document Libra
 import PublicDetails from "./component/third party view details/public details/Public.jsx";
 import PersonalDetails from "./component/third party view details/Personal details/Personaldetails.jsx";
 import Map from "./component/Global Shield Pro Details/Map/Map.jsx";
+import ProcurementDetails from "./component/third party view details/Procurementdetails/ProcurementDetails.jsx";
+import Gazettesdetails from "./component/third party view details/Gazettes details/Gazettes.jsx";
+import LandResgistry from "./component/third party view details/Land Resgistry details/LandResgistry.jsx";
+import AirRegisters from "./component/third party view details/Air and Maritime Registers details/AirRegisters.jsx";
 
 
 function App() {
@@ -90,10 +94,10 @@ function App() {
         ></Route>
         <Route path="/public-details" element={<PublicDetails />}></Route>
         <Route path="/sanctions-details" element={<General />}></Route>
-        <Route path="/procurement-details" element={<General />}></Route>
-        <Route path="/gazettes-details" element={<General />}></Route>
-        <Route path="/land-registries-details" element={<General />}></Route>
-        <Route path="/air-and-maritime-details" element={<General />}></Route>
+        <Route path="/procurement-details" element={<ProcurementDetails />}></Route>
+        <Route path="/gazettes-details" element={<Gazettesdetails />}></Route>
+        <Route path="/land-registries-details" element={<LandResgistry />}></Route>
+        <Route path="/air-and-maritime-details" element={<AirRegisters />}></Route>
         <Route
           path="/phone-lookup/online-social-profiles-details"
           element={<OnlineSocialProfileDetails />}
