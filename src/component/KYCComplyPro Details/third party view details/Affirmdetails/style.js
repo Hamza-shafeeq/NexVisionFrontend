@@ -15,7 +15,7 @@ export const ThirdviewStyled = styled.div`
     background-color: #faf8ff;
     width: 100%;
     flex-direction: column;
-    height: 450px;
+    height: 670px;
     align-items: center;
     justify-content: center;
     border-radius: 17px;
@@ -94,7 +94,8 @@ export const ThirdviewStyled = styled.div`
     gap: 10px;
     align-items: center;
     width: 90%;
-    height: 150px;
+    height: 475px;
+    margin-top: 70px;
   }
   .Previous-Button {
     width: 124px;

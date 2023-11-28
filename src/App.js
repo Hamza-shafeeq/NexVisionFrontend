@@ -25,41 +25,43 @@ import DomainDetails from "./component/ArmorNet Pro details/Email Lookup Details
 import ReputationDetails from "./component/ArmorNet Pro details/Email Lookup Details/Reputation Details/ReputationDetails.jsx";
 import EmailGeneralInfoDetails from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/GeneralInfoDetails.jsx";
 import Map from "./component/Global Shield Pro Details/Map/Map.jsx";
-import General from './component/KYCComplyPro Details/third party view details/generaldetails/general.jsx'
-import Databreach from './component/KYCComplyPro Details/third party view details/data breach/databreach.jsx'
-import Companydetails from './component/KYCComplyPro Details/third party view details/company registeries details/companydetails.jsx'
-import Courtdetails from './component/KYCComplyPro Details/third party view details/court details/courtdetails.jsx'
-import DocumentDetails from './component/KYCComplyPro Details/third party view details/Document Libraries details/DocumentDetails.jsx'
-import PersonalDetails from './component/KYCComplyPro Details/third party view details/Personal details/Personaldetails.jsx'
-import PublicDetails from './component/KYCComplyPro Details/third party view details/public details/Public.jsx'
-import ProcurementDetails from './component/KYCComplyPro Details/third party view details/Procurementdetails/ProcurementDetails.jsx'
-import Gazettesdetails from './component/KYCComplyPro Details/third party view details/Gazettes details/Gazettes.jsx'
-import LandResgistry from './component/KYCComplyPro Details/third party view details/Land Resgistry details/LandResgistry.jsx'
-import AirRegisters from './component/KYCComplyPro Details/third party view details/Air and Maritime Registers details/AirRegisters.jsx'
-import LeaksDetails from './component/KYCComplyPro Details/third party view details/leaks details/LeaksDetails.jsx'
-import OrganizationGeneralDetails from './component/KYCComplyPro Details/Organization Intelligence details/generaldetails/general.jsx';
-import OrganizationProcurementDetails from './component/KYCComplyPro Details/Organization Intelligence details/Procurementdetails/ProcurementDetails.jsx';
-import OrganizationSanctionsDetails from './component/KYCComplyPro Details/Organization Intelligence details/Sanctions details/SanctionsDetails.jsx';
-import OrganizationGazettesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Gazettes details/GazettesDetails.jsx';
-import OrganizationGreyLiteratureDetails from './component/KYCComplyPro Details/Organization Intelligence details/Grey Literature details/GreyLiteratureDetails.jsx';
-import OrganizationDocumentLibrariesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Document Libraries Details/DocumentLibrariesDetails.jsx';
-import OrganizationFinancialRecordsDetails from './component/KYCComplyPro Details/Organization Intelligence details/Financial Records Details/FinancialRecordsDetails.jsx';
-import OrganizationPublicDetails from './component/KYCComplyPro Details/Organization Intelligence details/Public Details/PublicDetails.jsx';
-import OrganizationCompanyRegistriesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Company Registries Details/CompanyRegistriesDetails.jsx';
-import OrganizationPersonOfInterestDetails from './component/KYCComplyPro Details/Organization Intelligence details/Person of Interest Details/PersonOfInterestDetails.jsx';
-import OrganizationLicencesDetails from './component/KYCComplyPro Details/Organization Intelligence details/Licences and Concessions Details/LicencesDetails.jsx';
-import OrganizationLeaksDetails from './component/KYCComplyPro Details/Organization Intelligence details/Leaks Details/LeaksDetails.jsx';
-import OrganizationPublicSearchEngineDetails from './component/KYCComplyPro Details/Organization Intelligence details/Public Search Engine Details/PublicSearchDetails.jsx';
-import OrganizationOSINTDetails from './component/KYCComplyPro Details/Organization Intelligence details/OSINT Details/OSINTDetails.jsx';
-
+import General from "./component/KYCComplyPro Details/third party view details/generaldetails/general.jsx";
+import Databreach from "./component/KYCComplyPro Details/third party view details/data breach/databreach.jsx";
+import Companydetails from "./component/KYCComplyPro Details/third party view details/company registeries details/companydetails.jsx";
+import Courtdetails from "./component/KYCComplyPro Details/third party view details/court details/courtdetails.jsx";
+import DocumentDetails from "./component/KYCComplyPro Details/third party view details/Document Libraries details/DocumentDetails.jsx";
+import PersonalDetails from "./component/KYCComplyPro Details/third party view details/Personal details/Personaldetails.jsx";
+import PublicDetails from "./component/KYCComplyPro Details/third party view details/public details/Public.jsx";
+import ProcurementDetails from "./component/KYCComplyPro Details/third party view details/Procurementdetails/ProcurementDetails.jsx";
+import Gazettesdetails from "./component/KYCComplyPro Details/third party view details/Gazettes details/Gazettes.jsx";
+import LandResgistry from "./component/KYCComplyPro Details/third party view details/Land Resgistry details/LandResgistry.jsx";
+import AirRegisters from "./component/KYCComplyPro Details/third party view details/Air and Maritime Registers details/AirRegisters.jsx";
+import LeaksDetails from "./component/KYCComplyPro Details/third party view details/leaks details/LeaksDetails.jsx";
+import OrganizationGeneralDetails from "./component/KYCComplyPro Details/Organization Intelligence details/generaldetails/general.jsx";
+import OrganizationProcurementDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Procurementdetails/ProcurementDetails.jsx";
+import OrganizationSanctionsDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Sanctions details/SanctionsDetails.jsx";
+import OrganizationGazettesDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Gazettes details/GazettesDetails.jsx";
+import OrganizationGreyLiteratureDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Grey Literature details/GreyLiteratureDetails.jsx";
+import OrganizationDocumentLibrariesDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Document Libraries Details/DocumentLibrariesDetails.jsx";
+import OrganizationFinancialRecordsDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Financial Records Details/FinancialRecordsDetails.jsx";
+import OrganizationPublicDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Public Details/PublicDetails.jsx";
+import OrganizationCompanyRegistriesDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Company Registries Details/CompanyRegistriesDetails.jsx";
+import OrganizationPersonOfInterestDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Person of Interest Details/PersonOfInterestDetails.jsx";
+import OrganizationLicencesDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Licences and Concessions Details/LicencesDetails.jsx";
+import OrganizationLeaksDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Leaks Details/LeaksDetails.jsx";
+import OrganizationPublicSearchEngineDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Public Search Engine Details/PublicSearchDetails.jsx";
+import OrganizationOSINTDetails from "./component/KYCComplyPro Details/Organization Intelligence details/OSINT Details/OSINTDetails.jsx";
+import SanctionsDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Sanctions details/SanctionsDetails.jsx";
+import PublicSearchDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Public Search Engine Details/PublicSearchDetails.jsx";
+import OsintDetails from "./component/KYCComplyPro Details/third party view details/OsintDetails/OsintDetails.jsx";
+import Affirmdetails from "./component/KYCComplyPro Details/third party view details/Affirmdetails/Affirmdetails.jsx";
 
 function App() {
-
   const location = {
-    address: '1600 Amphitheatre Parkway, Mountain View, california.',
+    address: "1600 Amphitheatre Parkway, Mountain View, california.",
     lat: 37.42216,
     lng: -122.08427,
-  }
+  };
 
   return (
     <BrowserRouter>
@@ -82,12 +84,12 @@ function App() {
         <Route path="/discovery" element={<DHPDiscovery />}></Route>
         <Route path="/brand-sentinel" element={<BrandSentinel />}></Route>
         <Route path="/general-info-details" element={<General />}></Route>
-        <Route path="/affirm-details" element={<General />}></Route>
-        <Route path="/osint-details" element={<General />}></Route>
+        <Route path="/affirm-details" element={<Affirmdetails />}></Route>
+        <Route path="/osint-details" element={<OsintDetails />}></Route>
         <Route path="/data-breach-details" element={<Databreach />}></Route>
         <Route
           path="/public-search-engine-details"
-          element={<General />}
+          element={<PublicSearchDetails />}
         ></Route>
         <Route
           path="/company-registries-details"
@@ -107,11 +109,20 @@ function App() {
           element={<PersonalDetails />}
         ></Route>
         <Route path="/public-details" element={<PublicDetails />}></Route>
-        <Route path="/sanctions-details" element={<General />}></Route>
-        <Route path="/procurement-details" element={<ProcurementDetails />}></Route>
+        <Route path="/sanctions-details" element={<SanctionsDetails />}></Route>
+        <Route
+          path="/procurement-details"
+          element={<ProcurementDetails />}
+        ></Route>
         <Route path="/gazettes-details" element={<Gazettesdetails />}></Route>
-        <Route path="/land-registries-details" element={<LandResgistry />}></Route>
-        <Route path="/air-and-maritime-details" element={<AirRegisters />}></Route>
+        <Route
+          path="/land-registries-details"
+          element={<LandResgistry />}
+        ></Route>
+        <Route
+          path="/air-and-maritime-details"
+          element={<AirRegisters />}
+        ></Route>
         <Route
           path="/phone-lookup/online-social-profiles-details"
           element={<OnlineSocialProfileDetails />}
@@ -144,30 +155,67 @@ function App() {
           path="/email-lookup/general-info-details"
           element={<EmailGeneralInfoDetails />}
         ></Route>
-        <Route path="/real-time-crisis/map" element={<Map Location={location}  zoomLevel={17}/>}></Route>
+        <Route
+          path="/real-time-crisis/map"
+          element={<Map Location={location} zoomLevel={17} />}
+        ></Route>
 
-        <Route path="/organization-intelligence/general-details" element={<OrganizationGeneralDetails />}></Route>
-        <Route path="/organization-intelligence/procurement-details" element={<OrganizationProcurementDetails />}></Route>
-        <Route path="/organization-intelligence/sanctions-details" element={<OrganizationSanctionsDetails />}></Route>
-        <Route path="/organization-intelligence/gazettes-details" element={<OrganizationGazettesDetails />}></Route>
-        <Route path="/organization-intelligence/grey-literature-details" element={<OrganizationGreyLiteratureDetails />}></Route>
-        <Route path="/organization-intelligence/document-libraries-details" element={<OrganizationDocumentLibrariesDetails />}></Route>
-        <Route path="/organization-intelligence/financial-records-details" element={<OrganizationFinancialRecordsDetails />}></Route>
-        <Route path="/organization-intelligence/public-details" element={<OrganizationPublicDetails />}></Route>
-        <Route path="/organization-intelligence/company-registries-details" element={<OrganizationCompanyRegistriesDetails />}></Route>
-        <Route path="/organization-intelligence/person-of-interest-details" element={<OrganizationPersonOfInterestDetails />}></Route>
-        <Route path="/organization-intelligence/licenses-and-concessions-details" element={<OrganizationLicencesDetails />}></Route>
-        <Route path="/organization-intelligence/leaks-details" element={<OrganizationLeaksDetails />}></Route>
-        <Route path="/organization-intelligence/public-search-engine-details" element={<OrganizationPublicSearchEngineDetails />}></Route>
-        <Route path="/organization-intelligence/osint-details" element={<OrganizationOSINTDetails />}></Route>
-
-
-
-
-
-
-        
-
+        <Route
+          path="/organization-intelligence/general-details"
+          element={<OrganizationGeneralDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/procurement-details"
+          element={<OrganizationProcurementDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/sanctions-details"
+          element={<OrganizationSanctionsDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/gazettes-details"
+          element={<OrganizationGazettesDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/grey-literature-details"
+          element={<OrganizationGreyLiteratureDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/document-libraries-details"
+          element={<OrganizationDocumentLibrariesDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/financial-records-details"
+          element={<OrganizationFinancialRecordsDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/public-details"
+          element={<OrganizationPublicDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/company-registries-details"
+          element={<OrganizationCompanyRegistriesDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/person-of-interest-details"
+          element={<OrganizationPersonOfInterestDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/licenses-and-concessions-details"
+          element={<OrganizationLicencesDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/leaks-details"
+          element={<OrganizationLeaksDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/public-search-engine-details"
+          element={<OrganizationPublicSearchEngineDetails />}
+        ></Route>
+        <Route
+          path="/organization-intelligence/osint-details"
+          element={<OrganizationOSINTDetails />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );
