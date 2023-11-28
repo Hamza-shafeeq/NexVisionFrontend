@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/search.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function PublicSearchDetails() {
@@ -39,21 +39,29 @@ function PublicSearchDetails() {
                     </th>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">A - WikipediaWikipediahttps://en.wikipedia.org › wiki › A</td>
+                    <td className="General-bottom-title">
+                      A - WikipediaWikipediahttps://en.wikipedia.org › wiki › A
+                    </td>
                     <td className="General-bottom-title2">en.wikipedia.org</td>
                   </tr>
                   <tr className="General-Top-Section">
-                    <td className="General-title">A Definition & MeaningDictionary.comhttps://www.dictionary.com › browse › a</td>
+                    <td className="General-title">
+                      A Definition &
+                      MeaningDictionary.comhttps://www.dictionary.com › browse ›
+                      a
+                    </td>
                     <td className="General-title3">dictionary.com</td>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">a - Wiktionary, the free dictionaryWikipediahttps://en.wiktionary.org › wiki › a</td>
+                    <td className="General-bottom-title">
+                      a - Wiktionary, the free
+                      dictionaryWikipediahttps://en.wiktionary.org › wiki › a
+                    </td>
                     <td className="General-bottom-title2">en.wiktionary.org</td>
                   </tr>
-                  
                 </table>
               </div>
-                   <div class="button-container">
+              <div class="button-container">
                 <button className="Previous-Button">Previous</button>
                 <button className="Number-Button">1</button>
                 <button className="Number-Button">2</button>
@@ -62,8 +70,7 @@ function PublicSearchDetails() {
                 <button className="Number-Button">400</button>
                 <button className="Next-Button">Next</button>
               </div>
-            </div> 
-      
+            </div>
           </div>
         </Sidebar>
       </ThirdviewStyled>

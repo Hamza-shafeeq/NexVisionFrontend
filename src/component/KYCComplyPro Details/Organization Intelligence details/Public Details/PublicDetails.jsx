@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/public.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function PublicDetails() {
@@ -50,10 +50,9 @@ function PublicDetails() {
                     <td className="General-bottom-title">Xxxxxxxxxx17</td>
                     <td className="General-bottom-title2">MyFitnessPal</td>
                   </tr>
-                  
                 </table>
               </div>
-                   <div class="button-container">
+              <div class="button-container">
                 <button className="Previous-Button">Previous</button>
                 <button className="Number-Button">1</button>
                 <button className="Number-Button">2</button>
@@ -62,8 +61,7 @@ function PublicDetails() {
                 <button className="Number-Button">400</button>
                 <button className="Next-Button">Next</button>
               </div>
-            </div> 
-      
+            </div>
           </div>
         </Sidebar>
       </ThirdviewStyled>

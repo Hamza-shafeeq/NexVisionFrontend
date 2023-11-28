@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/license.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function LicencesDetails() {
@@ -23,7 +23,9 @@ function LicencesDetails() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Licences and Concessions</span>
+                <span className="General-Info-Title">
+                  Licences and Concessions
+                </span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">
@@ -40,20 +42,28 @@ function LicencesDetails() {
                   </tr>
                   <tr className="General-Bottom-Section">
                     <td className="General-bottom-title">SA n/a n/a √ An</td>
-                    <td className="General-bottom-title2">Sourth Africa — Department of mineral resources and energy — Mines</td>
+                    <td className="General-bottom-title2">
+                      Sourth Africa — Department of mineral resources and energy
+                      — Mines
+                    </td>
                   </tr>
                   <tr className="General-Top-Section">
                     <td className="General-title">N/A Tel</td>
-                    <td className="General-title3">Sourth Africa — Department of mineral resources and energy — Mines</td>
+                    <td className="General-title3">
+                      Sourth Africa — Department of mineral resources and energy
+                      — Mines
+                    </td>
                   </tr>
                   <tr className="General-Bottom-Section">
                     <td className="General-bottom-title">N/A TOTAL</td>
-                    <td className="General-bottom-title2">Sourth Africa — Department of mineral resources and energy — Mines</td>
+                    <td className="General-bottom-title2">
+                      Sourth Africa — Department of mineral resources and energy
+                      — Mines
+                    </td>
                   </tr>
-                  
                 </table>
               </div>
-                   <div class="button-container">
+              <div class="button-container">
                 <button className="Previous-Button">Previous</button>
                 <button className="Number-Button">1</button>
                 <button className="Number-Button">2</button>
@@ -62,8 +72,7 @@ function LicencesDetails() {
                 <button className="Number-Button">400</button>
                 <button className="Next-Button">Next</button>
               </div>
-            </div> 
-      
+            </div>
           </div>
         </Sidebar>
       </ThirdviewStyled>

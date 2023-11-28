@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/company.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function CompanyRegistriesDetails() {
@@ -39,21 +39,30 @@ function CompanyRegistriesDetails() {
                     </th>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">A A A A A A A A A A A A EROTIK LIMITED</td>
-                    <td className="General-bottom-title2">UK Companies House</td>
+                    <td className="General-bottom-title">
+                      A A A A A A A A A A A A EROTIK LIMITED
+                    </td>
+                    <td className="General-bottom-title2">
+                      UK Companies House
+                    </td>
                   </tr>
                   <tr className="General-Top-Section">
-                    <td className="General-title">A A A A A A A A A A A A VEGAS LIMITED</td>
+                    <td className="General-title">
+                      A A A A A A A A A A A A VEGAS LIMITED
+                    </td>
                     <td className="General-title3">UK Companies House</td>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">A A A A A A A A A A A PARADIES LIMITED</td>
-                    <td className="General-bottom-title2">UK Companies House</td>
+                    <td className="General-bottom-title">
+                      A A A A A A A A A A A PARADIES LIMITED
+                    </td>
+                    <td className="General-bottom-title2">
+                      UK Companies House
+                    </td>
                   </tr>
-                  
                 </table>
               </div>
-                   <div class="button-container">
+              <div class="button-container">
                 <button className="Previous-Button">Previous</button>
                 <button className="Number-Button">1</button>
                 <button className="Number-Button">2</button>
@@ -62,8 +71,7 @@ function CompanyRegistriesDetails() {
                 <button className="Number-Button">400</button>
                 <button className="Next-Button">Next</button>
               </div>
-            </div> 
-      
+            </div>
           </div>
         </Sidebar>
       </ThirdviewStyled>

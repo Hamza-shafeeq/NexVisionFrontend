@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/sanction.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function SanctionsDetails() {
@@ -39,20 +39,32 @@ function SanctionsDetails() {
                     </th>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">CODE A PARTNERSHIP,Code A Partnership</td>
-                    <td className="General-bottom-title2">Global Sanctions Database</td>
+                    <td className="General-bottom-title">
+                      CODE A PARTNERSHIP,Code A Partnership
+                    </td>
+                    <td className="General-bottom-title2">
+                      Global Sanctions Database
+                    </td>
                   </tr>
                   <tr className="General-Top-Section">
-                    <td className="General-title">A-Technics Limited Liability Company</td>
-                    <td className="General-title3">Global Sanctions Database</td>
+                    <td className="General-title">
+                      A-Technics Limited Liability Company
+                    </td>
+                    <td className="General-title3">
+                      Global Sanctions Database
+                    </td>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">Casa 3241-A Acuazul</td>
-                    <td className="General-bottom-title4">Global Sanctions Database</td>
+                    <td className="General-bottom-title">
+                      Casa 3241-A Acuazul
+                    </td>
+                    <td className="General-bottom-title4">
+                      Global Sanctions Database
+                    </td>
                   </tr>
                 </table>
               </div>
-                   <div class="button-container">
+              <div class="button-container">
                 <button className="Previous-Button">Previous</button>
                 <button className="Number-Button">1</button>
                 <button className="Number-Button">2</button>
@@ -61,8 +73,7 @@ function SanctionsDetails() {
                 <button className="Number-Button">400</button>
                 <button className="Next-Button">Next</button>
               </div>
-            </div> 
-      
+            </div>
           </div>
         </Sidebar>
       </ThirdviewStyled>

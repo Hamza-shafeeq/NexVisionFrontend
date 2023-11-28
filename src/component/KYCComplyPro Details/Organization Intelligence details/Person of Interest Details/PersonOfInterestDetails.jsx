@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/person.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function PersonOfInterestDetails() {
@@ -40,20 +40,25 @@ function PersonOfInterestDetails() {
                   </tr>
                   <tr className="General-Bottom-Section">
                     <td className="General-bottom-title">ΜΕΡΟΣ A</td>
-                    <td className="General-bottom-title2">Cyprus — Asset declarations of the members of The House of Representatives</td>
+                    <td className="General-bottom-title2">
+                      Cyprus — Asset declarations of the members of The House of
+                      Representatives
+                    </td>
                   </tr>
                   <tr className="General-Top-Section">
                     <td className="General-title">ΜΕΡΟΣ A</td>
-                    <td className="General-title3">Cyprus — Asset declarations of the members of The House of Representatives</td>
+                    <td className="General-title3">
+                      Cyprus — Asset declarations of the members of The House of
+                      Representatives
+                    </td>
                   </tr>
                   <tr className="General-Bottom-Section">
                     <td className="General-bottom-title">ODBINV S/A</td>
                     <td className="General-bottom-title2">Lava Jato</td>
                   </tr>
-                  
                 </table>
               </div>
-                   <div class="button-container">
+              <div class="button-container">
                 <button className="Previous-Button">Previous</button>
                 <button className="Number-Button">1</button>
                 <button className="Number-Button">2</button>
@@ -62,8 +67,7 @@ function PersonOfInterestDetails() {
                 <button className="Number-Button">400</button>
                 <button className="Next-Button">Next</button>
               </div>
-            </div> 
-      
+            </div>
           </div>
         </Sidebar>
       </ThirdviewStyled>

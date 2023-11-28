@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/documnt.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function DocumentLibrariesDetails() {
@@ -40,16 +40,20 @@ function DocumentLibrariesDetails() {
                   </tr>
                   <tr className="General-Bottom-Section">
                     <td className="General-bottom-title">a State Party</td>
-                    <td className="General-bottom-title2">Sourth Africa — Department of mineral resources and energy — Mines</td>
+                    <td className="General-bottom-title2">
+                      Sourth Africa — Department of mineral resources and energy
+                      — Mines
+                    </td>
                   </tr>
                   <tr className="General-Top-Section">
                     <td className="General-title">a Management Board</td>
-                    <td className="General-title3">European Policies of Border Externalisation in Lebanon</td>
+                    <td className="General-title3">
+                      European Policies of Border Externalisation in Lebanon
+                    </td>
                   </tr>
-                  
                 </table>
               </div>
-                   <div class="button-container">
+              <div class="button-container">
                 <button className="Previous-Button">Previous</button>
                 <button className="Number-Button">1</button>
                 <button className="Number-Button">2</button>
@@ -58,8 +62,7 @@ function DocumentLibrariesDetails() {
                 <button className="Number-Button">400</button>
                 <button className="Next-Button">Next</button>
               </div>
-            </div> 
-      
+            </div>
           </div>
         </Sidebar>
       </ThirdviewStyled>
