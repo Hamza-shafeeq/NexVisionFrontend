@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/air.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function AirRegisters() {
@@ -23,7 +23,9 @@ function AirRegisters() {
             <div className="Third-View-Container">
               {" "}
               <div className="General-Info-Section">
-                <span className="General-Info-Title">Company Registries</span>
+                <span className="General-Info-Title">
+                  Air and Maritime Registers
+                </span>
                 <img className="img" src={i} alt="" />
               </div>
               <div className="GeneralSection">

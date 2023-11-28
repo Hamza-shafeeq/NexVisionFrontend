@@ -6,7 +6,7 @@ export const SidebarStyled = styled.div`
 
   .SidebarMenu {
     background-color: #220367;
-    width: 272px;
+    width: 300px;
     height: 100%;
     border-right: 1px solid #72668d;
   }
@@ -127,9 +127,9 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links-drown:hover {
-    width: 150px;
+    width: 200px;
     border-radius: 11px;
-    margin-left: 60px;
+
     padding-left: 25px;
 
     align-items: center;

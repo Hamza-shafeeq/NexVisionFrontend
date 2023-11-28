@@ -33,7 +33,7 @@ import DocumentDetails from "./component/KYCComplyPro Details/third party view d
 import PersonalDetails from "./component/KYCComplyPro Details/third party view details/Personal details/Personaldetails.jsx";
 import PublicDetails from "./component/KYCComplyPro Details/third party view details/public details/Public.jsx";
 import ProcurementDetails from "./component/KYCComplyPro Details/third party view details/Procurementdetails/ProcurementDetails.jsx";
-import Gazettesdetails from "./component/KYCComplyPro Details/third party view details/Gazettes details/Gazettes.jsx";
+
 import LandResgistry from "./component/KYCComplyPro Details/third party view details/Land Resgistry details/LandResgistry.jsx";
 import AirRegisters from "./component/KYCComplyPro Details/third party view details/Air and Maritime Registers details/AirRegisters.jsx";
 import LeaksDetails from "./component/KYCComplyPro Details/third party view details/leaks details/LeaksDetails.jsx";
@@ -51,11 +51,13 @@ import OrganizationLicencesDetails from "./component/KYCComplyPro Details/Organi
 import OrganizationLeaksDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Leaks Details/LeaksDetails.jsx";
 import OrganizationPublicSearchEngineDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Public Search Engine Details/PublicSearchDetails.jsx";
 import OrganizationOSINTDetails from "./component/KYCComplyPro Details/Organization Intelligence details/OSINT Details/OSINTDetails.jsx";
-import SanctionsDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Sanctions details/SanctionsDetails.jsx";
-import PublicSearchDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Public Search Engine Details/PublicSearchDetails.jsx";
+
 import OsintDetails from "./component/KYCComplyPro Details/third party view details/OsintDetails/OsintDetails.jsx";
 import Affirmdetails from "./component/KYCComplyPro Details/third party view details/Affirmdetails/Affirmdetails.jsx";
 import Cardlockupdetails from "./component/KYCComplyPro Details/CardLockupDetails/Cardlockupdetails.jsx";
+import PublicSearchDetailsBox from "./component/KYCComplyPro Details/third party view details/publicsearchDetails/PublicSearchDetails.jsx";
+import SanctionsDetailsBox from "./component/KYCComplyPro Details/third party view details/sanctionsdetails/sanctions.jsx";
+import GazettesDetailsBox from "./component/KYCComplyPro Details/third party view details/Gazettes details/Gazettes.jsx";
 
 function App() {
   const location = {
@@ -90,7 +92,7 @@ function App() {
         <Route path="/data-breach-details" element={<Databreach />}></Route>
         <Route
           path="/public-search-engine-details"
-          element={<PublicSearchDetails />}
+          element={<PublicSearchDetailsBox />}
         ></Route>
         <Route
           path="/company-registries-details"
@@ -110,12 +112,18 @@ function App() {
           element={<PersonalDetails />}
         ></Route>
         <Route path="/public-details" element={<PublicDetails />}></Route>
-        <Route path="/sanctions-details" element={<SanctionsDetails />}></Route>
+        <Route
+          path="/sanctions-details"
+          element={<SanctionsDetailsBox />}
+        ></Route>
         <Route
           path="/procurement-details"
           element={<ProcurementDetails />}
         ></Route>
-        <Route path="/gazettes-details" element={<Gazettesdetails />}></Route>
+        <Route
+          path="/gazettes-details"
+          element={<GazettesDetailsBox />}
+        ></Route>
         <Route
           path="/land-registries-details"
           element={<LandResgistry />}

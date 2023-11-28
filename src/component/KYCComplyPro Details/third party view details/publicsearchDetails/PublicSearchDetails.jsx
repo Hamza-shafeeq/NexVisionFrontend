@@ -1,6 +1,11 @@
 import React from "react";
+import { ThirdviewStyled } from "./style";
+import { RiArrowGoBackFill } from "react-icons/ri";
+import Sidebar from "../../../sidebar/sidebar";
+import Search from "../../../../image/search.png";
+import { LuArrowDownUp } from "react-icons/lu";
 
-function PublicSearchDetails() {
+function PublicSearchDetailsBox() {
   return (
     <ThirdviewStyled>
       <Sidebar>
@@ -18,7 +23,7 @@ function PublicSearchDetails() {
             {" "}
             <div className="General-Info-Section">
               <span className="General-Info-Title">Public Search Engine</span>
-              <img className="img" src={i} alt="" />
+              <img className="img" src={Search} alt="" />
             </div>
             <div className="GeneralSection">
               <table className="General-Table-Section">
@@ -70,4 +75,4 @@ function PublicSearchDetails() {
   );
 }
 
-export default PublicSearchDetails;
+export default PublicSearchDetailsBox;

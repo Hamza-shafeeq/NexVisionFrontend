@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { OtppageStyled } from "./style";
 import Navlogo from "../../image/logo.png";
 import { BsBoxFill } from "react-icons/bs";

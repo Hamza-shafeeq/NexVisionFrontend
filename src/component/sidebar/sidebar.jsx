@@ -120,7 +120,11 @@ function Sidebar({ children }) {
                 }`}
                 onClick={toggleARMORDropdown}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> ArmorNet Pro
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> ArmorNet Pro
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
               {showARMORDropdown && (
@@ -168,7 +172,11 @@ function Sidebar({ children }) {
                 }`}
                 onClick={toggleHubDropdown}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> DetectiveHub Pro
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> DetectiveHub Pro
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
               {showHubDropdown && (
@@ -215,7 +223,11 @@ function Sidebar({ children }) {
                 }`}
                 onClick={() => toggleGlobalDropdown("global")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> Global Sheild Pro
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> Global Sheild Pro{" "}
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
               {showGlobalDropdown && (
@@ -258,7 +270,11 @@ function Sidebar({ children }) {
                 }`}
                 onClick={() => toggleSocialDropdown("social")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> Social Scan Pro
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> Social Scan Pro{" "}
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
 
@@ -283,7 +299,11 @@ function Sidebar({ children }) {
                 }`}
                 onClick={toggleKYCDropdown}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> KYCComplyPro
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> KYCComplyPro
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </div>
               {showKYCDropdown && (
@@ -347,7 +367,10 @@ function Sidebar({ children }) {
                 }`}
                 onClick={() => handleLinkClick("investigate")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> E- Investigate Pro
+                <div className="Sidebar-Links-Set">
+                  <PiSuitcaseSimple className="Links-Logo" /> E- Investigate Pro
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </span>
               <span
@@ -356,7 +379,11 @@ function Sidebar({ children }) {
                 }`}
                 onClick={() => handleLinkClick("coin")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> CoinTrack Pro
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> CoinTrack Pro
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </span>
               <span
@@ -365,7 +392,11 @@ function Sidebar({ children }) {
                 }`}
                 onClick={() => handleLinkClick("report")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> Report
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> Report
+                </div>
+
                 <RiArrowDropDownLine className="Links-Logo" />
               </span>
 
@@ -380,7 +411,11 @@ function Sidebar({ children }) {
                         activeLink === "" ? "active" : ""
                       }`}
                     >
-                      <PiSuitcaseSimple className="Links-Logo" /> Management
+                      <div className="Sidebar-Links-Set">
+                        {" "}
+                        <PiSuitcaseSimple className="Links-Logo" /> Management
+                      </div>
+
                       <RiArrowDropDownLine className="Links-Logo" />
                     </span>
                     <span
@@ -389,7 +424,11 @@ function Sidebar({ children }) {
                       }`}
                       onClick={() => handleLinkClick("user")}
                     >
-                      <PiSuitcaseSimple className="Links-Logo" /> User
+                      <div className="Sidebar-Links-Set">
+                        {" "}
+                        <PiSuitcaseSimple className="Links-Logo" /> User
+                      </div>
+
                       <RiArrowDropDownLine className="Links-Logo" />
                     </span>
                     <span
@@ -398,7 +437,11 @@ function Sidebar({ children }) {
                       }`}
                       onClick={() => handleLinkClick("activity")}
                     >
-                      <PiSuitcaseSimple className="Links-Logo" /> Activity
+                      <div className="Sidebar-Links-Set">
+                        {" "}
+                        <PiSuitcaseSimple className="Links-Logo" /> Activity
+                      </div>
+
                       <RiArrowDropDownLine className="Links-Logo" />
                     </span>
                   </div>

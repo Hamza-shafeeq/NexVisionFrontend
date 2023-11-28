@@ -2,7 +2,7 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/court.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
 function Courtdetails() {
@@ -40,7 +40,9 @@ function Courtdetails() {
                   </tr>
                   <tr className="General-Bottom-Section">
                     <td className="General-bottom-title">Тарасов А. А.</td>
-                    <td className="General-bottom-title2">XXXXXXXXXX</td>
+                    <td className="General-bottom-title2">
+                      Russian Court Cases (РосПравосудие, 2015)
+                    </td>
                   </tr>
                   <tr className="General-Top-Section">
                     <td className="General-title">Бойков А. А.</td>

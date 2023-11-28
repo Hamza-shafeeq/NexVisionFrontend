@@ -2,10 +2,10 @@ import React from "react";
 import { ThirdviewStyled } from "./style";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import Sidebar from "../../../sidebar/sidebar";
-import i from "../../../../image/i.png";
+import i from "../../../../image/gaze.png";
 import { LuArrowDownUp } from "react-icons/lu";
 
-function GazettesDetails() {
+function GazettesDetailsBox() {
   return (
     <>
       <ThirdviewStyled>
@@ -13,7 +13,7 @@ function GazettesDetails() {
           <div className="Third-View-Main-Section">
             {" "}
             <div className="Third-Header-Section">
-              <h1 className="Third-View-Title">Organization Intelligence</h1>
+              <h1 className="Third-View-Title">Third Party</h1>
 
               <span className="Third-View-Text">
                 <RiArrowGoBackFill className="Back-logo" />
@@ -39,21 +39,21 @@ function GazettesDetails() {
                     </th>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">myo a a a myo</td>
+                    <td className="General-bottom-title">сос а а а а</td>
                     <td className="General-bottom-title2">
                       The Official Gazette of the Replublic of North Macedonia
                     </td>
                   </tr>
                   <tr className="General-Top-Section">
-                    <td className="General-title">А. Скопје</td>
+                    <td className="General-title">А. Миленко</td>
                     <td className="General-title3">
                       The Official Gazette of the Replublic of North Macedonia
                     </td>
                   </tr>
                   <tr className="General-Bottom-Section">
-                    <td className="General-bottom-title">A & A</td>
+                    <td className="General-bottom-title">C. A. A</td>
                     <td className="General-bottom-title4">
-                      Swiss Official Gazette of Commerce
+                      Mali Official Gazette (Journaux Officiels du Mali)
                     </td>
                   </tr>
                 </table>
@@ -75,4 +75,4 @@ function GazettesDetails() {
   );
 }
 
-export default GazettesDetails;
+export default GazettesDetailsBox;
