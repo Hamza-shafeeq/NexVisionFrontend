@@ -16,6 +16,7 @@ export default function KYCCardLookup() {
             caseID="01"
             status="finished"
             img={kycCard}
+            navigateLink="/cardlookupdetails"
           />
         </div>
       </Sidebar>

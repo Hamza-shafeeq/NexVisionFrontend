@@ -34,7 +34,12 @@ function DetailsCard(props) {
             </div>
           </div>
           <div className="view-details-btn">
-            <button className="view-btn" onClick={() => navigate(props.navigateLink)}>View Details</button>
+            <button
+              className="view-btn"
+              onClick={() => navigate(props.navigateLink)}
+            >
+              View Details
+            </button>
           </div>
         </div>
       </div>

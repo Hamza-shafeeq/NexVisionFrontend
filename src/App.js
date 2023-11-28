@@ -55,6 +55,7 @@ import SanctionsDetails from "./component/KYCComplyPro Details/Organization Inte
 import PublicSearchDetails from "./component/KYCComplyPro Details/Organization Intelligence details/Public Search Engine Details/PublicSearchDetails.jsx";
 import OsintDetails from "./component/KYCComplyPro Details/third party view details/OsintDetails/OsintDetails.jsx";
 import Affirmdetails from "./component/KYCComplyPro Details/third party view details/Affirmdetails/Affirmdetails.jsx";
+import Cardlockupdetails from "./component/KYCComplyPro Details/CardLockupDetails/Cardlockupdetails.jsx";
 
 function App() {
   const location = {
@@ -212,9 +213,14 @@ function App() {
           path="/organization-intelligence/public-search-engine-details"
           element={<OrganizationPublicSearchEngineDetails />}
         ></Route>
+
         <Route
           path="/organization-intelligence/osint-details"
           element={<OrganizationOSINTDetails />}
+        ></Route>
+        <Route
+          path="/cardlookupdetails"
+          element={<Cardlockupdetails />}
         ></Route>
       </Routes>
     </BrowserRouter>
