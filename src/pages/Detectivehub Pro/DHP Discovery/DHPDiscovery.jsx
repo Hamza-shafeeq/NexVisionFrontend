@@ -1,7 +1,7 @@
 import React from "react";
-import DetailsCard from '../../../component/DetectiveHub Pro/Discovery/DetailsCard';
+import DetailsCard from "../../../component/DetectiveHub Pro/Discovery/DetailsCard";
 import { DhpDiscovery } from "./dhp-discovery";
-import DHPHeader from "../../../component/DetectiveHub Pro/Discovery/DHPHeader"
+import DHPHeader from "../../../component/DetectiveHub Pro/Discovery/DHPHeader";
 import dhpDicovery1 from "../../../image/DHP Discovery/DHP Discovery1.svg";
 import dhpDicovery2 from "../../../image/DHP Discovery/DHP Discovery2.svg";
 import dhpDicovery3 from "../../../image/DHP Discovery/DHP Discovery3.svg";
@@ -25,6 +25,7 @@ export default function DHPDiscovery() {
             caseID="01"
             status="finished"
             img={dhpDicovery1}
+            navigateLink="/datasetdetails"
           />
           <DetailsCard
             title="Types"
@@ -32,7 +33,7 @@ export default function DHPDiscovery() {
             status="finished"
             img={dhpDicovery2}
           />
-           <DetailsCard
+          <DetailsCard
             title="Countries"
             caseID="01"
             status="finished"
@@ -50,7 +51,7 @@ export default function DHPDiscovery() {
             status="finished"
             img={dhpDicovery5}
           />
-           <DetailsCard
+          <DetailsCard
             title="Phone numbers"
             caseID="01"
             status="finished"
@@ -68,14 +69,12 @@ export default function DHPDiscovery() {
             status="finished"
             img={dhpDicovery8}
           />
-           <DetailsCard
+          <DetailsCard
             title="File types"
             caseID="01"
             status="finished"
             img={dhpDicovery9}
           />
-          
-          
         </div>
       </DhpDiscovery>
     </Sidebar>

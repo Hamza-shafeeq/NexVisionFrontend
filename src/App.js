@@ -58,7 +58,7 @@ import Cardlockupdetails from "./component/KYCComplyPro Details/CardLockupDetail
 import PublicSearchDetailsBox from "./component/KYCComplyPro Details/third party view details/publicsearchDetails/PublicSearchDetails.jsx";
 import SanctionsDetailsBox from "./component/KYCComplyPro Details/third party view details/sanctionsdetails/sanctions.jsx";
 import GazettesDetailsBox from "./component/KYCComplyPro Details/third party view details/Gazettes details/Gazettes.jsx";
-
+import DataSetsDetails from "./component/Detectivehubdetails/DataSetsDetails/DataSetsDetails.jsx";
 function App() {
   const location = {
     address: "1600 Amphitheatre Parkway, Mountain View, california.",
@@ -230,6 +230,7 @@ function App() {
           path="/cardlookupdetails"
           element={<Cardlockupdetails />}
         ></Route>
+        <Route path="/datasetdetails" element={<DataSetsDetails />}></Route>
       </Routes>
     </BrowserRouter>
   );
