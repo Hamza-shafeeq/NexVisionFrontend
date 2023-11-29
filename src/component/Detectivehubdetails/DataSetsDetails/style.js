@@ -11,14 +11,37 @@ export const ThirdviewStyled = styled.div`
   }
   .Third-View-Container {
     display: flex;
-    /* margin-top: 50px; */
-    background-color: #faf8ff;
+
     width: 100%;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
     justify-content: center;
+    height: 100vh;
+    background-color: #faf8ff;
     border-radius: 17px;
+  }
+  .CheckBox-Section {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    background-color: #e6dbff;
+    height: 900px;
+    border-radius: 21px;
+  }
+  .Third-View-Content-Container {
+    display: flex;
+    height: 1900px;
+    margin-top: 50px;
+    background-color: #faf8ff;
+    gap: 10px;
+    display: flex;
+  }
+  .CheckBoxContainer {
+    display: flex;
+    padding-left: 10px;
+    margin-top: 50px;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 7px;
   }
   .Third-Header-Section {
     display: flex;
@@ -67,7 +90,7 @@ export const ThirdviewStyled = styled.div`
   }
 
   .General-Table-Section {
-    width: 100%;
+    width: 983px;
     text-align: center;
     height: 130px;
   }
@@ -105,7 +128,10 @@ export const ThirdviewStyled = styled.div`
     background-color: #ffffff;
   }
   .General-bottom-title-Link {
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    align-items: center;
   }
   .Number-Button {
     border-radius: 6px;
