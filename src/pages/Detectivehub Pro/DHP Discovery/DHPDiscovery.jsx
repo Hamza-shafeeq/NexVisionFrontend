@@ -32,6 +32,7 @@ export default function DHPDiscovery() {
             caseID="01"
             status="finished"
             img={dhpDicovery2}
+            navigateLink="/typesdetails"
           />
           <DetailsCard
             title="Countries"
@@ -44,6 +45,7 @@ export default function DHPDiscovery() {
             caseID="01"
             status="finished"
             img={dhpDicovery4}
+            navigateLink="/languagedetailsbox"
           />
           <DetailsCard
             title="Emails"
