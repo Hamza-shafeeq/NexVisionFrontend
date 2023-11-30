@@ -16,6 +16,7 @@ export default function GSGeopolitical() {
             caseID="01"
             status="finished"
             img={gspMap}
+            navigateLink="/geopolitical-intelligence/map"
           />
         </div>
       </Sidebar>

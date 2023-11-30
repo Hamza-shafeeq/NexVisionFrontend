@@ -242,6 +242,7 @@ function App() {
           path="/darknet/languagedetailsbox"
           element={<LanguageDetailsBox />}
         ></Route>
+        <Route path="/geopolitical-intelligence/map" element={<Map />}></Route>
       </Routes>
     </BrowserRouter>
   );
