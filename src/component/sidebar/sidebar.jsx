@@ -408,44 +408,43 @@ function Sidebar({ children }) {
 
                 <div className="Sidebar-Container">
                   <div className="Sidebar-Links-Section">
-                    <span
-                      className={`Sidebar-Links ${
+                    <div
+                      className={`Sidebar-Links4 ${
                         activeLink === "" ? "active" : ""
                       }`}
                     >
                       <div className="Sidebar-Links-Set">
-                        {" "}
-                        <PiSuitcaseSimple className="Links-Logo" /> Management
+                        <PiSuitcaseSimple className="Links-Logo" /> Mangement
                       </div>
 
                       <RiArrowDropDownLine className="Links-Logo" />
-                    </span>
-                    <span
-                      className={`Sidebar-Links ${
-                        activeLink === "user" ? "active" : ""
+                    </div>
+                  </div>
+                  <div className="Sidebar-Links-Section">
+                    <div
+                      className={`Sidebar-Links4 ${
+                        activeLink === "" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("user")}
                     >
                       <div className="Sidebar-Links-Set">
-                        {" "}
                         <PiSuitcaseSimple className="Links-Logo" /> User
                       </div>
 
                       <RiArrowDropDownLine className="Links-Logo" />
-                    </span>
-                    <span
-                      className={`Sidebar-Links ${
-                        activeLink === "activity" ? "active" : ""
+                    </div>
+                  </div>
+                  <div className="Sidebar-Links-Section">
+                    <div
+                      className={`Sidebar-Links4 ${
+                        activeLink === "" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("activity")}
                     >
                       <div className="Sidebar-Links-Set">
-                        {" "}
                         <PiSuitcaseSimple className="Links-Logo" /> Activity
                       </div>
 
                       <RiArrowDropDownLine className="Links-Logo" />
-                    </span>
+                    </div>
                   </div>
                 </div>
               </div>

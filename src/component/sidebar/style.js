@@ -61,6 +61,21 @@ export const SidebarStyled = styled.div`
     margin-bottom: 10px;
     cursor: pointer;
     height: 40px;
+
+    white-space: nowrap;
+  }
+  .Sidebar-Links-section {
+    display: flex;
+    gap: 13px;
+    padding-left: 35px;
+    color: white;
+    align-items: center;
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 40px;
+
     white-space: nowrap;
   }
   .Sidebar-Links2:hover {
@@ -152,10 +167,11 @@ export const SidebarStyled = styled.div`
     width: 30px;
     height: 20px;
     color: white;
+    margin-right: 10px;
   }
 
   .Sidebar-Main-Admin-Tools {
-    width: 90%;
+    width: 100%;
     margin-bottom: 80px;
   }
   .Sidebar-Admin-Tools {
@@ -172,6 +188,30 @@ export const SidebarStyled = styled.div`
   .Border {
     border-bottom: 2px solid #72668d;
     margin-left: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .Sidebar-Admin-Links {
+    color: #cc8889;
+    display: flex;
+    gap: 13px;
+    padding-left: 35px;
+
+    align-items: center;
+    font-weight: 550;
+    font-size: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 40px;
+    white-space: nowrap;
+  }
+  .Sidebar-Admin-Links {
+    width: 189px;
+    border-radius: 11px;
+
+    gap: 8px;
+    background-color: #4617b2;
   }
   .Sidebar-Links1 {
     color: #cc8889;
@@ -193,7 +233,6 @@ export const SidebarStyled = styled.div`
 
     display: flex;
 
-    gap: 8px;
     background-color: #4617b2;
   }
   .Credit-Main-Section {
@@ -206,7 +245,7 @@ export const SidebarStyled = styled.div`
     display: flex;
     justify-content: flex-end;
     margin-bottom: 10px;
-    width: 91%;
+    width: 88%;
   }
   .Credit-Section {
     width: 156px;
