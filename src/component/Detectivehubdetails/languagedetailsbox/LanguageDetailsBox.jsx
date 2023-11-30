@@ -17,7 +17,7 @@ function LanguageDetailsBox() {
         <Sidebar>
           <div className="Third-View-Main-Section">
             <div className="Third-Header-Section">
-              <h1 className="Third-View-Title">Third Party</h1>
+              <h1 className="Third-View-Title">Darknet</h1>
 
               <span className="Third-View-Text">
                 <RiArrowGoBackFill className="Back-logo" />

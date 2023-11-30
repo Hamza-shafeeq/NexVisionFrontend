@@ -233,10 +233,13 @@ function App() {
           path="/cardlookupdetails"
           element={<Cardlockupdetails />}
         ></Route>
-        <Route path="/datasetdetails" element={<DataSetsDetails />}></Route>
-        <Route path="/typesdetails" element={<TypesDetails />}></Route>
         <Route
-          path="/languagedetailsbox"
+          path="/darknet/datasetdetails"
+          element={<DataSetsDetails />}
+        ></Route>
+        <Route path="/darknet/typesdetails" element={<TypesDetails />}></Route>
+        <Route
+          path="/darknet/languagedetailsbox"
           element={<LanguageDetailsBox />}
         ></Route>
       </Routes>
