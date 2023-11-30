@@ -106,14 +106,17 @@ function Sidebar({ children }) {
             </div>
             <div className="Sidebar-Full-Menu">
               <p className="Sidebar-Main-Title-Section">Main</p>
-              <span
+              <div
                 className={`Sidebar-Links2 ${
                   activeLink === "insightAi" ? "active" : ""
                 }`}
                 onClick={() => handleLinkClick("insightAi")}
               >
-                <PiSuitcaseSimple className="Links-Logo" /> Insight Al
-              </span>
+                <div className="Sidebar-Links-Set">
+                  {" "}
+                  <PiSuitcaseSimple className="Links-Logo" /> Insight Al
+                </div>
+              </div>
               <div
                 className={`Sidebar-Links4 ${
                   activeLink === "armor" ? "active" : ""
@@ -121,7 +124,6 @@ function Sidebar({ children }) {
                 onClick={toggleARMORDropdown}
               >
                 <div className="Sidebar-Links-Set">
-                  {" "}
                   <PiSuitcaseSimple className="Links-Logo" /> ArmorNet Pro
                 </div>
 
@@ -144,7 +146,7 @@ function Sidebar({ children }) {
                       }`}
                       onClick={() => handleLinkClick("email-lookup")}
                     >
-                      Email Lockup
+                      Email Lookup
                     </span>
                     <span
                       className={`Sidebar-Links-drown ${
@@ -152,7 +154,7 @@ function Sidebar({ children }) {
                       }`}
                       onClick={() => handleLinkClick("phone-lookup")}
                     >
-                      Phone Lockup
+                      Phone Lookup
                     </span>
                     <span
                       className={`Sidebar-Links-drown ${
@@ -160,7 +162,7 @@ function Sidebar({ children }) {
                       }`}
                       onClick={() => handleLinkClick("IP")}
                     >
-                      IP Lockup
+                      IP Lookup
                     </span>
                   </div>
                 </div>

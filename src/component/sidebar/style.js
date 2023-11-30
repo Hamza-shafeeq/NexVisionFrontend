@@ -32,6 +32,9 @@ export const SidebarStyled = styled.div`
     font-weight: 500;
     color: #7a7094;
   }
+  .Sidebar-Links-Set {
+    display: flex;
+  }
 
   .Sidebar-Links {
     display: flex;
@@ -61,11 +64,9 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links2:hover {
-    width: 196px;
+    width: 215px;
     border-radius: 11px;
-    margin-left: 10px;
-    align-items: center;
-    gap: 8px;
+
     background-color: #4617b2;
   }
   .Sidebar-Links4 {
@@ -83,11 +84,9 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links4:hover {
-    width: 196px;
+    width: 215px;
     border-radius: 11px;
-    margin-left: 10px;
-    align-items: center;
-    gap: 8px;
+
     background-color: #4617b2;
   }
   .Sidebar-Links6 {
@@ -104,11 +103,9 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links6:hover {
-    width: 196px;
+    width: 215px;
     border-radius: 11px;
-    margin-left: 10px;
-    align-items: center;
-    gap: 8px;
+
     background-color: #4617b2;
   }
   .Sidebar-Links-drown {
@@ -130,26 +127,20 @@ export const SidebarStyled = styled.div`
     width: 200px;
     border-radius: 11px;
 
-    padding-left: 25px;
-
-    align-items: center;
-    gap: 8px;
     background-color: #4617b2;
   }
   .Sidebar-Links.active {
-    width: 196px;
+    width: 215px;
     border-radius: 11px;
     margin-left: 10px;
-    align-items: center;
+
     gap: 8px;
     background-color: #4617b2;
   }
   .Sidebar-Links:hover {
-    width: 196px;
+    width: 215px;
     border-radius: 11px;
-    margin-left: 10px;
-    align-items: center;
-    gap: 8px;
+
     background-color: #4617b2;
   }
   .sidebar-container {
@@ -197,12 +188,11 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links1:hover {
-    width: 185px;
+    width: 215px;
     border-radius: 11px;
-    margin-left: 10px;
+
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     gap: 8px;
     background-color: #4617b2;
   }
@@ -216,6 +206,7 @@ export const SidebarStyled = styled.div`
     display: flex;
     justify-content: flex-end;
     margin-bottom: 10px;
+    width: 91%;
   }
   .Credit-Section {
     width: 156px;
@@ -230,6 +221,7 @@ export const SidebarStyled = styled.div`
     margin-top: 30px;
     background-color: #fff5cf;
   }
+
   .Credit {
     display: flex;
     justify-content: center;

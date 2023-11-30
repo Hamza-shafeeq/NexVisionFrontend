@@ -163,7 +163,6 @@ export const InsightStyled = styled.div`
   }
   ::placeholder {
     color: #9081b2;
-    padding-left: 20px;
   }
   .Generate-Button {
     display: flex;
