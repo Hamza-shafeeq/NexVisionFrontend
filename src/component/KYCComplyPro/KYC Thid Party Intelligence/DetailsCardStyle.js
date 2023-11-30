@@ -6,8 +6,8 @@ export const DetailsCardStyle = styled.div`
   height: 280px;
   border-radius: 17px;
   /* border: 1px solid black; */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-top: 15px;
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  // margin-top: 15px;
 
   .title-text {
     color: black;
@@ -39,8 +39,11 @@ export const DetailsCardStyle = styled.div`
 
   .case-id-card {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left:31px;
+    padding-right:31px;
+
   }
   .status-card {
     font-weight: 600;
@@ -68,15 +71,19 @@ export const DetailsCardStyle = styled.div`
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    padding-left: 25px;
+    padding-left: 31px;
   }
   .create-card {
     margin-bottom: 10px;
   }
-
+.text-field{
+  // display:flex;
+  // flex-direction:column;
+  // justify-content:start;
+}
   .view-btn {
     /* display: */
-    width: 330px;
+    width: 300px;
     height: 35px;
     background-color: #591ddd;
     color: white;
@@ -90,4 +97,5 @@ export const DetailsCardStyle = styled.div`
     align-items: center;
     margin-top: 22px;
   }
+  
 `;

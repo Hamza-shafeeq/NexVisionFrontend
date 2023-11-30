@@ -15,21 +15,23 @@ function DetailsCard(props) {
 
             <span className="title-text"> {props.title}</span>
           </div>
-          <div className="case-id-card">
-            <span className="case-id">Case Id : {props.caseID}</span>
-            <div className="status-card-div">
-              <span className="status-card">Status:</span>
-              <span className="status"> {props.status}</span>
+          <div className="text-field">
+            <div className="case-id-card">
+              <span className="case-id">Case Id : {props.caseID}</span>
+              <div className="status-card-div">
+                <span className="status-card">Status:</span>
+                <span className="status"> {props.status}</span>
+              </div>
             </div>
-          </div>
-          <div className="creation-card">
-            <div className="create-card">
-              <strong>Created At: </strong>
-              March 26th, 2023 11:44pm
-            </div>
-            <div>
-              <strong>Updated At: </strong>
-              March 26th, 2023 11:44pm
+            <div className="creation-card">
+              <div className="create-card">
+                <strong>Created At: </strong>
+                March 26th, 2023 11:44pm
+              </div>
+              <div>
+                <strong>Updated At: </strong>
+                March 26th, 2023 11:44pm
+              </div>
             </div>
           </div>
           <div className="view-details-btn">

@@ -14,10 +14,13 @@ export const KycHeaderStyle = styled.div`
   .kyc-header-container {
     height: 120px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 75px;
     width: 100%;
+    padding-left: 31px;
+    padding-right: 150px;
+
   }
   .kyc-cta {
     display: flex;
@@ -55,7 +58,7 @@ export const KycHeaderStyle = styled.div`
     font-size: 13px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     background-color: #EDEAF4;
   }
   .kyc-search-box {
@@ -73,6 +76,7 @@ export const KycHeaderStyle = styled.div`
     height: 25px;
     color: #591DDD;
   }
+
   .kyc-title-img{
     display:flex;
     justify-content:center;
@@ -80,5 +84,4 @@ export const KycHeaderStyle = styled.div`
     width:100px;
     height:100px;
   }
-
 `;
