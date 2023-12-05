@@ -60,4 +60,16 @@ export const ThirdviewStyled = styled.div`
     font-size: 16px;
     color: #7a7a7b;
   }
+  @media all and (max-width: 800px) {
+    .Third-View-Title {
+      margin-top: 0px;
+    }
+    .GeneralSection {
+      width: 340px;
+      background-color: #efeef2;
+      height: 130px;
+      border-radius: 12px;
+      margin-left: 21px;
+    }
+  }
 `;

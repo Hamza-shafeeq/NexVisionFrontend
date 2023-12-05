@@ -3,15 +3,13 @@ import styled from "styled-components";
 export const SidebarStyled = styled.div`
   display: flex;
   width: 100%;
+
   .SidebarMenu {
     background-color: #220367;
-    width: ${(props) => (props.isSidebarVisible ? "310px" : "0px")};
+    width: 300px;
     height: 100%;
     border-right: 1px solid #72668d;
-    transition: width 0.3s; // Optional: for smooth transition
-    // ... other existing styles ...
   }
-
   .Sidebar-Main-Section {
     display: flex;
     flex-direction: column;
@@ -22,15 +20,16 @@ export const SidebarStyled = styled.div`
     justify-content: center;
   }
   .Sidebar-Logo-Section {
+    border-bottom: 2px solid #72668d;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
-    border-bottom: 2px solid #72668d;
   }
   .Sidebar-Logo {
     padding-top: 10px;
-    width: 170px;
+    width: 163px;
   }
   .Sidebar-Main-Title-Section {
     padding-left: 40px;
@@ -85,7 +84,7 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links2:hover {
-    width: 213px;
+    width: 215px;
     border-radius: 11px;
 
     background-color: #4617b2;
@@ -105,7 +104,7 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links4:hover {
-    width: 213px;
+    width: 215px;
     border-radius: 11px;
 
     background-color: #4617b2;
@@ -124,7 +123,7 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links6:hover {
-    width: 213px;
+    width: 215px;
     border-radius: 11px;
 
     background-color: #4617b2;
@@ -151,29 +150,15 @@ export const SidebarStyled = styled.div`
     background-color: #4617b2;
   }
   .Sidebar-Links.active {
-    width: 213px;
+    width: 215px;
     border-radius: 11px;
     margin-left: 10px;
 
     gap: 8px;
     background-color: #4617b2;
   }
-  .ArrowIcon-Hamberg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #73678f;
-    background-color: #150144;
-    width: 25px;
-    height: 25px;
-    border-radius: 7px;
-  }
-  .ArrowIcon {
-    color: white;
-    cursor: pointer;
-  }
   .Sidebar-Links:hover {
-    width: 213px;
+    width: 215px;
     border-radius: 11px;
 
     background-color: #4617b2;
@@ -248,7 +233,7 @@ export const SidebarStyled = styled.div`
     white-space: nowrap;
   }
   .Sidebar-Links1:hover {
-    width: 213px;
+    width: 215px;
     border-radius: 11px;
 
     display: flex;
@@ -321,5 +306,18 @@ export const SidebarStyled = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .ArrowIcon-Hamberg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #73678f;
+    background-color: #150144;
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
+  }
+  .ArrowIcon {
+    color: white;
   }
 `;
