@@ -8,7 +8,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoIosInformationCircleOutline } from "react-icons/io";
 import { MdOutlineLogout } from "react-icons/md";
-
+import { IoIosArrowBack } from "react-icons/io";
 import { LiaCoinsSolid } from "react-icons/lia";
 import Avatar from "../../image/avatar.png";
 
@@ -21,6 +21,7 @@ function Sidebar({ children }) {
   const [showHubDropdown, setShowHubDropdown] = useState(false);
   const [showGlobalDropdown, setShowGlobalDropdown] = useState(false);
   const [showSocialDropdown, setShowSocialDropdown] = useState(false);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(true); // Sidebar is visible by default
 
   const handleLinkClick = (link) => {
     if (link !== "kyccomplypro") {
@@ -94,14 +95,25 @@ function Sidebar({ children }) {
   const toggleSocialDropdown = () => {
     setShowSocialDropdown(!showSocialDropdown);
   };
+  const toggleSidebar = () => {
+    setIsSidebarVisible((prevState) => !prevState);
+  };
+
   return (
     <>
-      <SidebarStyled>
+      <SidebarStyled isSidebarVisible={isSidebarVisible}>
         <div className="sidebar-container">
           <div className="SidebarMenu">
             <div className="Sidebar-Main-Logo">
               <div className="Sidebar-Logo-Section">
                 <img className="Sidebar-Logo" src={Sidebarlogo} alt="" />
+                <div className="ArrowIcon-Hamberg">
+                  {" "}
+                  <IoIosArrowBack
+                    className="ArrowIcon"
+                    onClick={toggleSidebar}
+                  />
+                </div>
               </div>
             </div>
             <div className="Sidebar-Full-Menu">
