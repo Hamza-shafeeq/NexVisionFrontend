@@ -13,15 +13,15 @@ function GeneralPersonalBox() {
               <div className="GeneralAddBox-Header">
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number1">1</span>
-                    <span className="GeneralAdd-Title1">General</span>
+                    <span className="GeneralAdd-Number">1</span>
+                    <span className="GeneralAdd-Title">General</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">2</span>
-                    <span className="GeneralAdd-Title">Personal</span>
+                    <span className="GeneralAdd-Number1">2</span>
+                    <span className="GeneralAdd-Title1">Personal</span>
                   </div>{" "}
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
