@@ -61,8 +61,9 @@ import GazettesDetailsBox from "./component/KYCComplyPro Details/third party vie
 import DataSetsDetails from "./component/Detectivehubdetails/DataSetsDetails/DataSetsDetails.jsx";
 import TypesDetails from "./component/Detectivehubdetails/TypesDetails/TypesDetails.jsx";
 import LanguageDetailsBox from "./component/Detectivehubdetails/languagedetailsbox/LanguageDetailsBox.jsx";
-
+import { GeneralInfoDetailsStyled } from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/style.js";
 import GeneraldataAdd from "./component/GeneralDataAdd/GeneraldataAdd.jsx";
+import GeneralPersonalBox from "./component/Generalpersonalbox/GeneralPersonalBox.jsx";
 
 function App() {
   const location = {
@@ -251,6 +252,10 @@ function App() {
         <Route
           path="/addthirdpartydetailsbox"
           element={<GeneraldataAdd />}
+        ></Route>
+        <Route
+          path="/generaldetailspersonal"
+          element={<GeneralPersonalBox />}
         ></Route>
       </Routes>
     </BrowserRouter>
