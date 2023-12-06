@@ -2,8 +2,9 @@ import React from "react";
 import kycthirdTitle from "../../../image/kycthirdTitle.svg";
 import { KycHeaderStyle } from "./KycHeaderStyle";
 import { CiSearch } from "react-icons/ci";
-
+import { useNavigate } from "react-router-dom";
 export default function KYCHeader() {
+  const navigate = useNavigate();
   return (
     <KycHeaderStyle>
       <div className="kyc-header-container">
@@ -15,7 +16,12 @@ export default function KYCHeader() {
         </div>
         <div className="kyc-cta">
           <div className="kyc-title-btn">
-            <button className="kyc-btn">Add New</button>
+            <button
+              className="kyc-btn"
+              onClick={() => navigate("/addthirdpartydetailsbox")}
+            >
+              Add New
+            </button>
           </div>
 
           <div className="kyc-search-box">

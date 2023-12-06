@@ -10,93 +10,89 @@ export default function BrandSentinel() {
   return (
     <BrandSentinelStyle>
       <Sidebar>
-      <SSPHeader />
-      <div className="card-alignment">
-        <DetailsCard
-          title="Post Made"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="User Talking"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="User Reached"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="User Likes"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Mentions"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Topics"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Language"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Social Media"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Gender/Age"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="E-commerce"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Sentiment"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Timeline"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Countries"
-          caseID="01"
-          status="finished"
-          img={Ssp}
-        />
-        <DetailsCard
-          title="Posts"
-          caseID="01"
-          status="incomplete"
-          img={Ssp}
-        />
-      </div>
+        <SSPHeader />
+        <div className="card-alignment">
+          <DetailsCard
+            title="Post Made"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="User Talking"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="User Reached"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="User Likes"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="Mentions"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard title="Topics" caseID="01" status="finished" img={Ssp} />
+          <DetailsCard
+            title="Language"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="Social Media"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="Gender/Age"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="E-commerce"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="Sentiment"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+            navigateLink="/social-scan-detials/sentiment-details"
+          />
+          <DetailsCard
+            title="Timeline"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="Countries"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+          />
+          <DetailsCard
+            title="Posts"
+            caseID="01"
+            status="incomplete"
+            img={Ssp}
+          />
+        </div>
       </Sidebar>
     </BrandSentinelStyle>
   );

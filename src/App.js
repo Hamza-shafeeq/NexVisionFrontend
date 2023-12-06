@@ -62,6 +62,8 @@ import DataSetsDetails from "./component/Detectivehubdetails/DataSetsDetails/Dat
 import TypesDetails from "./component/Detectivehubdetails/TypesDetails/TypesDetails.jsx";
 import LanguageDetailsBox from "./component/Detectivehubdetails/languagedetailsbox/LanguageDetailsBox.jsx";
 
+import GeneraldataAdd from "./component/GeneralDataAdd/GeneraldataAdd.jsx";
+
 function App() {
   const location = {
     address: "1600 Amphitheatre Parkway, Mountain View, california.",
@@ -245,6 +247,10 @@ function App() {
         <Route
           path="/geopolitical-intelligence/map"
           element={<Map Location={location} zoomLevel={17} />}
+        ></Route>
+        <Route
+          path="/addthirdpartydetailsbox"
+          element={<GeneraldataAdd />}
         ></Route>
       </Routes>
     </BrowserRouter>
