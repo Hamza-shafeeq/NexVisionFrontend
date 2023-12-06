@@ -64,6 +64,7 @@ import LanguageDetailsBox from "./component/Detectivehubdetails/languagedetailsb
 import { GeneralInfoDetailsStyled } from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/style.js";
 import GeneraldataAdd from "./component/GeneralDataAdd/GeneraldataAdd.jsx";
 import GeneralPersonalBox from "./component/Generalpersonalbox/GeneralPersonalBox.jsx";
+import GeneralUserbox from "./component/Generaluserbox/GeneralUserbox.jsx";
 
 function App() {
   const location = {
@@ -257,6 +258,7 @@ function App() {
           path="/generaldetailspersonal"
           element={<GeneralPersonalBox />}
         ></Route>
+        <Route path="/generaluserbox" element={<GeneralUserbox />}></Route>
       </Routes>
     </BrowserRouter>
   );

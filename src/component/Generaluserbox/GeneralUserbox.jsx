@@ -3,8 +3,10 @@ import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import { LuArrowUpDown } from "react-icons/lu";
+import { BsFillFilterSquareFill } from "react-icons/bs";
 
-function GeneralPersonalBox() {
+function GeneralUserbox() {
   const navigate = useNavigate();
   return (
     <>
@@ -22,15 +24,15 @@ function GeneralPersonalBox() {
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number1">2</span>
-                    <span className="GeneralAdd-Title1">Personal</span>
+                    <span className="GeneralAdd-Number">2</span>
+                    <span className="GeneralAdd-Title">Personal</span>
                   </div>{" "}
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">3</span>
-                    <span className="GeneralAdd-Title">User</span>
+                    <span className="GeneralAdd-Number1">3</span>
+                    <span className="GeneralAdd-Title1">User</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
@@ -66,96 +68,50 @@ function GeneralPersonalBox() {
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
                   <h1>Third Party Intelligence</h1>
-                  <span className="General-title">Personal</span>
+                  <span className="General-title">Select User</span>
                 </div>
               </div>
               <div className="Form-Gapping">
                 <div className="Forms-Setting">
                   <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Name</span>
+                    <span className="Form-Titles">Username</span>
                     <div className="FormBox">
                       <input
                         className="NameBox"
                         type="Text"
-                        placeholder="Enter name According to Passport "
-                      />
-                    </div>
-                  </div>
-                  <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">AKA</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="Enter AKA"
+                        placeholder="Username "
                       />
                     </div>
                   </div>
                 </div>
-                <div className="Forms-Setting">
-                  <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Country Location</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="Enter Country Location "
-                      />
+              </div>
+              <div>
+                <div className="Icon-Header-Section">
+                  <div className="Icon-Header-Container">
+                    <div className="Icon-Main-Section">
+                      <span className="Icon-Text">
+                        <LuArrowUpDown className="Icon" />
+                        Image
+                      </span>
+                      <span className="Icon-Text">
+                        <LuArrowUpDown className="Icon" />
+                        Name
+                      </span>
+                      <span className="Icon-Text">
+                        <LuArrowUpDown className="Icon" />
+                        Description
+                      </span>
                     </div>
-                  </div>{" "}
-                  <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Date of Birth</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="mm/dd/yy"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="Forms-Setting">
-                  <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Nationality</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="Enter Nationality"
-                      />
-                    </div>
-                  </div>{" "}
-                  <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Place of Birth</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="Enter Place of Birth"
-                      />
+                    <div className="Icon-Main-Section2">
+                      <span className="Icon-Text1">
+                        {" "}
+                        <BsFillFilterSquareFill className="Filter-Icon1" />
+                        Filter
+                      </span>
                     </div>
                   </div>
-                </div>
-                <div className="Forms-Setting">
-                  <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Email</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="Enter Email"
-                      />
-                    </div>
-                  </div>{" "}
-                  <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Phone</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="Enter Phone"
-                      />
-                    </div>
+                  <div className="Icon-bottom-Section">
+                    <span>no data available in table</span>
                   </div>
                 </div>
               </div>
@@ -167,7 +123,7 @@ function GeneralPersonalBox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    onClick={() => navigate("/generaluserbox")}
+                    //onClick={() => navigate("/generaluserbox")}
                   >
                     Next
                   </button>
@@ -181,4 +137,4 @@ function GeneralPersonalBox() {
   );
 }
 
-export default GeneralPersonalBox;
+export default GeneralUserbox;
