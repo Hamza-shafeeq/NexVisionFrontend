@@ -95,9 +95,12 @@ function Sidebar({ children }) {
   const toggleSocialDropdown = () => {
     setShowSocialDropdown(!showSocialDropdown);
   };
+  console.log("Before toggle:", isSidebarVisible);
+
   const toggleSidebar = () => {
     setIsSidebarVisible((prevState) => !prevState);
   };
+  console.log("After toggle:", !isSidebarVisible);
 
   return (
     <>
@@ -108,9 +111,10 @@ function Sidebar({ children }) {
               <div className="Sidebar-Logo-Section">
                 <img className="Sidebar-Logo" src={Sidebarlogo} alt="" />
                 <div className="ArrowIcon-Hamberg">
-                  {" "}
                   <IoIosArrowBack
-                    className="ArrowIcon"
+                    className={`ArrowIcon ${
+                      isSidebarVisible ? "arrow-closed" : "arrow-open"
+                    }`}
                     onClick={toggleSidebar}
                   />
                 </div>

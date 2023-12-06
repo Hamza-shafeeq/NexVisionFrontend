@@ -317,7 +317,17 @@ export const SidebarStyled = styled.div`
     height: 25px;
     border-radius: 7px;
   }
+
   .ArrowIcon {
+    transition: transform 0.3s ease;
     color: white;
+  }
+
+  .arrow-closed {
+    transform: rotate(0deg); /* or your preferred angle */
+  }
+
+  .arrow-open {
+    transform: rotate(180deg); /* or the opposite angle */
   }
 `;
