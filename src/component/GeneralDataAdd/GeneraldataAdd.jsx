@@ -115,6 +115,15 @@ function GeneraldataAdd() {
                   </div>
                 </div>
               </div>
+              <div className="Buttons-Section">
+                <div className="General-Buttons-Section">
+                  <button className="CloseButton">Close</button>
+                </div>
+                <div className="General-Buttons-Section1">
+                  <button className="CloseButton">Previous</button>
+                  <button className="NextButton">Next</button>
+                </div>
+              </div>
             </div>
           </div>
         </GeneralDataAddStyle>

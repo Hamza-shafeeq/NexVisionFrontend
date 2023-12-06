@@ -12,7 +12,7 @@ export const GeneralDataAddStyle = styled.div`
     flex-direction: column;
   }
   .GeneralAddBox-Header {
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
     display: flex;
     height: 58px;
@@ -108,6 +108,12 @@ export const GeneralDataAddStyle = styled.div`
     display: flex;
     flex-direction: column;
   }
+  .Buttons-Section {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+  }
   .Forms-Setting {
     display: flex;
     justify-content: center;
@@ -142,8 +148,42 @@ export const GeneralDataAddStyle = styled.div`
   .GeneralDataAdd-Container {
     display: flex;
     width: 100%;
-
+    height: 1000px;
     background-color: #faf8ff;
     flex-direction: column;
+  }
+  .Buttons-Section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .CloseButton {
+    width: 113px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: #faf8ff;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border: 3px solid #8154e5;
+  }
+  .General-Buttons-Section {
+    width: 50%;
+  }
+  .NextButton {
+    width: 113px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: #8154e5;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #8154e5;
+  }
+  .General-Buttons-Section1 {
+    gap: 10px;
+    display: flex;
   }
 `;
