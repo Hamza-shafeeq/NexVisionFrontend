@@ -65,6 +65,7 @@ import { GeneralInfoDetailsStyled } from "./component/ArmorNet Pro details/Email
 import GeneraldataAdd from "./component/GeneralDataAdd/GeneraldataAdd.jsx";
 import GeneralPersonalBox from "./component/Generalpersonalbox/GeneralPersonalBox.jsx";
 import GeneralUserbox from "./component/Generaluserbox/GeneralUserbox.jsx";
+import GeneralAccountbox from "./component/GeneralAccountbox/GeneralAccountbox.jsx";
 
 function App() {
   const location = {
@@ -259,6 +260,10 @@ function App() {
           element={<GeneralPersonalBox />}
         ></Route>
         <Route path="/generaluserbox" element={<GeneralUserbox />}></Route>
+        <Route
+          path="/generalaccountbox"
+          element={<GeneralAccountbox />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );

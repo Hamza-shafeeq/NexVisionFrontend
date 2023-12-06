@@ -123,7 +123,7 @@ function GeneralUserbox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    //onClick={() => navigate("/generaluserbox")}
+                    onClick={() => navigate("/generalaccountbox")}
                   >
                     Next
                   </button>
