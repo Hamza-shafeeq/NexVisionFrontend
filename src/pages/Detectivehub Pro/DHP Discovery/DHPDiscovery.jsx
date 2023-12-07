@@ -25,57 +25,65 @@ export default function DHPDiscovery() {
             caseID="01"
             status="finished"
             img={dhpDicovery1}
-            navigateLink="/datasetdetails"
+            navigateLink="/discovery/datasets-details"
           />
           <DetailsCard
             title="Types"
             caseID="01"
             status="finished"
             img={dhpDicovery2}
-            navigateLink="/typesdetails"
+            navigateLink="/discovery/types-details"
           />
           <DetailsCard
             title="Countries"
             caseID="01"
             status="finished"
             img={dhpDicovery3}
+            navigateLink="/discovery/countries-details"
           />
           <DetailsCard
             title="Languages"
             caseID="01"
             status="finished"
             img={dhpDicovery4}
-            navigateLink="/languagedetailsbox"
+            navigateLink="/discovery/languages-details"
           />
           <DetailsCard
             title="Emails"
             caseID="01"
             status="finished"
             img={dhpDicovery5}
+            navigateLink="/discovery/email-details "
           />
           <DetailsCard
             title="Phone numbers"
             caseID="01"
             status="finished"
             img={dhpDicovery6}
+            navigateLink="/discovery/phone-details "
           />
           <DetailsCard
             title="Names"
             caseID="01"
             status="finished"
             img={dhpDicovery7}
+            navigateLink="/discovery/name-details "
           />
           <DetailsCard
             title="Addresses"
             caseID="01"
             status="finished"
             img={dhpDicovery8}
+            navigateLink="/discovery/address-details "
+
           />
           <DetailsCard
             title="File types"
             caseID="01"
             status="finished"
             img={dhpDicovery9}
+            navigateLink="/discovery/filetypes-details "
+
           />
         </div>
       </DhpDiscovery>
