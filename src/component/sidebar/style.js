@@ -7,7 +7,7 @@ export const SidebarStyled = styled.div`
   .SidebarMenu {
     background-color: #220367;
     width: 300px;
-    height: 942px;
+    height: 100%;
 
     border-right: 1px solid #72668d;
   }
