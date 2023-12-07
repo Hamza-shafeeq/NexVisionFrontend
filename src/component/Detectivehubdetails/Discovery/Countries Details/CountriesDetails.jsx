@@ -36,7 +36,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      France Companies Index (SIRENE)
+                     Mozambique
                     </span>
                     <span>
                       {" "}
@@ -45,8 +45,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Brazil — National registry of legal entities (Federal
-                      Revenue Agency)
+                      Russia
                     </span>
                     <span>
                       {" "}
@@ -55,7 +54,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Florida Land Property Database
+                     Guernsey
                     </span>
                     <span>
                       {" "}
@@ -64,7 +63,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian Court Cases (РосПравосудие, 2015)
+                      Russian
                     </span>
                     <span>
                       {" "}
@@ -73,7 +72,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK Companies House26998
+                     Liechtenstein
                     </span>
                     <span>
                       {" "}
@@ -82,7 +81,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK People with Significant Control
+                     Uganda
                     </span>
                     <span>
                       {" "}
@@ -91,7 +90,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian companies (OGRN, 2016)
+                     Guinea
                     </span>
                     <span>
                       {" "}
@@ -100,7 +99,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian government officials income and asset declarations
+                      Namibia
                     </span>
                     <span>
                       {" "}
@@ -109,7 +108,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      ClearSpending
+                     Côte d’Ivoire
                     </span>
                     <span>
                       {" "}
@@ -118,7 +117,7 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Moscow Rosreestr 20161190217
+                      United States
                     </span>
                     <span>
                       {" "}
@@ -127,7 +126,52 @@ function CountriesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      German companies registry (OpenCorporates, 2019)
+                     Kyrgyzstan
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                     Malawi
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                     Companies
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                     Brazil
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                     Ireland
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                     Egypt
                     </span>
                   </div>
                 </div>

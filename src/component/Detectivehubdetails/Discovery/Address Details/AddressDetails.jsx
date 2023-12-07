@@ -36,7 +36,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      France Companies Index (SIRENE)
+                      Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -45,8 +45,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Brazil — National registry of legal entities (Federal
-                      Revenue Agency)
+                    Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -55,7 +54,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Florida Land Property Database
+                      Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -64,7 +63,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian Court Cases (РосПравосудие, 2015)
+                   Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -73,7 +72,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK Companies House26998
+                     Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -82,7 +81,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK People with Significant Control
+                     Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -91,7 +90,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian companies (OGRN, 2016)
+                   Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -100,7 +99,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian government officials income and asset declarations
+                     Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -109,7 +108,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      ClearSpending
+                      Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -118,7 +117,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Moscow Rosreestr 20161190217
+                      Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                     <span>
                       {" "}
@@ -127,7 +126,7 @@ function AddressDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      German companies registry (OpenCorporates, 2019)
+                      Guinee,Kankan,Siguiri,<br/>Niagassola
                     </span>
                   </div>
                 </div>

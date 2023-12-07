@@ -36,7 +36,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      France Companies Index (SIRENE)
+                     Companies
                     </span>
                     <span>
                       {" "}
@@ -45,8 +45,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Brazil — National registry of legal entities (Federal
-                      Revenue Agency)
+                      People
                     </span>
                     <span>
                       {" "}
@@ -55,7 +54,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Florida Land Property Database
+                      Legal entities
                     </span>
                     <span>
                       {" "}
@@ -64,7 +63,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian Court Cases (РосПравосудие, 2015)
+                      Real estates
                     </span>
                     <span>
                       {" "}
@@ -73,7 +72,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK Companies House26998
+                     Court cases
                     </span>
                     <span>
                       {" "}
@@ -82,7 +81,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK People with Significant Control
+                     Addresses
                     </span>
                     <span>
                       {" "}
@@ -91,7 +90,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian companies (OGRN, 2016)
+                      Contracts
                     </span>
                     <span>
                       {" "}
@@ -100,7 +99,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian government officials income and asset declarations
+                      Documents
                     </span>
                     <span>
                       {" "}
@@ -109,7 +108,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      ClearSpending
+                      Vehicles
                     </span>
                     <span>
                       {" "}
@@ -118,7 +117,7 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Moscow Rosreestr 20161190217
+                      Web pages
                     </span>
                     <span>
                       {" "}
@@ -127,7 +126,52 @@ function TypesDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      German companies registry (OpenCorporates, 2019)
+                      Files
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                      Organizations
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                      Companies
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                      Text files
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                      Licenses
+                    </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                      Public bodies
                     </span>
                   </div>
                 </div>

@@ -36,7 +36,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      France Companies Index (SIRENE)
+                      Permis de Recherche Industrielle
                     </span>
                     <span>
                       {" "}
@@ -45,8 +45,16 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Brazil — National registry of legal entities (Federal
-                      Revenue Agency)
+                      Permis de Recherche Industrielle (Substance inconnue)
+                      </span>
+                    <span>
+                      {" "}
+                      <input
+                        type="checkbox"
+                        checked={isChecked}
+                        onChange={handleCheckboxChange}
+                      />
+                      Permis de Recherche Industrielle (Bauxite)
                     </span>
                     <span>
                       {" "}
@@ -55,7 +63,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Florida Land Property Database
+                      Autorisation d'Exploitation de Substances de Carrières Permanente
                     </span>
                     <span>
                       {" "}
@@ -64,7 +72,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian Court Cases (РосПравосудие, 2015)
+                      Permis d'Exploitation Minière Industrielle
                     </span>
                     <span>
                       {" "}
@@ -73,7 +81,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK Companies House26998
+                     Autorisation de Reconnaissance
                     </span>
                     <span>
                       {" "}
@@ -82,7 +90,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      UK People with Significant Control
+                      Permis de Recherche Industrielle (Fer)
                     </span>
                     <span>
                       {" "}
@@ -91,7 +99,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian companies (OGRN, 2016)
+                      RConcession Minière
                     </span>
                     <span>
                       {" "}
@@ -100,7 +108,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Russian government officials income and asset declarations
+                      Autorisation de Recherche de Carrières
                     </span>
                     <span>
                       {" "}
@@ -109,7 +117,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      ClearSpending
+                      Autorisation d'Exploitation Artisanale
                     </span>
                     <span>
                       {" "}
@@ -118,16 +126,7 @@ function NameDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Moscow Rosreestr 20161190217
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      German companies registry (OpenCorporates, 2019)
+                     Autorisation d'Exploitation Artisanale
                     </span>
                   </div>
                 </div>

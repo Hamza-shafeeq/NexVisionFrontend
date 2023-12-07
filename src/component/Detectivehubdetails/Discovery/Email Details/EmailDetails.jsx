@@ -36,7 +36,7 @@ function EmailDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      France Companies Index (SIRENE)
+                      abc@gmail.com
                     </span>
                     <span>
                       {" "}
@@ -45,8 +45,7 @@ function EmailDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Brazil — National registry of legal entities (Federal
-                      Revenue Agency)
+                    xyx@gmail.com
                     </span>
                     <span>
                       {" "}
@@ -55,80 +54,9 @@ function EmailDetails() {
                         checked={isChecked}
                         onChange={handleCheckboxChange}
                       />
-                      Florida Land Property Database
+                      okok@gmail.com
                     </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      Russian Court Cases (РосПравосудие, 2015)
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      UK Companies House26998
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      UK People with Significant Control
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      Russian companies (OGRN, 2016)
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      Russian government officials income and asset declarations
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      ClearSpending
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      Moscow Rosreestr 20161190217
-                    </span>
-                    <span>
-                      {" "}
-                      <input
-                        type="checkbox"
-                        checked={isChecked}
-                        onChange={handleCheckboxChange}
-                      />
-                      German companies registry (OpenCorporates, 2019)
-                    </span>
+                    
                   </div>
                 </div>
                 <div className="GeneralSection">
