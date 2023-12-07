@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { useNavigate } from "react-router-dom";
-import { LuArrowUpDown } from "react-icons/lu";
-import { BsFillFilterSquareFill } from "react-icons/bs";
-
-function GeneralUserbox() {
+function GeneralSettingbox() {
   const navigate = useNavigate();
+  const [isChecked, setChecked] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setChecked(!isChecked);
+  };
   return (
     <>
       <Sidebar>
@@ -31,8 +33,8 @@ function GeneralUserbox() {
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number1">3</span>
-                    <span className="GeneralAdd-Title1">User</span>
+                    <span className="GeneralAdd-Number">3</span>
+                    <span className="GeneralAdd-Title">User</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
@@ -59,8 +61,8 @@ function GeneralUserbox() {
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">7</span>
-                    <span className="GeneralAdd-Title">Setting</span>
+                    <span className="GeneralAdd-Number1">7</span>
+                    <span className="GeneralAdd-Title1">Setting</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
@@ -68,53 +70,37 @@ function GeneralUserbox() {
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
                   <h1>Third Party Intelligence</h1>
-                  <span className="General-title">Image Research</span>
+                  <span className="General-title">Setting</span>
                 </div>
               </div>
               <div className="Form-Gapping">
                 <div className="Forms-Setting">
                   <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Username</span>
+                    <span className="Form-Titles">Choose Primary case</span>
                     <div className="FormBox">
                       <input
                         className="NameBox"
                         type="Text"
-                        placeholder="Username "
+                        placeholder="Primary case ID"
                       />
                     </div>
                   </div>
                 </div>
               </div>
-              <div>
-                <div className="Icon-Header-Section">
-                  <div className="Icon-Header-Container">
-                    <div className="Icon-Main-Section">
-                      <span className="Icon-Text">
-                        <LuArrowUpDown className="Icon" />
-                        Image
-                      </span>
-                      <span className="Icon-Text">
-                        <LuArrowUpDown className="Icon" />
-                        Name
-                      </span>
-                      <span className="Icon-Text">
-                        <LuArrowUpDown className="Icon" />
-                        Description
-                      </span>
-                    </div>
-                    <div className="Icon-Main-Section2">
-                      <span className="Icon-Text1">
-                        {" "}
-                        <BsFillFilterSquareFill className="Filter-Icon1" />
-                        Filter
-                      </span>
-                    </div>
-                  </div>
-                  <div className="Icon-bottom-Section">
-                    <span>no data available in table</span>
-                  </div>
+              <div className="Last-Check-Box">
+                <div className="Last-Check-Box-Container">
+                  <span className="Check-Text">Screen Setting</span>
+                  <span className="File-Title1">
+                    <input
+                      type="checkbox"
+                      checked={isChecked}
+                      onChange={handleCheckboxChange}
+                    />
+                    Enable Ongoing Screen
+                  </span>
                 </div>
               </div>
+
               <div className="Buttons-Section">
                 <div className="General-Buttons-Section">
                   <button className="CloseButton">Close</button>
@@ -123,7 +109,7 @@ function GeneralUserbox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    onClick={() => navigate("/generalimageresearch")}
+                    onClick={() => navigate("/kyc-third-party")}
                   >
                     Next
                   </button>
@@ -137,4 +123,4 @@ function GeneralUserbox() {
   );
 }
 
-export default GeneralUserbox;
+export default GeneralSettingbox;

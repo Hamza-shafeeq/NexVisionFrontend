@@ -67,21 +67,17 @@ import GeneralPersonalBox from "./component/Generalpersonalbox/GeneralPersonalBo
 import GeneralUserbox from "./component/Generaluserbox/GeneralUserbox.jsx";
 import GeneralAccountbox from "./component/GeneralAccountbox/GeneralAccountbox.jsx";
 import DiscoveryDatasetdetails from "./component/Detectivehubdetails/Discovery/DataSetsDetails/DataSetsDetails.jsx";
-import DiscoveryTypesDetails from "./component/Detectivehubdetails/Discovery/Types/TypesDetails.jsx"
-import DiscoveryCountriesDetails from "./component/Detectivehubdetails/Discovery/Countries Details/CountriesDetails.jsx"
-import DiscoveryLanguagesDetails from "./component/Detectivehubdetails/Discovery/Languages Details/LanguagesDetails.jsx"
-import DiscoveryEmailDetails from './component/Detectivehubdetails/Discovery/Email Details/EmailDetails.jsx'
-import DiscoveryPhoneDetails from './component/Detectivehubdetails/Discovery/Phone Details/PhoneDetails.jsx'
-import DiscoveryNameDetails from "./component/Detectivehubdetails/Discovery/Name Details/NameDetails.jsx"
-import DiscoveryAddressDetails from "./component/Detectivehubdetails/Discovery/Address Details/AddressDetails.jsx"
-import DiscoveryFileTypesDetails from "./component/Detectivehubdetails/Discovery/FileTypes Details/FileTypesDetails.jsx"
-
-
-
-
-
-
-
+import DiscoveryTypesDetails from "./component/Detectivehubdetails/Discovery/Types/TypesDetails.jsx";
+import DiscoveryCountriesDetails from "./component/Detectivehubdetails/Discovery/Countries Details/CountriesDetails.jsx";
+import DiscoveryLanguagesDetails from "./component/Detectivehubdetails/Discovery/Languages Details/LanguagesDetails.jsx";
+import DiscoveryEmailDetails from "./component/Detectivehubdetails/Discovery/Email Details/EmailDetails.jsx";
+import DiscoveryPhoneDetails from "./component/Detectivehubdetails/Discovery/Phone Details/PhoneDetails.jsx";
+import DiscoveryNameDetails from "./component/Detectivehubdetails/Discovery/Name Details/NameDetails.jsx";
+import DiscoveryAddressDetails from "./component/Detectivehubdetails/Discovery/Address Details/AddressDetails.jsx";
+import DiscoveryFileTypesDetails from "./component/Detectivehubdetails/Discovery/FileTypes Details/FileTypesDetails.jsx";
+import GeneralImageResearch from "./component/GeneralImageresearch/GeneralImageResearch.jsx";
+import GeneralSourceBox from "./component/GeneralSourcebox/GeneralSourceBox.jsx";
+import GeneralSettingbox from "./component/GeneralSettingbox/GeneralSettingbox.jsx";
 
 function App() {
   const location = {
@@ -281,22 +277,47 @@ function App() {
           element={<GeneralAccountbox />}
         ></Route>
 
-        <Route path="/discovery/datasets-details" element={<DiscoveryDatasetdetails />}></Route>
-        <Route path="/discovery/types-details" element={<DiscoveryTypesDetails />}></Route>
-        <Route path="/discovery/countries-details" element={<DiscoveryCountriesDetails />}></Route>
-        <Route path="/discovery/languages-details" element={<DiscoveryLanguagesDetails />}></Route>
-        <Route path="/discovery/email-details" element={<DiscoveryEmailDetails />}></Route>
-        <Route path="/discovery/phone-details" element={<DiscoveryPhoneDetails />}></Route>
-        <Route path="/discovery/name-details" element={<DiscoveryNameDetails />}></Route>
-        <Route path="/discovery/address-details" element={<DiscoveryAddressDetails />}></Route>
-        <Route path="/discovery/filetypes-details" element={<DiscoveryFileTypesDetails />}></Route>
-
-
-
-
-
-
-
+        <Route
+          path="/discovery/datasets-details"
+          element={<DiscoveryDatasetdetails />}
+        ></Route>
+        <Route
+          path="/discovery/types-details"
+          element={<DiscoveryTypesDetails />}
+        ></Route>
+        <Route
+          path="/discovery/countries-details"
+          element={<DiscoveryCountriesDetails />}
+        ></Route>
+        <Route
+          path="/discovery/languages-details"
+          element={<DiscoveryLanguagesDetails />}
+        ></Route>
+        <Route
+          path="/discovery/email-details"
+          element={<DiscoveryEmailDetails />}
+        ></Route>
+        <Route
+          path="/discovery/phone-details"
+          element={<DiscoveryPhoneDetails />}
+        ></Route>
+        <Route
+          path="/discovery/name-details"
+          element={<DiscoveryNameDetails />}
+        ></Route>
+        <Route
+          path="/discovery/address-details"
+          element={<DiscoveryAddressDetails />}
+        ></Route>
+        <Route
+          path="/generalimageresearch"
+          element={<GeneralImageResearch />}
+        ></Route>
+        <Route path="/generalsourcebox" element={<GeneralSourceBox />}></Route>
+        <Route
+          path="/generalsettingbox"
+          element={<GeneralSettingbox />}
+        ></Route>
       </Routes>
     </BrowserRouter>
   );
