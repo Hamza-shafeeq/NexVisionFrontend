@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { SidebarStyled } from "./style";
 import Sidebarlogo from "../../image/logo.png";
 
@@ -21,9 +21,39 @@ function Sidebar({ children }) {
   const [showHubDropdown, setShowHubDropdown] = useState(false);
   const [showGlobalDropdown, setShowGlobalDropdown] = useState(false);
   const [showSocialDropdown, setShowSocialDropdown] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(true); // Sidebar is visible by default
+  const [isSidebarVisible, setIsSidebarVisible] = useState(true);
+
+  const [isNarrowScreen, setIsNarrowScreen] = useState(window.innerWidth < 700);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsNarrowScreen(window.innerWidth < 700);
+    };
+
+    // console.log(isSidebarVisible, "inside method");
+    // console.log(isNarrowScreen);
+
+    window.addEventListener("resize", checkScreenSize);
+
+    return () => {
+      window.removeEventListener("resize", checkScreenSize);
+    };
+  }, [isNarrowScreen || isSidebarVisible]);
+
+  useEffect(() => {
+    if (isNarrowScreen) {
+      console.log("true");
+      setIsSidebarVisible(true);
+      console.log(isSidebarVisible);
+    } else {
+      console.log("false");
+      setIsSidebarVisible(false);
+      console.log(isSidebarVisible);
+    }
+  }, [isNarrowScreen]);
 
   const handleLinkClick = (link) => {
+    console.log(link);
     if (link !== "kyccomplypro") {
       setShowKYCDropdown(false);
     }
@@ -95,22 +125,39 @@ function Sidebar({ children }) {
   const toggleSocialDropdown = () => {
     setShowSocialDropdown(!showSocialDropdown);
   };
-  console.log("Before toggle:", isSidebarVisible);
 
   const toggleSidebar = () => {
     setIsSidebarVisible((prevState) => !prevState);
   };
-  console.log("After toggle:", !isSidebarVisible);
 
   return (
     <>
       <SidebarStyled isSidebarVisible={isSidebarVisible}>
         <div className="sidebar-container">
-          <div className="SidebarMenu">
+          <div
+            className="SidebarMenu"
+            style={{
+              width: isSidebarVisible ? "0px" : "",
+              position: isSidebarVisible ? "absoulte" : "absoulte",
+            }}
+          >
             <div className="Sidebar-Main-Logo">
-              <div className="Sidebar-Logo-Section">
-                <img className="Sidebar-Logo" src={Sidebarlogo} alt="" />
-                <div className="ArrowIcon-Hamberg">
+              <div className="Sidebar-Logo-Section ">
+                <img
+                  className="Sidebar-Logo"
+                  src={Sidebarlogo}
+                  alt=""
+                  style={{
+                    display: isSidebarVisible ? "none" : "",
+                  }}
+                />
+                <div
+                  className="ArrowIcon-Hamberg"
+                  style={{
+                    marginLeft: isSidebarVisible ? "30px" : "",
+                    marginTop: isSidebarVisible ? "30px" : "",
+                  }}
+                >
                   <IoIosArrowBack
                     className={`ArrowIcon ${
                       isSidebarVisible ? "arrow-closed" : "arrow-open"
@@ -121,14 +168,29 @@ function Sidebar({ children }) {
               </div>
             </div>
             <div className="Sidebar-Full-Menu">
-              <p className="Sidebar-Main-Title-Section">Main</p>
+              <p
+                className="Sidebar-Main-Title-Section"
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
+              >
+                Main
+              </p>
               <div
                 className={`Sidebar-Links2 ${
                   activeLink === "insightAi" ? "active" : ""
                 }`}
                 onClick={() => handleLinkClick("insightAi")}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
-                <div className="Sidebar-Links-Set">
+                <div
+                  className="Sidebar-Links-Set"
+                  style={{
+                    display: isSidebarVisible ? "none" : "",
+                  }}
+                >
                   {" "}
                   <PiSuitcaseSimple className="Links-Logo" /> Insight Al
                 </div>
@@ -138,8 +200,16 @@ function Sidebar({ children }) {
                   activeLink === "armor" ? "active" : ""
                 }`}
                 onClick={toggleARMORDropdown}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
-                <div className="Sidebar-Links-Set">
+                <div
+                  className="Sidebar-Links-Set"
+                  style={{
+                    display: isSidebarVisible ? "none" : "",
+                  }}
+                >
                   <PiSuitcaseSimple className="Links-Logo" /> ArmorNet Pro
                 </div>
 
@@ -189,8 +259,16 @@ function Sidebar({ children }) {
                   activeLink === "hub" ? "active" : ""
                 }`}
                 onClick={toggleHubDropdown}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
-                <div className="Sidebar-Links-Set">
+                <div
+                  className="Sidebar-Links-Set"
+                  style={{
+                    display: isSidebarVisible ? "none" : "",
+                  }}
+                >
                   {" "}
                   <PiSuitcaseSimple className="Links-Logo" /> DetectiveHub Pro
                 </div>
@@ -240,6 +318,9 @@ function Sidebar({ children }) {
                   activeLink === "global" ? "active" : ""
                 }`}
                 onClick={() => toggleGlobalDropdown("global")}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
                 <div className="Sidebar-Links-Set">
                   {" "}
@@ -287,6 +368,9 @@ function Sidebar({ children }) {
                   activeLink === "social" ? "active" : ""
                 }`}
                 onClick={() => toggleSocialDropdown("social")}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
                 <div className="Sidebar-Links-Set">
                   {" "}
@@ -316,6 +400,9 @@ function Sidebar({ children }) {
                   activeLink === "kyccomplypro" ? "active" : ""
                 }`}
                 onClick={toggleKYCDropdown}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
                 <div className="Sidebar-Links-Set">
                   {" "}
@@ -384,6 +471,9 @@ function Sidebar({ children }) {
                   activeLink === "investigate" ? "active" : ""
                 }`}
                 onClick={() => handleLinkClick("investigate")}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
                 <div className="Sidebar-Links-Set">
                   <PiSuitcaseSimple className="Links-Logo" /> E- Investigate Pro
@@ -396,8 +486,16 @@ function Sidebar({ children }) {
                   activeLink === "coin" ? "active" : ""
                 }`}
                 onClick={() => handleLinkClick("coin")}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
-                <div className="Sidebar-Links-Set">
+                <div
+                  className="Sidebar-Links-Set"
+                  style={{
+                    display: isSidebarVisible ? "none" : "",
+                  }}
+                >
                   {" "}
                   <PiSuitcaseSimple className="Links-Logo" /> CoinTrack Pro
                 </div>
@@ -409,6 +507,9 @@ function Sidebar({ children }) {
                   activeLink === "report" ? "active" : ""
                 }`}
                 onClick={() => handleLinkClick("report")}
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
               >
                 <div className="Sidebar-Links-Set">
                   {" "}
@@ -418,7 +519,12 @@ function Sidebar({ children }) {
                 <RiArrowDropDownLine className="Links-Logo" />
               </span>
 
-              <div className="Sidebar-Main-Admin-Tools">
+              <div
+                className="Sidebar-Main-Admin-Tools "
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
+              >
                 <div className="Border"></div>
                 <p className="Sidebar-Main-Title">ADMIN TOOLS</p>
 
@@ -465,7 +571,12 @@ function Sidebar({ children }) {
                 </div>
               </div>
 
-              <div className="Sidebar-Container">
+              <div
+                className="Sidebar-Container"
+                style={{
+                  display: isSidebarVisible ? "none" : "",
+                }}
+              >
                 <div className="Sidebar-Links-Section">
                   <span className="Sidebar-Links6">
                     <IoIosInformationCircleOutline className="Links-Logo" />

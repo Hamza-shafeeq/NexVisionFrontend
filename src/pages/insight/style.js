@@ -427,6 +427,7 @@ export const InsightStyled = styled.div`
       flex-direction: column;
       border-radius: 19px;
     }
+
     .Examples-Text-Section {
       margin-left: 20px;
       display: flex;
@@ -481,6 +482,14 @@ export const InsightStyled = styled.div`
       padding-bottom: 20px;
       color: #591ddd;
       width: 231px;
+    }
+    .Examples-Card-Section {
+      display: flex;
+      width: 295px;
+      height: 300px;
+      justify-content: center;
+      margin-bottom: 10px;
+      border-radius: 30px;
     }
   }
 `;
