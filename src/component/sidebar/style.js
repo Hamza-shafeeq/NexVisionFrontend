@@ -340,5 +340,115 @@ export const SidebarStyled = styled.div`
       position: absolute;
       border-right: 1px solid #72668d;
     }
+    .Credit-Main-Section {
+      display: flex;
+      flex-direction: column;
+
+      width: 100%;
+    }
+    .sidebar-header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .Credit-Section {
+      width: 130px;
+      border-radius: 13px;
+      display: flex;
+      justify-content: center;
+      margin-right: 20px;
+      align-items: center;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 30px;
+      background-color: #fff5cf;
+    }
+    .Avatar-Title {
+      font-size: 12px;
+      font-weight: 400;
+      color: #2d2f39;
+      width: 106px;
+    }
+    .Avatar-Text {
+      font-size: 13px;
+      font-weight: 500;
+      color: #2d2f39;
+    }
+    .Avatar-Main-Section {
+      display: flex;
+      background-color: #e9dffe;
+      width: 175px;
+      height: 57px;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 18px;
+      gap: 5px;
+    }
+    .Manager-Avatar {
+      height: 35px;
+    }
+  }
+  @media all and (max-width: 440px) {
+    .SidebarMenu {
+      background-color: #220367;
+      width: 250px;
+      height: 942px;
+      position: absolute;
+      border-right: 1px solid #72668d;
+    }
+    .Credit-Main-Section {
+      display: flex;
+      flex-direction: column;
+
+      width: 100%;
+    }
+    .sidebar-header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .Credit-Section {
+      width: 97px;
+      border-radius: 13px;
+      display: flex;
+      justify-content: center;
+      margin-right: 20px;
+      align-items: center;
+      flex-direction: column;
+      height: 47px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 30px;
+      background-color: #fff5cf;
+    }
+    .Avatar-Title {
+      font-size: 12px;
+      font-weight: 400;
+      color: #2d2f39;
+      width: 106px;
+    }
+    .Avatar-Text {
+      font-size: 13px;
+      font-weight: 500;
+      color: #2d2f39;
+    }
+    .Avatar-Main-Section {
+      display: flex;
+      background-color: #e9dffe;
+      width: 156px;
+      height: 50px;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 18px;
+      gap: 5px;
+    }
+    .Manager-Avatar {
+      height: 35px;
+    }
   }
 `;

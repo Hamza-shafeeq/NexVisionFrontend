@@ -16,12 +16,18 @@ export const GeneralDataAddStyle = styled.div`
     margin-top: 10px;
     display: flex;
     height: 58px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 14px;
+  }
+  .Border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     border-bottom: 3px solid #7c7b7f;
   }
-
   .GeneralAdd-Title-Section {
     display: flex;
     justify-content: center;
@@ -185,5 +191,192 @@ export const GeneralDataAddStyle = styled.div`
   .General-Buttons-Section1 {
     gap: 10px;
     display: flex;
+  }
+
+  @media all and (max-width: 1190px) {
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 50px;
+    }
+  }
+  @media all and (max-width: 837px) {
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 90px;
+    }
+  }
+  @media all and (max-width: 782px) {
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 90px;
+    }
+  }
+  @media all and (max-width: 600px) {
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 120px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      margin-top: 70px;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 38px;
+    }
+  }
+  @media all and (max-width: 560px) {
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 120px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      margin-top: 70px;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 100px;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 700px;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 285px;
+    }
+  }
+  @media all and (max-width: 343px) {
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 113px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      margin-top: 70px;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 150px;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 700px;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 285px;
+    }
   }
 `;

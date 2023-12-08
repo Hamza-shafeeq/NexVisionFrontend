@@ -16,9 +16,16 @@ export const GeneralDataAddStyle = styled.div`
     margin-top: 10px;
     display: flex;
     height: 58px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 14px;
+  }
+  .Border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     border-bottom: 3px solid #7c7b7f;
   }
 
@@ -254,5 +261,273 @@ export const GeneralDataAddStyle = styled.div`
     height: 40px;
     padding: 8px;
     border-radius: 10px;
+  }
+  @media all and (max-width: 1190px) {
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 50px;
+    }
+  }
+  @media all and (max-width: 837px) {
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 90px;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    .Icon-Header-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 782px) {
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 90px;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    .Icon-Header-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 600px) {
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .File-Container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 150px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 120px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 38px;
+    }
+    .Icon-Header-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 560px) {
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .File-Container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 150px;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 259px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 120px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    .GeneralAddBox-Header {
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      height: 58px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      margin-top: 150px;
+      border-bottom: 3px solid #7c7b7f;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 700px;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .Icon-Header-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 285px;
+    }
+  }
+  @media all and (max-width: 343px) {
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Icon-Header-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 113px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 150px;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 700px;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 285px;
+    }
   }
 `;

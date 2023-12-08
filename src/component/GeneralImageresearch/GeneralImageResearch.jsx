@@ -63,6 +63,7 @@ function GeneralImageResearch() {
                 <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
               </div>
             </div>
+            <div className="Border"></div>
             <div className="GeneralAdd-Header-Gapping">
               <div className="General-Add-Header">
                 <h1>Third Party Intelligence</h1>

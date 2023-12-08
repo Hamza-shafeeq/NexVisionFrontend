@@ -19,9 +19,15 @@ export const GeneralDataAddStyle = styled.div`
     justify-content: center;
     align-items: center;
     gap: 14px;
+    flex-wrap: wrap;
+  }
+  .Border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     border-bottom: 3px solid #7c7b7f;
   }
-
   .GeneralAdd-Title-Section {
     display: flex;
     justify-content: center;
@@ -259,5 +265,402 @@ export const GeneralDataAddStyle = styled.div`
   .File-Right-Section {
     display: flex;
     flex-direction: column;
+  }
+  @media all and (max-width: 1190px) {
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 50px;
+    }
+    .NameBox {
+      width: 260px;
+      height: 37px;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      background-color: #efeef2;
+    }
+    .FormBox {
+      border: 2px #e6ebf2 solid;
+      width: 270px;
+      padding: 4px;
+      background-color: #efeef2;
+      border-radius: 9px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 100%;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 837px) {
+    .NameBox {
+      width: 220px;
+      height: 37px;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      background-color: #efeef2;
+    }
+    .FormBox {
+      border: 2px #e6ebf2 solid;
+      width: 240px;
+      padding: 4px;
+      background-color: #efeef2;
+      border-radius: 9px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 90px;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      gap: 14px;
+      flex-direction: column;
+    }
+    .File-Container {
+      display: flex;
+      width: 100%;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 100%;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 782px) {
+    .NameBox {
+      width: 200px;
+      height: 37px;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      background-color: #efeef2;
+    }
+    .FormBox {
+      border: 2px #e6ebf2 solid;
+      width: 210px;
+      padding: 4px;
+      background-color: #efeef2;
+      border-radius: 9px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 90px;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      gap: 14px;
+      flex-direction: column;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 100%;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .File-Container {
+      display: flex;
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 600px) {
+    .NameBox {
+      width: 260px;
+      height: 37px;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      background-color: #efeef2;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 100%;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .FormBox {
+      border: 2px #e6ebf2 solid;
+      width: 270px;
+      padding: 4px;
+      background-color: #efeef2;
+      border-radius: 9px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 120px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      gap: 14px;
+      flex-direction: column;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 38px;
+    }
+    .File-Container {
+      display: flex;
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 560px) {
+    .Last-Check-Box-Container {
+      display: flex;
+      flex-direction: column;
+      width: 58%;
+      justify-content: center;
+    }
+    .Last-Check-Box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      width: 100%;
+    }
+    .NameBox {
+      width: 260px;
+      height: 37px;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      background-color: #efeef2;
+    }
+    .FormBox {
+      border: 2px #e6ebf2 solid;
+      width: 270px;
+      padding: 4px;
+      background-color: #efeef2;
+      border-radius: 9px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 130px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      gap: 14px;
+      flex-direction: column;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 150px;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 100%;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 285px;
+    }
+    .File-Container {
+      display: flex;
+      width: 100%;
+    }
+  }
+  @media all and (max-width: 343px) {
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 82%;
+      justify-content: center;
+      margin-top: 50px;
+      align-items: flex-start;
+    }
+    .NameBox {
+      width: 260px;
+      height: 37px;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      background-color: #efeef2;
+    }
+    .FormBox {
+      border: 2px #e6ebf2 solid;
+      width: 270px;
+      padding: 4px;
+      background-color: #efeef2;
+      border-radius: 9px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      width: 120px;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+      gap: 14px;
+      flex-direction: column;
+    }
+    .Border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      border-bottom: 3px solid #7c7b7f;
+      margin-top: 150px;
+    }
+    .GeneralDataAdd-Container {
+      display: flex;
+      width: 98%;
+      height: 100%;
+      background-color: #faf8ff;
+      flex-direction: column;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 285px;
+    }
+    .Last-Check-Box-Container {
+      display: flex;
+      flex-direction: column;
+      width: 58%;
+      justify-content: center;
+    }
+    .Last-Check-Box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      width: 100%;
+    }
+    .File-Container {
+      display: flex;
+      width: 100%;
+    }
   }
 `;
