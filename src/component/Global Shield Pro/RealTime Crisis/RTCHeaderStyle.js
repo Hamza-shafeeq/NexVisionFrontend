@@ -85,4 +85,115 @@ background-color: #F4F4F4;
   height:100px;
 }
 
+
+@media all and (max-width: 1000px) {
+  .rtc-header-container {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .rtc-cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 6px;
+  }
+  .rtc-title-text {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .rtc-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+  }
+  .rtc-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+  }
+  .rtc-cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+  }
+  .rtc-btn {
+    width: 92px;
+    height: 38px;
+    background-color: #591ddd;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .rtc-search {
+    width: 184px;
+    height: 37px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #edeaf4;
+  }
+}
+@media all and (max-width: 750px) {
+  .rtc-header-container {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .rtc-title-text {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .rtc-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+  }
+  .rtc-cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 6px;
+  }
+  .rtc-btn {
+    width: 80px;
+    height: 40px;
+    background-color: #591ddd;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .rtc-search {
+    width: 115px;
+    height: 37px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #edeaf4;
+  }
+}
+
+
 `;
