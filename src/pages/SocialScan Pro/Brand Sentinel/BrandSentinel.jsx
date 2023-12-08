@@ -41,6 +41,7 @@ export default function BrandSentinel() {
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/social-scan-detials/mentions-details"
           />
           <DetailsCard title="Topics" caseID="01" status="finished" img={Ssp} />
           <DetailsCard
@@ -48,24 +49,28 @@ export default function BrandSentinel() {
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/social-scan-detials/brandlanguagedetails"
           />
           <DetailsCard
             title="Social Media"
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/social-scan-detials/socialmedia-details"
           />
           <DetailsCard
             title="Gender/Age"
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/social-scan-detials/gender-details"
           />
           <DetailsCard
             title="E-commerce"
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/social-scan-detials/ecommerce-details"
           />
           <DetailsCard
             title="Sentiment"
@@ -79,6 +84,7 @@ export default function BrandSentinel() {
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/social-scan-detials/timeline-details"
           />
           <DetailsCard
             title="Countries"

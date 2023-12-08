@@ -78,6 +78,14 @@ import DiscoveryFileTypesDetails from "./component/Detectivehubdetails/Discovery
 import GeneralImageResearch from "./component/GeneralImageresearch/GeneralImageResearch.jsx";
 import GeneralSourceBox from "./component/GeneralSourcebox/GeneralSourceBox.jsx";
 import GeneralSettingbox from "./component/GeneralSettingbox/GeneralSettingbox.jsx";
+import TimelineDetails from "./component/BrandSentineldetails/Timelinedetails/TimelineDetails.jsx";
+import MentionsDetails from "./component/BrandSentineldetails/Mentionsdetails/MentionsDetails.jsx";
+
+import ECommerceDetails from "./component/BrandSentineldetails/ECommercedetails/ECommerceDetails.jsx";
+import GenderDetails from "./component/BrandSentineldetails/Genderdetails/GenderDetails.jsx";
+import SocialMediaDetails from "./component/BrandSentineldetails/Socialmediadetails/SocialMediaDetails.jsx";
+import BrandLanguageDetails from "./component/BrandSentineldetails/Brandlanguagedetails/BrandLanguageDetails.jsx";
+import SentimentDetails from "./component/BrandSentineldetails/Sentimentdetails/SentimentDetails.jsx";
 
 function App() {
   const location = {
@@ -317,6 +325,34 @@ function App() {
         <Route
           path="/generalsettingbox"
           element={<GeneralSettingbox />}
+        ></Route>
+        <Route
+          path="/social-scan-detials/mentions-details"
+          element={<MentionsDetails />}
+        ></Route>
+        <Route
+          path="/social-scan-detials/timeline-details"
+          element={<TimelineDetails />}
+        ></Route>
+        <Route
+          path="/social-scan-detials/ecommerce-details"
+          element={<ECommerceDetails />}
+        ></Route>
+        <Route
+          path="/social-scan-detials/gender-details"
+          element={<GenderDetails />}
+        ></Route>
+        <Route
+          path="/social-scan-detials/socialmedia-details"
+          element={<SocialMediaDetails />}
+        ></Route>
+        <Route
+          path="/social-scan-detials/brandlanguagedetails"
+          element={<BrandLanguageDetails />}
+        ></Route>
+        <Route
+          path="/social-scan-detials/sentiment-details"
+          element={<SentimentDetails />}
         ></Route>
       </Routes>
     </BrowserRouter>

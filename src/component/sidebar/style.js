@@ -412,15 +412,15 @@ export const SidebarStyled = styled.div`
       width: 100%;
     }
     .Credit-Section {
-      width: 97px;
+      width: 117px;
       border-radius: 13px;
       display: flex;
       justify-content: center;
-      margin-right: 20px;
+      margin-right: 6px;
       align-items: center;
       flex-direction: column;
-      height: 47px;
-      font-size: 16px;
+      height: 40px;
+      font-size: 13px;
       font-weight: 600;
       margin-top: 30px;
       background-color: #fff5cf;
