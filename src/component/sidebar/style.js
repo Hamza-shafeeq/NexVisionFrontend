@@ -8,7 +8,7 @@ export const SidebarStyled = styled.div`
     background-color: #220367;
     width: 300px;
     height: 100vh;
-
+    overflow: auto;
     border-right: 1px solid #72668d;
   }
   .Sidebar-Main-Section {
