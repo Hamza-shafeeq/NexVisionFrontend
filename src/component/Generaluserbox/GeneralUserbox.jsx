@@ -68,7 +68,9 @@ function GeneralUserbox() {
               <div className="Border"></div>
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
-                  <h1>Third Party Intelligence</h1>
+                  <h1 className="Third-Party-Title">
+                    Third Party Intelligence
+                  </h1>
                   <span className="General-title">Select User</span>
                 </div>
               </div>
@@ -76,12 +78,15 @@ function GeneralUserbox() {
                 <div className="Forms-Setting">
                   <div className="Form-Titles-Setting">
                     <span className="Form-Titles">Username</span>
-                    <div className="FormBox">
-                      <input
-                        className="NameBox"
-                        type="Text"
-                        placeholder="Username "
-                      />
+                    <div className="Forms-Button">
+                      <div className="FormBox">
+                        <input
+                          className="NameBox"
+                          type="Text"
+                          placeholder="Username "
+                        />
+                      </div>{" "}
+                      <button className="ApplyButton">Apply</button>
                     </div>
                   </div>
                 </div>

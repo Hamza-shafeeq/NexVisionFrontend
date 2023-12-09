@@ -135,6 +135,20 @@ function Sidebar({ children }) {
       <SidebarStyled isSidebarVisible={isSidebarVisible}>
         <div className="sidebar-container">
           <div
+            className="ArrowIcon-Hamberg"
+            style={{
+              marginLeft: isSidebarVisible ? "-198px" : "",
+              marginTop: isSidebarVisible ? "16px" : "",
+            }}
+          >
+            <IoIosArrowBack
+              className={`ArrowIcon ${
+                isSidebarVisible ? "arrow-closed" : "arrow-open"
+              }`}
+              onClick={toggleSidebar}
+            />
+          </div>
+          <div
             className="SidebarMenu"
             style={{
               width: isSidebarVisible ? "0px" : "",
@@ -151,20 +165,6 @@ function Sidebar({ children }) {
                     display: isSidebarVisible ? "none" : "",
                   }}
                 />
-                <div
-                  className="ArrowIcon-Hamberg"
-                  style={{
-                    marginLeft: isSidebarVisible ? "30px" : "",
-                    marginTop: isSidebarVisible ? "30px" : "",
-                  }}
-                >
-                  <IoIosArrowBack
-                    className={`ArrowIcon ${
-                      isSidebarVisible ? "arrow-closed" : "arrow-open"
-                    }`}
-                    onClick={toggleSidebar}
-                  />
-                </div>
               </div>
             </div>
             <div className="Sidebar-Full-Menu">

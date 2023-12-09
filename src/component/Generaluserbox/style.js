@@ -164,6 +164,13 @@ export const GeneralDataAddStyle = styled.div`
     justify-content: center;
     margin-top: 50px;
   }
+  .Forms-Button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
   .CloseButton {
     width: 113px;
     height: 44px;
@@ -176,6 +183,16 @@ export const GeneralDataAddStyle = styled.div`
   }
   .General-Buttons-Section {
     width: 50%;
+  }
+  .ApplyButton {
+    width: 113px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: #8154e5;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #8154e5;
   }
   .NextButton {
     width: 113px;
@@ -244,7 +261,7 @@ export const GeneralDataAddStyle = styled.div`
       margin-top: 50px;
     }
     .NameBox {
-      width: 260px;
+      width: 370px;
       height: 37px;
       font-size: 17px;
       border: none;
@@ -253,7 +270,7 @@ export const GeneralDataAddStyle = styled.div`
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 270px;
+      width: 380px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -270,6 +287,14 @@ export const GeneralDataAddStyle = styled.div`
       border: none;
       outline: none;
       background-color: #efeef2;
+    }
+    .Forms-Button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
@@ -289,6 +314,17 @@ export const GeneralDataAddStyle = styled.div`
       border-bottom: 3px solid #7c7b7f;
       margin-top: 90px;
     }
+    .ApplyButton {
+      width: 390px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+      margin-bottom: 30px;
+    }
   }
   @media all and (max-width: 782px) {
     .NameBox {
@@ -298,6 +334,25 @@ export const GeneralDataAddStyle = styled.div`
       border: none;
       outline: none;
       background-color: #efeef2;
+    }
+    .ApplyButton {
+      width: 340px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+      margin-bottom: 30px;
+    }
+    .Forms-Button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
@@ -374,7 +429,25 @@ export const GeneralDataAddStyle = styled.div`
       width: 100%;
       align-items: center;
     }
-
+    .ApplyButton {
+      width: 380px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+      margin-bottom: 30px;
+    }
+    .Forms-Button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+    }
     .NextButton {
       width: 280px;
       height: 44px;
@@ -419,6 +492,9 @@ export const GeneralDataAddStyle = styled.div`
     }
   }
   @media all and (max-width: 560px) {
+    .Third-Party-Title {
+      width: 200px;
+    }
     .NameBox {
       width: 290px;
       height: 37px;
@@ -426,6 +502,25 @@ export const GeneralDataAddStyle = styled.div`
       border: none;
       outline: none;
       background-color: #efeef2;
+    }
+    .ApplyButton {
+      width: 300px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+      margin-bottom: 30px;
+    }
+    .Forms-Button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
@@ -480,7 +575,7 @@ export const GeneralDataAddStyle = styled.div`
       flex-direction: column;
       width: 285px;
       justify-content: center;
-      align-items: baseline;
+      align-items: center;
     }
     .Buttons-Section {
       display: flex;
@@ -549,6 +644,9 @@ export const GeneralDataAddStyle = styled.div`
       border: none;
       outline: none;
       background-color: #efeef2;
+    }
+    .Third-Party-Title {
+      width: 174;
     }
     .FormBox {
       border: 2px #e6ebf2 solid;

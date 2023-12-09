@@ -9,6 +9,7 @@ export const SidebarStyled = styled.div`
     width: 300px;
     height: 100vh;
     overflow: auto;
+
     border-right: 1px solid #72668d;
   }
   .Sidebar-Main-Section {
@@ -316,6 +317,10 @@ export const SidebarStyled = styled.div`
     width: 25px;
     height: 25px;
     border-radius: 7px;
+    z-index: 1;
+    position: absolute;
+    left: 206px;
+    top: 28px;
   }
 
   .ArrowIcon {
