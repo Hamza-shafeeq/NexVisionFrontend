@@ -10,7 +10,7 @@ export const ThirdviewStyled = styled.div`
     width: 100%;
   }
   .Third-View-Container {
-      display: flex;
+    display: flex;
     /* margin-top: 50px; */
     background-color: #faf8ff;
     width: 100%;
@@ -56,9 +56,9 @@ export const ThirdviewStyled = styled.div`
     align-items: center;
     justify-content: center; */
     background-color: #efeef1;
-    width:100%;
-    height:60px;
-   
+    width: 100%;
+    height: 60px;
+
     /* gap: 69px;
     width: 100%;
     font-size: 17px;
@@ -66,19 +66,19 @@ export const ThirdviewStyled = styled.div`
     border-radius: 12px; */
   }
 
-.General-Table-Section{
-  width: 1000px;
-  text-align:center;
-     height: 130px; 
-}
+  .General-Table-Section {
+    width: 1000px;
+    text-align: center;
+    height: 130px;
+  }
 
   .General-Bottom-Section {
     /* display: flex;
     align-items: center; */
-   
+
     background-color: #ffffff;
-    width:100%;
-    height:60px;
+    width: 100%;
+    height: 60px;
     /* justify-content: center;
 
     gap: 63px;
@@ -117,5 +117,17 @@ export const ThirdviewStyled = styled.div`
     background-color: #591ddd;
     color: #ffffff;
     border: none;
+  }
+  @media all and (max-width: 800px) {
+    .Third-View-Title {
+      margin-top: 0px;
+    }
+    .GeneralSection {
+      width: 340px;
+      background-color: #efeef2;
+      height: 130px;
+      border-radius: 12px;
+      margin-left: 21px;
+    }
   }
 `;

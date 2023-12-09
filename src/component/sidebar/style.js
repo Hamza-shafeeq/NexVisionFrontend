@@ -7,7 +7,7 @@ export const SidebarStyled = styled.div`
   .SidebarMenu {
     background-color: #220367;
     width: 300px;
-    height: 100%;
+    height: 100vh;
 
     border-right: 1px solid #72668d;
   }
@@ -153,7 +153,6 @@ export const SidebarStyled = styled.div`
   .Sidebar-Links.active {
     width: 210px;
     border-radius: 11px;
-    margin-left: 10px;
 
     gap: 8px;
     background-color: #4617b2;
