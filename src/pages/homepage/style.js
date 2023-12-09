@@ -561,7 +561,7 @@ export const HomepageStyled = styled.div`
     }
     .Signup-Background-Adjustment {
       display: flex;
-      width: 87%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
@@ -699,7 +699,7 @@ export const HomepageStyled = styled.div`
     }
     .Signup-Container {
       display: flex;
-      width: 86%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
@@ -710,13 +710,13 @@ export const HomepageStyled = styled.div`
     }
     .Signup-Background-Adjustment {
       display: flex;
-      width: 87%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
     .Sign-UP-Button {
       height: 45px;
-      width: 250px;
+      width: 263px;
       border: none;
       border-radius: 10px;
       background-color: #591ddd;
@@ -841,7 +841,9 @@ export const HomepageStyled = styled.div`
     }
     .Sign-Button-Section {
       display: flex;
-      width: 70%;
+      width: 100%;
+      justify-content: flex-end;
+      align-items: center;
     }
     .Sign-Form {
       display: flex;
@@ -855,12 +857,12 @@ export const HomepageStyled = styled.div`
     .Forget-Text-Section {
       display: flex;
       gap: 10px;
-      width: 80%;
+      width: 70%;
       align-items: center;
     }
     .Signup-Container {
       display: flex;
-      width: 88%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }

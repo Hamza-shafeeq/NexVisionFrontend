@@ -309,7 +309,7 @@ export const OtppageStyled = styled.div`
     }
     .Sign-UP-Button {
       height: 45px;
-      width: 250px;
+      width: 300px;
       border: none;
       border-radius: 10px;
       background-color: #591ddd;
@@ -379,6 +379,9 @@ export const OtppageStyled = styled.div`
     .Sign-Button-Section {
       display: flex;
       width: 100%;
+      justify-content: flex-start;
+
+      align-items: center;
     }
   }
   @media all and (max-width: 627px) {
@@ -393,7 +396,7 @@ export const OtppageStyled = styled.div`
     }
     .Sign-UP-Button {
       height: 45px;
-      width: 250px;
+      width: 295px;
       border: none;
       border-radius: 10px;
       background-color: #591ddd;
@@ -501,6 +504,9 @@ export const OtppageStyled = styled.div`
     .Sign-Button-Section {
       display: flex;
       width: 100%;
+      justify-content: flex-start;
+
+      align-items: center;
     }
   }
   @media all and (max-width: 457px) {
@@ -509,13 +515,13 @@ export const OtppageStyled = styled.div`
     }
     .Signup-Background-Adjustment {
       display: flex;
-      width: 87%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
     .Sign-UP-Button {
       height: 45px;
-      width: 250px;
+      width: 295px;
       border: none;
       border-radius: 10px;
       background-color: #591ddd;
@@ -629,7 +635,9 @@ export const OtppageStyled = styled.div`
     }
     .Sign-Button-Section {
       display: flex;
-      width: 70%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
     }
     .Sign-Form {
       display: flex;
@@ -647,7 +655,7 @@ export const OtppageStyled = styled.div`
     }
     .Signup-Container {
       display: flex;
-      width: 86%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
@@ -658,13 +666,13 @@ export const OtppageStyled = styled.div`
     }
     .Signup-Background-Adjustment {
       display: flex;
-      width: 87%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
     .Sign-UP-Button {
       height: 45px;
-      width: 250px;
+      width: 255px;
       border: none;
       border-radius: 10px;
       background-color: #591ddd;
@@ -728,14 +736,14 @@ export const OtppageStyled = styled.div`
       display: flex;
       align-items: center;
       flex-direction: column;
-      width: 78%;
+      width: 89%;
     }
     .Form-Box-Text {
       display: flex;
       flex-direction: column;
       gap: 10px;
       justify-content: center;
-      width: 73%;
+      width: 90%;
     }
 
     .Footer-Main-Section {
@@ -789,7 +797,9 @@ export const OtppageStyled = styled.div`
     }
     .Sign-Button-Section {
       display: flex;
-      width: 70%;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
     }
     .Sign-Form {
       display: flex;
@@ -808,7 +818,7 @@ export const OtppageStyled = styled.div`
     }
     .Signup-Container {
       display: flex;
-      width: 88%;
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
