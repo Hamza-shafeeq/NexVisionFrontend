@@ -91,6 +91,7 @@ export default function BrandSentinel() {
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/geopolitical-intelligence/map"
           />
           <DetailsCard
             title="Posts"
