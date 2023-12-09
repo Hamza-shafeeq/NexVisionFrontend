@@ -264,7 +264,7 @@ export const GeneralDataAddStyle = styled.div`
   }
   @media all and (max-width: 837px) {
     .NameBox {
-      width: 220px;
+      width: 340px;
       height: 37px;
       font-size: 17px;
       border: none;
@@ -273,7 +273,7 @@ export const GeneralDataAddStyle = styled.div`
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 240px;
+      width: 380px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -292,7 +292,7 @@ export const GeneralDataAddStyle = styled.div`
   }
   @media all and (max-width: 782px) {
     .NameBox {
-      width: 200px;
+      width: 317px;
       height: 37px;
       font-size: 17px;
       border: none;
@@ -301,7 +301,7 @@ export const GeneralDataAddStyle = styled.div`
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 210px;
+      width: 337px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -317,10 +317,24 @@ export const GeneralDataAddStyle = styled.div`
       border-bottom: 3px solid #7c7b7f;
       margin-top: 90px;
     }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .General-Add-Header {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
   }
   @media all and (max-width: 600px) {
     .NameBox {
-      width: 260px;
+      width: 360px;
       height: 37px;
       font-size: 17px;
       border: none;
@@ -329,7 +343,7 @@ export const GeneralDataAddStyle = styled.div`
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 270px;
+      width: 386px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -355,7 +369,31 @@ export const GeneralDataAddStyle = styled.div`
       flex-wrap: wrap;
     }
     .General-Buttons-Section {
-      width: 0px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+
+    .NextButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
     }
     .General-Buttons-Section1 {
       flex-direction: column;
@@ -382,7 +420,7 @@ export const GeneralDataAddStyle = styled.div`
   }
   @media all and (max-width: 560px) {
     .NameBox {
-      width: 260px;
+      width: 290px;
       height: 37px;
       font-size: 17px;
       border: none;
@@ -391,7 +429,7 @@ export const GeneralDataAddStyle = styled.div`
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 270px;
+      width: 300px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -407,18 +445,7 @@ export const GeneralDataAddStyle = styled.div`
       flex-direction: column;
       gap: 10px;
     }
-    .Buttons-Section {
-      display: flex;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-      margin-top: 50px;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    .General-Buttons-Section {
-      width: 113px;
-    }
+
     .General-Buttons-Section1 {
       flex-direction: column;
       gap: 10px;
@@ -452,6 +479,66 @@ export const GeneralDataAddStyle = styled.div`
       display: flex;
       flex-direction: column;
       width: 285px;
+      justify-content: center;
+      align-items: baseline;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+
+    .NextButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
+    }
+    .Icon-bottom-Section {
+      display: flex;
+      width: 300px;
+      margin-top: 19px;
+      background-color: white;
+      color: #b0b0b0;
+      height: 40px;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .Icon-Header-Container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 300px;
+      margin-top: 19px;
+      background-color: #efeef2;
+      height: 40px;
+      font-size: 15px;
+      padding: 8px;
+      border-radius: 10px;
     }
   }
   @media all and (max-width: 343px) {
@@ -491,7 +578,31 @@ export const GeneralDataAddStyle = styled.div`
       flex-wrap: wrap;
     }
     .General-Buttons-Section {
-      width: 113px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+
+    .NextButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
     }
     .General-Buttons-Section1 {
       flex-direction: column;
@@ -526,6 +637,28 @@ export const GeneralDataAddStyle = styled.div`
       display: flex;
       flex-direction: column;
       width: 285px;
+    }
+    .Icon-bottom-Section {
+      display: flex;
+      width: 85%;
+      margin-top: 19px;
+      background-color: white;
+      color: #b0b0b0;
+      height: 40px;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .Icon-Header-Container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 85%;
+      margin-top: 19px;
+      background-color: #efeef2;
+      height: 40px;
+      padding: 8px;
+      border-radius: 10px;
+      font-size: 13px;
     }
   }
 `;

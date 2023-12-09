@@ -144,7 +144,7 @@ export const InsightStyled = styled.div`
     font-size: 17px;
     background-color: #f9f9f9;
     border: none;
-
+    padding-left: 10px;
     outline: none;
   }
   .FormBox {
@@ -159,6 +159,7 @@ export const InsightStyled = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    width: 100%;
     gap: 22px;
   }
   ::placeholder {
@@ -200,6 +201,7 @@ export const InsightStyled = styled.div`
       background-color: #f9f9f9;
       border: none;
       outline: none;
+      padding-left: 10px;
     }
     .FormBox {
       background-color: #f9f9f9;
@@ -276,6 +278,7 @@ export const InsightStyled = styled.div`
       background-color: #f9f9f9;
       border: none;
       outline: none;
+      padding-left: 10px;
     }
     .FormBox {
       background-color: #f9f9f9;
@@ -338,6 +341,7 @@ export const InsightStyled = styled.div`
       font-size: 17px;
       background-color: #f9f9f9;
       border: none;
+      padding-left: 10px;
       outline: none;
     }
     .FormBox {
@@ -406,7 +410,10 @@ export const InsightStyled = styled.div`
       justify-content: center;
       color: #ececec;
       flex-direction: column;
-      width: 67%;
+      width: 61%;
+      text-align: center;
+
+      gap: 10px;
     }
     .Ai-Title {
       font-size: 24px;
@@ -441,6 +448,7 @@ export const InsightStyled = styled.div`
       font-size: 17px;
       background-color: #f9f9f9;
       border: none;
+      padding-left: 10px;
       outline: none;
     }
     .FormBox {
@@ -463,7 +471,7 @@ export const InsightStyled = styled.div`
     }
     .Generate-Button {
       display: flex;
-      width: 120px;
+      width: 270px;
       justify-content: center;
       height: 49px;
       align-items: center;
@@ -490,6 +498,12 @@ export const InsightStyled = styled.div`
       justify-content: center;
       margin-bottom: 10px;
       border-radius: 30px;
+    }
+    .Generate-button-Main {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 86%;
     }
   }
 `;

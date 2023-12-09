@@ -313,7 +313,37 @@ export const GeneralDataAddStyle = styled.div`
       flex-wrap: wrap;
     }
     .General-Buttons-Section {
-      width: 0px;
+      width: 113px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+    .General-Buttons-Section1 {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      display: flex;
+    }
+    .NextButton {
+      width: 284px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
     }
     .General-Buttons-Section1 {
       flex-direction: column;
@@ -347,6 +377,21 @@ export const GeneralDataAddStyle = styled.div`
       outline: none;
       background-color: #efeef2;
     }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+    }
+    .General-Buttons-Section {
+      width: 113px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
     .FormBox {
       border: 2px #e6ebf2 solid;
       width: 270px;
@@ -374,14 +419,32 @@ export const GeneralDataAddStyle = styled.div`
       flex-direction: column;
       flex-wrap: wrap;
     }
-    .General-Buttons-Section {
-      width: 113px;
-    }
+
     .General-Buttons-Section1 {
       flex-direction: column;
       gap: 10px;
       margin-top: 10px;
       display: flex;
+    }
+    .NextButton {
+      width: 284px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
     }
     .GeneralAdd-Header-Gapping {
       display: flex;
@@ -446,10 +509,13 @@ export const GeneralDataAddStyle = styled.div`
       justify-content: center;
       margin-top: 50px;
       flex-direction: column;
-      flex-wrap: wrap;
     }
     .General-Buttons-Section {
       width: 113px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
     }
     .General-Buttons-Section1 {
       flex-direction: column;
@@ -484,6 +550,26 @@ export const GeneralDataAddStyle = styled.div`
       display: flex;
       flex-direction: column;
       width: 285px;
+    }
+    .NextButton {
+      width: 284px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
     }
   }
 `;

@@ -104,10 +104,13 @@ function insightAi() {
               <input
                 className="NameBox"
                 type="Text"
-                placeholder="Kindly submit your inquiry by using the secure input field"
+                placeholder="Kindly submit your inquiry "
               />
             </div>
-            <button className="Generate-Button">Generate more </button>
+            <div className="Generate-button-Main">
+              {" "}
+              <button className="Generate-Button">Generate more </button>
+            </div>
           </div>
         </div>
       </Sidebar>

@@ -93,6 +93,7 @@ export const HomepageStyled = styled.div`
     border: none;
     outline: none;
     color: #5d646e;
+    padding-left: 10px;
   }
   .FormBox {
     border: 2px #916ae8 solid;
@@ -179,10 +180,9 @@ export const HomepageStyled = styled.div`
   .switch {
     position: relative;
     display: inline-block;
-    width: 55px;
-    height: 27px;
+    width: 39px;
+    height: 20px;
   }
-
   .switch input {
     opacity: 0;
     width: 0;
@@ -210,14 +210,13 @@ export const HomepageStyled = styled.div`
   .slider:before {
     position: absolute;
     content: "";
-    height: 20px;
-    width: 20px;
+    height: 13px;
+    width: 13px;
     left: 4px;
     bottom: 4px;
     background-color: #591ddd;
     transition: 0.4s;
   }
-
   input:checked + .slider {
     background-color: #e0e0e0;
   }
@@ -269,6 +268,7 @@ export const HomepageStyled = styled.div`
     font-size: 17px;
     font-weight: 500;
   }
+
   @media all and (max-width: 1270px) {
     .Signup-Background-Adjustment {
       gap: 0px;
@@ -377,6 +377,7 @@ export const HomepageStyled = styled.div`
       border: none;
       outline: none;
       color: #5d646e;
+      padding-left: 8px;
     }
     .Welcome-Text {
       font-size: 17px;
@@ -483,6 +484,7 @@ export const HomepageStyled = styled.div`
       font-size: 17px;
       border: none;
       outline: none;
+      padding-left: 8px;
       color: #5d646e;
     }
     .Welcome-Text {
@@ -606,6 +608,7 @@ export const HomepageStyled = styled.div`
       border: none;
       outline: none;
       color: #5d646e;
+      padding-left: 8px;
     }
     .Welcome-Text {
       font-size: 17px;
@@ -755,7 +758,9 @@ export const HomepageStyled = styled.div`
       border: none;
       outline: none;
       color: #5d646e;
+      padding-left: 8px;
     }
+
     .Welcome-Text {
       font-size: 17px;
 
@@ -841,7 +846,7 @@ export const HomepageStyled = styled.div`
     }
     .Sign-Button-Section {
       display: flex;
-      width: 100%;
+      width: 83%;
       justify-content: flex-end;
       align-items: center;
     }
@@ -849,9 +854,9 @@ export const HomepageStyled = styled.div`
       display: flex;
       flex-direction: column;
       gap: 20px;
-      width: 300px;
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
     }
 
     .Forget-Text-Section {

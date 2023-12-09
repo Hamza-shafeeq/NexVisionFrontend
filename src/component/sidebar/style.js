@@ -362,29 +362,19 @@ export const SidebarStyled = styled.div`
       font-size: 16px;
       font-weight: 600;
       margin-top: 30px;
-      background-color: #fff5cf;
+      background-color: white;
     }
-    .Avatar-Title {
-      font-size: 12px;
-      font-weight: 400;
-      color: #2d2f39;
-      width: 106px;
-    }
-    .Avatar-Text {
-      font-size: 13px;
-      font-weight: 500;
-      color: #2d2f39;
+    .Avatar-Text-Section {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
     }
     .Avatar-Main-Section {
-      display: flex;
-      background-color: #e9dffe;
-      width: 175px;
-      height: 57px;
-      margin-top: 20px;
       justify-content: center;
       align-items: center;
-      border-radius: 18px;
-      gap: 5px;
+      background-color: white;
+      width: 66px;
+      display: flex;
     }
     .Manager-Avatar {
       height: 35px;
@@ -422,29 +412,21 @@ export const SidebarStyled = styled.div`
       font-size: 13px;
       font-weight: 600;
       margin-top: 30px;
-      background-color: #fff5cf;
+      background-color: white;
     }
-    .Avatar-Title {
-      font-size: 12px;
-      font-weight: 400;
-      color: #2d2f39;
-      width: 106px;
-    }
-    .Avatar-Text {
-      font-size: 13px;
-      font-weight: 500;
-      color: #2d2f39;
+    .Avatar-Text-Section {
+      display: none;
+      flex-direction: column;
+
+      justify-content: center;
     }
     .Avatar-Main-Section {
-      display: flex;
-      background-color: #e9dffe;
-      width: 156px;
-      height: 50px;
-      margin-top: 20px;
       justify-content: center;
       align-items: center;
-      border-radius: 18px;
-      gap: 5px;
+      background-color: white;
+      width: 66px;
+
+      display: flex;
     }
     .Manager-Avatar {
       height: 35px;

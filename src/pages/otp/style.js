@@ -95,6 +95,7 @@ export const OtppageStyled = styled.div`
     border: none;
     outline: none;
     color: #5d646e;
+    padding-left: 10px;
   }
   .FormBox {
     border: 2px #916ae8 solid;
@@ -325,6 +326,7 @@ export const OtppageStyled = styled.div`
       border: none;
       outline: none;
       color: #5d646e;
+      padding-left: 10px;
     }
     .Welcome-Text {
       font-size: 17px;
@@ -435,6 +437,7 @@ export const OtppageStyled = styled.div`
       border: none;
       outline: none;
       color: #5d646e;
+      padding-left: 10px;
     }
     .Welcome-Text {
       font-size: 17px;
@@ -560,6 +563,7 @@ export const OtppageStyled = styled.div`
       border: none;
       outline: none;
       color: #5d646e;
+      padding-left: 10px;
     }
     .Welcome-Text {
       font-size: 17px;
@@ -711,11 +715,15 @@ export const OtppageStyled = styled.div`
       border: none;
       outline: none;
       color: #5d646e;
+      padding-left: 10px;
     }
     .Welcome-Text {
       font-size: 17px;
-
       font-weight: 600;
+      width: 215px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
     }
     .Contact {
       font-size: 20px;

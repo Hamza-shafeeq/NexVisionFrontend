@@ -69,7 +69,7 @@ function GeneralUserbox() {
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
                   <h1>Third Party Intelligence</h1>
-                  <span className="General-title">Image Research</span>
+                  <span className="General-title">Select User</span>
                 </div>
               </div>
               <div className="Form-Gapping">
