@@ -138,7 +138,7 @@ function Sidebar({ children }) {
             className="ArrowIcon-Hamberg"
             style={{
               marginLeft: isSidebarVisible ? "-198px" : "",
-              marginTop: isSidebarVisible ? "16px" : "",
+              marginTop: isSidebarVisible ? "4px" : "",
             }}
           >
             <IoIosArrowBack

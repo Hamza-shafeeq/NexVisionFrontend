@@ -319,12 +319,7 @@ export const GeneralDataAddStyle = styled.div`
       width: 100%;
       align-items: center;
     }
-    .General-Buttons-Section1 {
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 10px;
-      display: flex;
-    }
+
     .NextButton {
       width: 284px;
       height: 44px;

@@ -76,8 +76,8 @@ function GeneralSourceBox() {
                 </div>
                 <div className="Header-Buttons">
                   {" "}
-                  <button className="CloseButton">Select All</button>
-                  <button className="CloseButton">De-Select All</button>
+                  <button className="Close1Button">Select All</button>
+                  <button className="Close2Button">De-Select All</button>
                 </div>
               </div>
               <div className="File-Main-Section">

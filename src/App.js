@@ -86,6 +86,9 @@ import GenderDetails from "./component/BrandSentineldetails/Genderdetails/Gender
 import SocialMediaDetails from "./component/BrandSentineldetails/Socialmediadetails/SocialMediaDetails.jsx";
 import BrandLanguageDetails from "./component/BrandSentineldetails/Brandlanguagedetails/BrandLanguageDetails.jsx";
 import SentimentDetails from "./component/BrandSentineldetails/Sentimentdetails/SentimentDetails.jsx";
+import OrganizationIntelligenceBox from "./component/OrganizationintelligenceAddBox/OrganizationIntelligenceBox.jsx";
+import OrganizationSourceBox from "./component/Organizationsourcebox/OrganizationSourceBox.jsx";
+import OrganizationSocialBox from "./component/Organizationsocialbox/OrganizationSocialBox.jsx";
 
 function App() {
   const location = {
@@ -353,6 +356,18 @@ function App() {
         <Route
           path="/social-scan-detials/sentiment-details"
           element={<SentimentDetails />}
+        ></Route>
+        <Route
+          path="/kyc-organization/organizationintelligenceaddbox"
+          element={<OrganizationIntelligenceBox />}
+        ></Route>
+        <Route
+          path="/Organziationsourcebox"
+          element={<OrganizationSourceBox />}
+        ></Route>
+        <Route
+          path="/organizationsocialbox"
+          element={<OrganizationSocialBox />}
         ></Route>
       </Routes>
     </BrowserRouter>

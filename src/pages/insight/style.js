@@ -323,6 +323,7 @@ export const InsightStyled = styled.div`
       width: 216px;
       color: black;
     }
+
     .Ai-Title {
       font-size: 24px;
       font-weight: 700;
@@ -390,13 +391,14 @@ export const InsightStyled = styled.div`
       align-items: center;
       padding-bottom: 20px;
       color: #591ddd;
-      width: 300px;
+      width: 245px;
     }
     .Ai-Text-Section {
       display: flex;
       justify-content: center;
       color: #ececec;
       flex-direction: column;
+      text-align: center;
     }
   }
   @media all and (max-width: 400px) {

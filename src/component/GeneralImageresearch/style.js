@@ -11,6 +11,7 @@ export const GeneralDataAddStyle = styled.div`
 
     flex-direction: column;
   }
+
   .GeneralAddBox-Header {
     width: 100%;
     margin-top: 10px;
@@ -181,7 +182,7 @@ export const GeneralDataAddStyle = styled.div`
   .GeneralDataAdd-Container {
     display: flex;
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-color: #faf8ff;
     flex-direction: column;
   }
@@ -271,6 +272,19 @@ export const GeneralDataAddStyle = styled.div`
       border-bottom: 3px solid #7c7b7f;
       margin-top: 50px;
     }
+    .File-MainSection {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+    .GeneralAdd-Header-Gapping {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      margin-bottom: 40px;
+    }
   }
   @media all and (max-width: 837px) {
     .Border {
@@ -298,6 +312,12 @@ export const GeneralDataAddStyle = styled.div`
     }
   }
   @media all and (max-width: 782px) {
+    .File-MainSection {
+      display: flex;
+      justify-content: center;
+      width: 92%;
+      align-items: center;
+    }
     .Border {
       display: flex;
       justify-content: center;
@@ -390,6 +410,27 @@ export const GeneralDataAddStyle = styled.div`
       flex-direction: column;
       gap: 10px;
     }
+    .Icon-Header-Container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 84%;
+      margin-top: 19px;
+      background-color: #efeef2;
+      height: 40px;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .Icon-bottom-Section {
+      display: flex;
+      width: 84%;
+      margin-top: 19px;
+      background-color: white;
+      color: #b0b0b0;
+      height: 40px;
+      padding: 8px;
+      border-radius: 10px;
+    }
     .File-Container {
       display: flex;
       justify-content: center;
@@ -403,18 +444,7 @@ export const GeneralDataAddStyle = styled.div`
       flex-direction: column;
       width: 259px;
     }
-    .Buttons-Section {
-      display: flex;
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-      margin-top: 50px;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-    .General-Buttons-Section {
-      width: 120px;
-    }
+
     .General-Buttons-Section1 {
       flex-direction: column;
       gap: 10px;
@@ -447,13 +477,7 @@ export const GeneralDataAddStyle = styled.div`
       margin-top: 150px;
       border-bottom: 3px solid #7c7b7f;
     }
-    .GeneralDataAdd-Container {
-      display: flex;
-      width: 98%;
-      height: 700px;
-      background-color: #faf8ff;
-      flex-direction: column;
-    }
+
     .Icon-Header-Section {
       display: flex;
       justify-content: center;
@@ -464,24 +488,7 @@ export const GeneralDataAddStyle = styled.div`
     .General-Add-Header {
       display: flex;
       flex-direction: column;
-      width: 285px;
-    }
-  }
-  @media all and (max-width: 343px) {
-    .Forms-Setting {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 90%;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .Icon-Header-Section {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      flex-direction: column;
+      width: 168px;
     }
     .Buttons-Section {
       display: flex;
@@ -493,8 +500,71 @@ export const GeneralDataAddStyle = styled.div`
       flex-wrap: wrap;
     }
     .General-Buttons-Section {
-      width: 113px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
     }
+
+    .NextButton {
+      width: 300px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 300px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
+    }
+  }
+  @media all and (max-width: 343px) {
+    .Forms-Setting {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Icon-Header-Container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 84%;
+      margin-top: 19px;
+      background-color: #efeef2;
+      height: 40px;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .Icon-bottom-Section {
+      display: flex;
+      width: 84%;
+      margin-top: 19px;
+      background-color: white;
+      color: #b0b0b0;
+      height: 40px;
+      padding: 8px;
+      border-radius: 10px;
+    }
+    .Icon-Header-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+    }
+
     .General-Buttons-Section1 {
       flex-direction: column;
       gap: 10px;
@@ -520,14 +590,60 @@ export const GeneralDataAddStyle = styled.div`
     .GeneralDataAdd-Container {
       display: flex;
       width: 98%;
-      height: 700px;
+
       background-color: #faf8ff;
       flex-direction: column;
     }
     .General-Add-Header {
       display: flex;
       flex-direction: column;
-      width: 285px;
+      width: 184px;
+    }
+    .Buttons-Section {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .General-Buttons-Section {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+
+    .NextButton {
+      width: 281px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
+    }
+    .File-Main-Section {
+      display: flex;
+      width: 275px;
+      height: 241px;
+      margin-left: 12px;
+      border: 4px dotted #d9d9d9;
+    }
+    .Main-Title {
+      width: 200px;
     }
   }
 `;

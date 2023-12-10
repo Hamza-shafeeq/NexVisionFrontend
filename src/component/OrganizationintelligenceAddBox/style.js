@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const GeneralDataAddStyle = styled.div`
+export const OrganizationBoxStyle = styled.div`
   background-color: white;
   display: flex;
   justify-content: center;
@@ -11,17 +11,24 @@ export const GeneralDataAddStyle = styled.div`
 
     flex-direction: column;
   }
+
   .GeneralAddBox-Header {
     width: 100%;
     margin-top: 10px;
     display: flex;
     height: 58px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 14px;
-    flex-wrap: wrap;
   }
-
+  .Border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border-bottom: 3px solid #7c7b7f;
+  }
   .GeneralAdd-Title-Section {
     display: flex;
     justify-content: center;
@@ -78,7 +85,7 @@ export const GeneralDataAddStyle = styled.div`
     font-size: 18px;
     font-weight: 600;
     border-bottom: 3px solid #7c7b7f;
-    width: 75px;
+    width: 63px;
     padding-bottom: 5px;
   }
   .NameBox {
@@ -116,8 +123,9 @@ export const GeneralDataAddStyle = styled.div`
   }
   .Forms-Setting {
     display: flex;
-    align-items: flex-start;
-    width: 66%;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     gap: 10px;
   }
   .Form-Titles-Setting {
@@ -147,7 +155,7 @@ export const GeneralDataAddStyle = styled.div`
   .GeneralDataAdd-Container {
     display: flex;
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-color: #faf8ff;
     flex-direction: column;
   }
@@ -157,6 +165,7 @@ export const GeneralDataAddStyle = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
   .CloseButton {
     width: 113px;
@@ -185,24 +194,7 @@ export const GeneralDataAddStyle = styled.div`
     gap: 10px;
     display: flex;
   }
-  .Last-Check-Box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    width: 50%;
-  }
-  .Last-Check-Box-Container {
-    display: flex;
-    flex-direction: column;
-  }
-  .Check-Text {
-    font-size: 18px;
-    font-weight: 700;
-  }
-  .File-Title1 {
-    font-size: 18px;
-  }
+
   @media all and (max-width: 1190px) {
     .Border {
       display: flex;
@@ -222,7 +214,7 @@ export const GeneralDataAddStyle = styled.div`
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 270px;
+      width: 280px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -233,16 +225,17 @@ export const GeneralDataAddStyle = styled.div`
   }
   @media all and (max-width: 837px) {
     .NameBox {
-      width: 220px;
+      width: 260px;
       height: 37px;
       font-size: 17px;
       border: none;
       outline: none;
       background-color: #efeef2;
     }
+
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 240px;
+      width: 280px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -261,7 +254,7 @@ export const GeneralDataAddStyle = styled.div`
   }
   @media all and (max-width: 782px) {
     .NameBox {
-      width: 200px;
+      width: 270px;
       height: 37px;
       font-size: 17px;
       border: none;
@@ -270,7 +263,7 @@ export const GeneralDataAddStyle = styled.div`
     }
     .FormBox {
       border: 2px #e6ebf2 solid;
-      width: 210px;
+      width: 280px;
       padding: 4px;
       background-color: #efeef2;
       border-radius: 9px;
@@ -476,21 +469,14 @@ export const GeneralDataAddStyle = styled.div`
     .GeneralDataAdd-Container {
       display: flex;
       width: 98%;
-
+      height: 700px;
       background-color: #faf8ff;
       flex-direction: column;
     }
     .General-Add-Header {
       display: flex;
       flex-direction: column;
-      width: 186px;
-    }
-    .Last-Check-Box {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 30px;
-      width: 100%;
+      width: 285px;
     }
   }
   @media all and (max-width: 343px) {
@@ -557,10 +543,16 @@ export const GeneralDataAddStyle = styled.div`
       border-bottom: 3px solid #7c7b7f;
       margin-top: 150px;
     }
+    .Forms-Setting1 {
+      display: flex;
+      justify-content: flex-start;
+      width: 63%;
+      align-items: center;
+    }
     .GeneralDataAdd-Container {
       display: flex;
       width: 98%;
-
+      height: 700px;
       background-color: #faf8ff;
       flex-direction: column;
     }

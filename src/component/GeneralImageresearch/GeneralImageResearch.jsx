@@ -64,43 +64,49 @@ function GeneralImageResearch() {
               </div>
             </div>
             <div className="Border"></div>
-            <div className="GeneralAdd-Header-Gapping">
-              <div className="General-Add-Header">
-                <h1>Third Party Intelligence</h1>
-                <span className="General-title">Image Research</span>
-              </div>
-              <div className="Icon-Header-Section">
-                <div className="Icon-Header-Container">
-                  <div className="Icon-Main-Section">
-                    <span className="Icon-Text">
-                      <LuArrowUpDown className="Icon" />
-                      Image
-                    </span>
-                    <span className="Icon-Text">
-                      <LuArrowUpDown className="Icon" />
-                      Name
-                    </span>
-                    <span className="Icon-Text">
-                      <LuArrowUpDown className="Icon" />
-                      Description
-                    </span>
-                  </div>
+            <div className="GeneralHeader-box">
+              {" "}
+              <div className="GeneralAdd-Header-Gapping">
+                <div className="General-Add-Header">
+                  <h1 className="Main-Title">Third Party Intelligence</h1>
+                  <span className="General-title">Image Research</span>
                 </div>
-                <div className="Icon-bottom-Section">
-                  <span>no data available in table</span>
+                <div className="Icon-Header-Section">
+                  <div className="Icon-Header-Container">
+                    <div className="Icon-Main-Section">
+                      <span className="Icon-Text">
+                        <LuArrowUpDown className="Icon" />
+                        Image
+                      </span>
+                      <span className="Icon-Text">
+                        <LuArrowUpDown className="Icon" />
+                        Name
+                      </span>
+                      <span className="Icon-Text">
+                        <LuArrowUpDown className="Icon" />
+                        Description
+                      </span>
+                    </div>
+                  </div>
+                  <div className="Icon-bottom-Section">
+                    <span>no data available in table</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="File-Main-Section">
-              <div className="File-Container">
-                <div className="File-Text-Section">
-                  <span className="File-Title">Select files</span>
-                  <div className="File-Bottom-Section">
-                    <span className="File-Title1">
-                      {" "}
-                      Drop files here or click{" "}
-                    </span>
-                    <span className="File-Title2">browse</span>
+
+            <div className="File-MainSection">
+              <div className="File-Main-Section">
+                <div className="File-Container">
+                  <div className="File-Text-Section">
+                    <span className="File-Title">Select files</span>
+                    <div className="File-Bottom-Section">
+                      <span className="File-Title1">
+                        {" "}
+                        Drop files here or click{" "}
+                      </span>
+                      <span className="File-Title2">browse</span>
+                    </div>
                   </div>
                 </div>
               </div>

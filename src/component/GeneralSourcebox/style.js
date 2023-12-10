@@ -193,6 +193,26 @@ export const GeneralDataAddStyle = styled.div`
     font-weight: 500;
     border: 3px solid #8154e5;
   }
+  .Close1Button {
+    width: 130px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: #faf8ff;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border: 3px solid #8154e5;
+  }
+  .Close2Button {
+    width: 130px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: #faf8ff;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    border: 3px solid #8154e5;
+  }
   .General-Buttons-Section {
     width: 50%;
   }
@@ -521,7 +541,32 @@ export const GeneralDataAddStyle = styled.div`
       flex-wrap: wrap;
     }
     .General-Buttons-Section {
-      width: 130px;
+      width: 113px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+
+    .NextButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
     }
     .General-Buttons-Section1 {
       flex-direction: column;
@@ -561,6 +606,12 @@ export const GeneralDataAddStyle = styled.div`
     .File-Container {
       display: flex;
       width: 100%;
+    }
+    .File-Main-Section {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      margin-left: 0px;
     }
   }
   @media all and (max-width: 343px) {
@@ -608,7 +659,32 @@ export const GeneralDataAddStyle = styled.div`
       flex-wrap: wrap;
     }
     .General-Buttons-Section {
-      width: 120px;
+      width: 113px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+
+    .NextButton {
+      width: 284px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #8154e5;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      border: 1px solid #8154e5;
+    }
+    .CloseButton {
+      width: 280px;
+      height: 44px;
+      border-radius: 9px;
+      background-color: #faf8ff;
+      color: black;
+      font-size: 18px;
+      font-weight: 500;
+      border: 3px solid #8154e5;
     }
     .General-Buttons-Section1 {
       flex-direction: column;
