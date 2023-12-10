@@ -1,15 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+
 import { useNavigate } from "react-router-dom";
 import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-function RealtimeSettingBox() {
-  const navigate = useNavigate();
-  const [isChecked, setChecked] = useState(false);
 
-  const handleCheckboxChange = () => {
-    setChecked(!isChecked);
-  };
+function GeoPrimaryBox() {
+  const navigate = useNavigate();
   return (
     <>
       <Sidebar>
@@ -19,21 +15,21 @@ function RealtimeSettingBox() {
               <div className="Border"></div>
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
-                  <h1>Real-time Crisis Management</h1>
+                  <h1>Geopolitical</h1>
                 </div>
               </div>
-
-              <div className="Last-Check-Box">
-                <div className="Last-Check-Box-Container">
-                  <span className="Check-Text">Screen Setting</span>
-                  <span className="File-Title1">
-                    <input
-                      type="checkbox"
-                      checked={isChecked}
-                      onChange={handleCheckboxChange}
-                    />
-                    Enable Ongoing Screen
-                  </span>
+              <div className="Form-Gapping">
+                <div className="Forms-Setting">
+                  <div className="Form-Titles-Setting">
+                    <span className="Form-Titles">Choose primary case</span>
+                    <div className="FormBox">
+                      <input
+                        className="NameBox"
+                        type="Text"
+                        placeholder="Enter primary case id"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -45,7 +41,7 @@ function RealtimeSettingBox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    onClick={() => navigate("/realtimemapbox")}
+                    onClick={() => navigate("/geosetting")}
                   >
                     Next
                   </button>
@@ -58,4 +54,5 @@ function RealtimeSettingBox() {
     </>
   );
 }
-export default RealtimeSettingBox;
+
+export default GeoPrimaryBox;

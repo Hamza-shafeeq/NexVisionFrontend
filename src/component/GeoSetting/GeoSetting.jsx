@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-function RealtimeSettingBox() {
+
+function GeoSetting() {
   const navigate = useNavigate();
   const [isChecked, setChecked] = useState(false);
 
@@ -19,7 +19,7 @@ function RealtimeSettingBox() {
               <div className="Border"></div>
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
-                  <h1>Real-time Crisis Management</h1>
+                  <h1>Geopolitical</h1>
                 </div>
               </div>
 
@@ -45,7 +45,7 @@ function RealtimeSettingBox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    onClick={() => navigate("/realtimemapbox")}
+                    onClick={() => navigate("/geohashtag")}
                   >
                     Next
                   </button>
@@ -58,4 +58,4 @@ function RealtimeSettingBox() {
     </>
   );
 }
-export default RealtimeSettingBox;
+export default GeoSetting;

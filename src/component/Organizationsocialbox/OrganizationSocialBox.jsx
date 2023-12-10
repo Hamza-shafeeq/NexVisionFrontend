@@ -16,7 +16,6 @@ function OrganizationSocialBox() {
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
                   <h1>Organization Intelligence</h1>
-                  <span className="General-title">Account Search</span>
                 </div>
               </div>
               <div className="Form-Gapping">

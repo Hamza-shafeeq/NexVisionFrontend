@@ -1,11 +1,11 @@
 import React from "react";
 import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 import { RiCalendarTodoLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
 
-function RealtimeAddBox() {
+function GeoForm() {
   const navigate = useNavigate();
   return (
     <>
@@ -16,7 +16,7 @@ function RealtimeAddBox() {
               <div className="Border"></div>
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
-                  <h1>Real-time Crisis Management</h1>
+                  <h1>Geopolitical</h1>
                 </div>
               </div>
               <div className="Form-Gapping">
@@ -37,9 +37,8 @@ function RealtimeAddBox() {
                       <input
                         className="NameBox"
                         type="Text"
-                        placeholder="Global Event"
+                        placeholder="Election"
                       />
-                      <RiCalendarTodoLine className="EyeIcon" />
                     </div>
                   </div>
                 </div>
@@ -55,7 +54,7 @@ function RealtimeAddBox() {
                     </div>
                   </div>{" "}
                   <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">company</span>
+                    <span className="Form-Titles">Company</span>
                     <div className="FormBox">
                       <input
                         className="NameBox"
@@ -74,7 +73,7 @@ function RealtimeAddBox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    onClick={() => navigate("/realtimeprimarybox")}
+                    onClick={() => navigate("/geoprimary")}
                   >
                     Next
                   </button>
@@ -88,4 +87,4 @@ function RealtimeAddBox() {
   );
 }
 
-export default RealtimeAddBox;
+export default GeoForm;

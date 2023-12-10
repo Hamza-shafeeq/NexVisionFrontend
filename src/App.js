@@ -94,6 +94,13 @@ import OrganizationSettingBox from "./component/Organizationsettingbox/Organizat
 import RealtimeAddBox from "./component/Realtimeaddbox/RealtimeAddBox.jsx";
 import RealtimePrimaryBox from "./component/Realtimeprimarybox/RealtimePrimaryBox.jsx";
 import RealtimeSettingBox from "./component/Realtimesettingbox/RealtimeSettingBox.jsx";
+import RealtimeMapBox from "./component/Realtimemapbox/RealtimeMapBox.jsx";
+import SocialMap from "./component/BrandSentineldetails/SocialMap/SocialMap.jsx";
+import GeoForm from "./component/GeoForm/GeoForm.jsx";
+import GeoPrimary from "./component/Geoprimary/GeoPrimaryBox.jsx";
+import GeoSetting from "./component/GeoSetting/GeoSetting.jsx";
+import GeoMap from "./component/GeoMap/GeoMap.jsx";
+import GeoHashtag from "./component/GeoHashtag/GeoHashtag.jsx";
 
 function App() {
   const location = {
@@ -399,6 +406,16 @@ function App() {
           path="/realtimesettingbox"
           element={<RealtimeSettingBox />}
         ></Route>
+        <Route path="/realtimemapbox" element={<RealtimeMapBox />}></Route>
+        <Route
+          path="/geopolitical-intelligence/map"
+          element={<SocialMap />}
+        ></Route>
+        <Route path="/geoaddform" element={<GeoForm />}></Route>
+        <Route path="/geoprimary" element={<GeoPrimary />}></Route>
+        <Route path="/geosetting" element={<GeoSetting />}></Route>
+        <Route path="/geomap" element={<GeoMap />}></Route>
+        <Route path="/geohashtag" element={<GeoHashtag />}></Route>
       </Routes>
     </BrowserRouter>
   );

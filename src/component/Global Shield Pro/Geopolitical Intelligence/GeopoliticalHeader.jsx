@@ -2,8 +2,10 @@ import React from "react";
 import gspHeader from "../../../image/GSP Header.svg";
 import { GpiHeaderStyle } from "./GPIHeaderStyle";
 import { CiSearch } from "react-icons/ci";
+import { useNavigate } from "react-router-dom";
 
 export default function GeopoliticalHeader() {
+  const navigate = useNavigate();
   return (
     <GpiHeaderStyle>
       <div className="gpi-header-container">
@@ -15,7 +17,9 @@ export default function GeopoliticalHeader() {
         </div>
         <div className="gpi-cta">
           <div className="gpi-title-btn">
-            <button className="gpi-btn">Add New</button>
+            <button className="gpi-btn" onClick={() => navigate("/geoaddform")}>
+              Add New
+            </button>
           </div>
 
           <div className="gpi-search-box">
