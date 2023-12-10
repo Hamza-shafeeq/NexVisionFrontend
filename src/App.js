@@ -101,6 +101,11 @@ import GeoPrimary from "./component/Geoprimary/GeoPrimaryBox.jsx";
 import GeoSetting from "./component/GeoSetting/GeoSetting.jsx";
 import GeoMap from "./component/GeoMap/GeoMap.jsx";
 import GeoHashtag from "./component/GeoHashtag/GeoHashtag.jsx";
+import BrandForm from "./component/BrandForm.jsx/BrandForm.jsx";
+import PhoneLockupForm from "./component/PhoneLockupForm/PhoneLockupForm.jsx";
+import EmailLockupForm from "./component/EmailLockupForm/EmailLockupForm.jsx";
+import CardLockupForm from "./component/CardLockupForm/CardLockupForm.jsx";
+import SanctionForm from "./component/SanctionForm/SanctionForm.jsx";
 
 function App() {
   const location = {
@@ -416,6 +421,11 @@ function App() {
         <Route path="/geosetting" element={<GeoSetting />}></Route>
         <Route path="/geomap" element={<GeoMap />}></Route>
         <Route path="/geohashtag" element={<GeoHashtag />}></Route>
+        <Route path="/brandform" element={<BrandForm />}></Route>
+        <Route path="/phonelockupform" element={<PhoneLockupForm />}></Route>
+        <Route path="/emaillockupform" element={<EmailLockupForm />}></Route>
+        <Route path="/cardlockupform" element={<CardLockupForm />}></Route>
+        <Route path="/sanctionform" element={<SanctionForm />}></Route>
       </Routes>
     </BrowserRouter>
   );
