@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-function OrganizationSocialBox() {
+function OrganizationSettingBox() {
   const navigate = useNavigate();
+  const [isChecked, setChecked] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setChecked(!isChecked);
+  };
   return (
     <>
       <Sidebar>
@@ -29,8 +34,8 @@ function OrganizationSocialBox() {
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number1">3</span>
-                    <span className="GeneralAdd-Title1">Social Media</span>
+                    <span className="GeneralAdd-Number">3</span>
+                    <span className="GeneralAdd-Title">Social Media</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
@@ -43,8 +48,8 @@ function OrganizationSocialBox() {
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">5</span>
-                    <span className="GeneralAdd-Title">Screen Setting</span>
+                    <span className="GeneralAdd-Number1">5</span>
+                    <span className="GeneralAdd-Title1">Screen Setting</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
@@ -52,22 +57,35 @@ function OrganizationSocialBox() {
               <div className="Border"></div>
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
-                  <h1>Organization Intelligence</h1>
-                  <span className="General-title">Account Search</span>
+                  <h1>Third Party Intelligence</h1>
+                  <span className="General-title">Setting</span>
                 </div>
               </div>
               <div className="Form-Gapping">
                 <div className="Forms-Setting">
                   <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Account Search</span>
+                    <span className="Form-Titles">Choose Primary case</span>
                     <div className="FormBox">
                       <input
                         className="NameBox"
                         type="Text"
-                        placeholder="Enter Social Account"
+                        placeholder="Primary case ID"
                       />
                     </div>
                   </div>
+                </div>
+              </div>
+              <div className="Last-Check-Box">
+                <div className="Last-Check-Box-Container">
+                  <span className="Check-Text">Screen Setting</span>
+                  <span className="File-Title1">
+                    <input
+                      type="checkbox"
+                      checked={isChecked}
+                      onChange={handleCheckboxChange}
+                    />
+                    Enable Ongoing Screen
+                  </span>
                 </div>
               </div>
 
@@ -79,7 +97,7 @@ function OrganizationSocialBox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    onClick={() => navigate("/organizationsourcecheck")}
+                    onClick={() => navigate("/kyc-third-party")}
                   >
                     Next
                   </button>
@@ -92,5 +110,4 @@ function OrganizationSocialBox() {
     </>
   );
 }
-
-export default OrganizationSocialBox;
+export default OrganizationSettingBox;

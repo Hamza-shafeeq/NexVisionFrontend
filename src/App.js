@@ -89,6 +89,7 @@ import SentimentDetails from "./component/BrandSentineldetails/Sentimentdetails/
 import OrganizationIntelligenceBox from "./component/OrganizationintelligenceAddBox/OrganizationIntelligenceBox.jsx";
 import OrganizationSourceBox from "./component/Organizationsourcebox/OrganizationSourceBox.jsx";
 import OrganizationSocialBox from "./component/Organizationsocialbox/OrganizationSocialBox.jsx";
+import OrganizationSourceCheck from "./component/Organizationsourcecheck/OrganizationSourceCheck.jsx";
 
 function App() {
   const location = {
@@ -368,6 +369,10 @@ function App() {
         <Route
           path="/organizationsocialbox"
           element={<OrganizationSocialBox />}
+        ></Route>
+        <Route
+          path="/organizationsourcecheck"
+          element={<OrganizationSourceCheck />}
         ></Route>
       </Routes>
     </BrowserRouter>

@@ -3,8 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-
-function OrganizationSocialBox() {
+function OrganizationSourceCheck() {
   const navigate = useNavigate();
   return (
     <>
@@ -29,15 +28,15 @@ function OrganizationSocialBox() {
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number1">3</span>
-                    <span className="GeneralAdd-Title1">Social Media</span>
+                    <span className="GeneralAdd-Number">3</span>
+                    <span className="GeneralAdd-Title">Social Media</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">4</span>
-                    <span className="GeneralAdd-Title">Source </span>
+                    <span className="GeneralAdd-Number1">4</span>
+                    <span className="GeneralAdd-Title1">Source </span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
@@ -53,18 +52,18 @@ function OrganizationSocialBox() {
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
                   <h1>Organization Intelligence</h1>
-                  <span className="General-title">Account Search</span>
+                  <span className="General-title">Source Check</span>
                 </div>
               </div>
               <div className="Form-Gapping">
                 <div className="Forms-Setting">
                   <div className="Form-Titles-Setting">
-                    <span className="Form-Titles">Account Search</span>
+                    <span className="Form-Titles">Choose Primary case</span>
                     <div className="FormBox">
                       <input
                         className="NameBox"
                         type="Text"
-                        placeholder="Enter Social Account"
+                        placeholder="username"
                       />
                     </div>
                   </div>
@@ -79,7 +78,7 @@ function OrganizationSocialBox() {
                   <button className="CloseButton">Previous</button>
                   <button
                     className="NextButton"
-                    onClick={() => navigate("/organizationsourcecheck")}
+                    onClick={() => navigate("/organizationsettingbox")}
                   >
                     Next
                   </button>
@@ -93,4 +92,4 @@ function OrganizationSocialBox() {
   );
 }
 
-export default OrganizationSocialBox;
+export default OrganizationSourceCheck;
