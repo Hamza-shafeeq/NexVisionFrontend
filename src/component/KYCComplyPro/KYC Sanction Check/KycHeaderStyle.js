@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const KycHeaderStyle = styled.div`
   display: flex;
   justify-content: center;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 
   .kyc-title {
     display: flex;
@@ -20,7 +20,6 @@ export const KycHeaderStyle = styled.div`
     width: 100%;
     padding-left: 31px;
     padding-right: 150px;
-
   }
   .kyc-cta {
     display: flex;
@@ -32,7 +31,6 @@ export const KycHeaderStyle = styled.div`
   .kyc-title-text {
     color: black;
     font-weight: 700;
-    
   }
 
   .kyc-btn {
@@ -59,12 +57,12 @@ export const KycHeaderStyle = styled.div`
     border: none;
     outline: none;
     color: black;
-    background-color: #EDEAF4;
+    background-color: #edeaf4;
   }
   .kyc-search-box {
     display: flex;
     align-items: center;
-    background-color: #EDEAF4;
+    background-color: #edeaf4;
 
     /* border: 2px #591DDD solid; */
     padding: 4px;
@@ -74,18 +72,16 @@ export const KycHeaderStyle = styled.div`
   .kyc-icon {
     width: 35px;
     height: 25px;
-    color: #591DDD;
+    color: #591ddd;
   }
 
-  .kyc-title-img{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:100px;
-    height:100px;
+  .kyc-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
   }
-
-
   @media all and (max-width: 1000px) {
     .kyc-header-container {
       height: 120px;
@@ -97,6 +93,7 @@ export const KycHeaderStyle = styled.div`
       padding-left: 10px;
       padding-right: 10px;
     }
+
     .kyc-cta {
       display: flex;
       justify-content: space-evenly;
@@ -110,9 +107,9 @@ export const KycHeaderStyle = styled.div`
     }
     .kyc-title {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
-      width: 100px;
+      width: 303px;
     }
     .kyc-title-img {
       display: flex;
@@ -148,14 +145,13 @@ export const KycHeaderStyle = styled.div`
   }
   @media all and (max-width: 750px) {
     .kyc-header-container {
-      height: 120px;
+      height: 176px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      flex-direction: column;
       align-items: center;
       gap: 0px;
       width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
     }
     .kyc-title-text {
       color: black;
@@ -166,16 +162,17 @@ export const KycHeaderStyle = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 60px;
+      width: 85px;
     }
     .kyc-cta {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       gap: 6px;
+      flex-direction: row-reverse;
     }
     .kyc-btn {
-      width: 80px;
+      width: 90px;
       height: 40px;
       background-color: #591ddd;
       color: white;
@@ -185,8 +182,8 @@ export const KycHeaderStyle = styled.div`
       font-size: 14px;
     }
     .kyc-search {
-      width: 115px;
-      height: 37px;
+      width: 140px;
+      height: 34px;
       font-size: 13px;
       border: none;
       outline: none;
@@ -194,7 +191,4 @@ export const KycHeaderStyle = styled.div`
       background-color: #edeaf4;
     }
   }
-  
-
-
 `;

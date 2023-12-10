@@ -93,6 +93,7 @@ export const KycHeaderStyle = styled.div`
       padding-left: 10px;
       padding-right: 10px;
     }
+
     .kyc-cta {
       display: flex;
       justify-content: space-evenly;
@@ -106,9 +107,9 @@ export const KycHeaderStyle = styled.div`
     }
     .kyc-title {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
-      width: 100px;
+      width: 303px;
     }
     .kyc-title-img {
       display: flex;
@@ -144,14 +145,13 @@ export const KycHeaderStyle = styled.div`
   }
   @media all and (max-width: 750px) {
     .kyc-header-container {
-      height: 120px;
+      height: 176px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      flex-direction: column;
       align-items: center;
       gap: 0px;
       width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
     }
     .kyc-title-text {
       color: black;
@@ -162,16 +162,17 @@ export const KycHeaderStyle = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 60px;
+      width: 85px;
     }
     .kyc-cta {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       gap: 6px;
+      flex-direction: row-reverse;
     }
     .kyc-btn {
-      width: 80px;
+      width: 90px;
       height: 40px;
       background-color: #591ddd;
       color: white;
@@ -181,8 +182,8 @@ export const KycHeaderStyle = styled.div`
       font-size: 14px;
     }
     .kyc-search {
-      width: 115px;
-      height: 37px;
+      width: 140px;
+      height: 34px;
       font-size: 13px;
       border: none;
       outline: none;

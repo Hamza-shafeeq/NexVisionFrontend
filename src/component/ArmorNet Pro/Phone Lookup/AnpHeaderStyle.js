@@ -82,34 +82,6 @@ export const AnpHeaderStyle = styled.div`
     width: 100px;
     height: 100px;
   }
-
-  @media all and (max-width: 1240px) {
-    .anp-header-container {
-      height: 120px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 50px;
-      width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .anp-cta {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      gap: 10px;
-    }
-    .anp-search {
-      width: 242px;
-      height: 37px;
-      font-size: 13px;
-      border: none;
-      outline: none;
-      color: black;
-      background-color: #edeaf4;
-    }
-  }
   @media all and (max-width: 1000px) {
     .anp-header-container {
       height: 120px;
@@ -121,6 +93,7 @@ export const AnpHeaderStyle = styled.div`
       padding-left: 10px;
       padding-right: 10px;
     }
+
     .anp-cta {
       display: flex;
       justify-content: space-evenly;
@@ -134,9 +107,9 @@ export const AnpHeaderStyle = styled.div`
     }
     .anp-title {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
-      width: 100px;
+      width: 303px;
     }
     .anp-title-img {
       display: flex;
@@ -172,14 +145,13 @@ export const AnpHeaderStyle = styled.div`
   }
   @media all and (max-width: 750px) {
     .anp-header-container {
-      height: 120px;
+      height: 176px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      flex-direction: column;
       align-items: center;
       gap: 0px;
       width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
     }
     .anp-title-text {
       color: black;
@@ -190,16 +162,17 @@ export const AnpHeaderStyle = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 60px;
+      width: 85px;
     }
     .anp-cta {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       gap: 6px;
+      flex-direction: row-reverse;
     }
     .anp-btn {
-      width: 80px;
+      width: 90px;
       height: 40px;
       background-color: #591ddd;
       color: white;
@@ -209,8 +182,8 @@ export const AnpHeaderStyle = styled.div`
       font-size: 14px;
     }
     .anp-search {
-      width: 115px;
-      height: 37px;
+      width: 140px;
+      height: 34px;
       font-size: 13px;
       border: none;
       outline: none;
