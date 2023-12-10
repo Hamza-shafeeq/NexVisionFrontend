@@ -1,14 +1,16 @@
 import React from "react";
 import gspHeader from "../../../image/GSP Header.svg";
-import { GPIHeaderStyle } from "./GPIHeaderStyle";
+import { GpiHeaderStyle } from "./GPIHeaderStyle";
 import { CiSearch } from "react-icons/ci";
 
 export default function GeopoliticalHeader() {
   return (
-    <GPIHeaderStyle>
+    <GpiHeaderStyle>
       <div className="gpi-header-container">
         <div className="gpi-title">
-          <div className="gpi-title-img"><img className="title-img" src={gspHeader} alt="" /></div>
+          <div className="gpi-title-img">
+            <img className="title-img" src={gspHeader} alt="" />
+          </div>
           <span className="gpi-title-text"> Geopolitical Intelligence</span>
         </div>
         <div className="gpi-cta">
@@ -26,6 +28,6 @@ export default function GeopoliticalHeader() {
           </div>
         </div>
       </div>
-    </GPIHeaderStyle>
+    </GpiHeaderStyle>
   );
 }

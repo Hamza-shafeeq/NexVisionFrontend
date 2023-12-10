@@ -11,43 +11,6 @@ function OrganizationSourceCheck() {
         <GeneralDataAddStyle>
           <div className="GeneralDataAdd-Main-Section">
             <div className="GeneralDataAdd-Container">
-              <div className="GeneralAddBox-Header">
-                <div className="GeneralAdd-Title-Section">
-                  <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">1</span>
-                    <span className="GeneralAdd-Title">General</span>
-                  </div>
-                  <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
-                </div>
-                <div className="GeneralAdd-Title-Section">
-                  <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">2</span>
-                    <span className="GeneralAdd-Title">Source Check</span>
-                  </div>{" "}
-                  <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
-                </div>
-                <div className="GeneralAdd-Title-Section">
-                  <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">3</span>
-                    <span className="GeneralAdd-Title">Social Media</span>
-                  </div>
-                  <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
-                </div>
-                <div className="GeneralAdd-Title-Section">
-                  <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number1">4</span>
-                    <span className="GeneralAdd-Title1">Source </span>
-                  </div>
-                  <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
-                </div>
-                <div className="GeneralAdd-Title-Section">
-                  <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">5</span>
-                    <span className="GeneralAdd-Title">Screen Setting</span>
-                  </div>
-                  <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
-                </div>
-              </div>
               <div className="Border"></div>
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">

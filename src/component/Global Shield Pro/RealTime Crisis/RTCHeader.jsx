@@ -1,12 +1,12 @@
 import React from "react";
 import rtcHeader from "../../../image/GSP Real Time/RTCHeader.svg";
-import { RTCHeaderStyle } from "./RTCHeaderStyle";
+import { RtcHeaderStyle } from "./RTCHeaderStyle";
 import { CiSearch } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
 export default function RTCHeader() {
   const navigate = useNavigate();
   return (
-    <RTCHeaderStyle>
+    <RtcHeaderStyle>
       <div className="rtc-header-container">
         <div className="rtc-title">
           <div className="rtc-title-img">
@@ -34,6 +34,6 @@ export default function RTCHeader() {
           </div>
         </div>
       </div>
-    </RTCHeaderStyle>
+    </RtcHeaderStyle>
   );
 }
