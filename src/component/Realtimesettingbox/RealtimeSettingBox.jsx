@@ -3,8 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { GeneralDataAddStyle } from "./style";
 import Sidebar from "../sidebar/sidebar";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-
-function OrganizationSettingBox() {
+function RealtimeSettingBox() {
   const navigate = useNavigate();
   const [isChecked, setChecked] = useState(false);
 
@@ -28,28 +27,30 @@ function OrganizationSettingBox() {
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
                     <span className="GeneralAdd-Number">2</span>
-                    <span className="GeneralAdd-Title">Source Check</span>
+                    <span className="GeneralAdd-Title">
+                      Link to primary case
+                    </span>
                   </div>{" "}
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number">3</span>
-                    <span className="GeneralAdd-Title">Social Media</span>
+                    <span className="GeneralAdd-Number1">3</span>
+                    <span className="GeneralAdd-Title1">Screen Setting</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
                     <span className="GeneralAdd-Number">4</span>
-                    <span className="GeneralAdd-Title">Source </span>
+                    <span className="GeneralAdd-Title">Image Research</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
                 <div className="GeneralAdd-Title-Section">
                   <div className="GeneralAdd-TextSection">
-                    <span className="GeneralAdd-Number1">5</span>
-                    <span className="GeneralAdd-Title1">Screen Setting</span>
+                    <span className="GeneralAdd-Number">5</span>
+                    <span className="GeneralAdd-Title">Social media</span>
                   </div>
                   <MdOutlineKeyboardArrowRight className="Arrow-Icon" />
                 </div>
@@ -57,7 +58,7 @@ function OrganizationSettingBox() {
               <div className="Border"></div>
               <div className="GeneralAdd-Header-Gapping">
                 <div className="General-Add-Header">
-                  <h1>Third Party Intelligence</h1>
+                  <h1>Real-time Crisis Management</h1>
                   <span className="General-title">Setting</span>
                 </div>
               </div>
@@ -97,4 +98,4 @@ function OrganizationSettingBox() {
     </>
   );
 }
-export default OrganizationSettingBox;
+export default RealtimeSettingBox;

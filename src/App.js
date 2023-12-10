@@ -90,6 +90,10 @@ import OrganizationIntelligenceBox from "./component/OrganizationintelligenceAdd
 import OrganizationSourceBox from "./component/Organizationsourcebox/OrganizationSourceBox.jsx";
 import OrganizationSocialBox from "./component/Organizationsocialbox/OrganizationSocialBox.jsx";
 import OrganizationSourceCheck from "./component/Organizationsourcecheck/OrganizationSourceCheck.jsx";
+import OrganizationSettingBox from "./component/Organizationsettingbox/OrganizationSettingBox.jsx";
+import RealtimeAddBox from "./component/Realtimeaddbox/RealtimeAddBox.jsx";
+import RealtimePrimaryBox from "./component/Realtimeprimarybox/RealtimePrimaryBox.jsx";
+import RealtimeSettingBox from "./component/Realtimesettingbox/RealtimeSettingBox.jsx";
 
 function App() {
   const location = {
@@ -373,6 +377,27 @@ function App() {
         <Route
           path="/organizationsourcecheck"
           element={<OrganizationSourceCheck />}
+        ></Route>
+        <Route
+          path="/organizationsourcecheck"
+          element={<OrganizationSourceCheck />}
+        ></Route>
+        <Route
+          path="/organizationsettingbox"
+          element={<OrganizationSettingBox />}
+        ></Route>
+        <Route
+          path="/organizationsettingbox"
+          element={<OrganizationSettingBox />}
+        ></Route>
+        <Route path="/realtimeaddbox" element={<RealtimeAddBox />}></Route>
+        <Route
+          path="/realtimeprimarybox"
+          element={<RealtimePrimaryBox />}
+        ></Route>
+        <Route
+          path="/realtimesettingbox"
+          element={<RealtimeSettingBox />}
         ></Route>
       </Routes>
     </BrowserRouter>
