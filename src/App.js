@@ -110,9 +110,14 @@ import DHPSurfaceCategory from "./pages/Detectivehub Pro/DHP Surface/DHPSurface.
 import DHPCloudfile from "./pages/Detectivehub Pro/DHP Cloudfile/DHPCloudfile.jsx";
 import DHPSurfaceCategoryDetails from "./component/Detectivehubdetails/Surface/Category Details/CategoryDetails.jsx";
 import DHPSurfaceResultDetails from "./component/Detectivehubdetails/Surface/Result Details/ResultDetails.jsx";
-import DHPCloudfileTaskDetails from './component/Detectivehubdetails/Cloudfile/Task details/TaskDetails.jsx'
-import DHPCloudfileNewLinksDetails from './component/Detectivehubdetails/Cloudfile/Newlinks details/NewlinksDetails.jsx'
+import DHPCloudfileTaskDetails from "./component/Detectivehubdetails/Cloudfile/Task details/TaskDetails.jsx";
+import DHPCloudfileNewLinksDetails from "./component/Detectivehubdetails/Cloudfile/Newlinks details/NewlinksDetails.jsx";
 
+import PostsmadeDetails from "./component/BrandSentineldetails/Postsmade details/PostsmadeDetails.jsx";
+import UserTalkingDetails from "./component/BrandSentineldetails/User Talking details/UserTalkingDetails.jsx";
+import UserReachedDetails from "./component/BrandSentineldetails/User Reached details/UserReachedDetails.jsx";
+import UserLikesDetails from './component/BrandSentineldetails/User Likes details/UserLikesDetails.jsx'
+import TopicsDetails from "./component/BrandSentineldetails/Topics details/TopicsDetails.jsx";
 
 function App() {
   const location = {
@@ -446,6 +451,26 @@ function App() {
         <Route
           path="/cloudfile/new-links-details"
           element={<DHPCloudfileNewLinksDetails />}
+        ></Route>
+        <Route
+          path="/brand-sentinel/posts-made-details"
+          element={<PostsmadeDetails />}
+        ></Route>
+        <Route
+          path="/brand-sentinel/user-talking-details"
+          element={<UserTalkingDetails />}
+        ></Route>
+        <Route
+          path="/brand-sentinel/user-reached-details"
+          element={<UserReachedDetails />}
+        ></Route>
+        <Route
+          path="/brand-sentinel/user-likes-details"
+          element={<UserLikesDetails />}
+        ></Route>
+        <Route
+          path="/brand-sentinel/topics-details"
+          element={<TopicsDetails />}
         ></Route>
 
         <Route path="/geoaddform" element={<GeoForm />}></Route>

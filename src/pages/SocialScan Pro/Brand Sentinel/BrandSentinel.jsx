@@ -17,24 +17,28 @@ export default function BrandSentinel() {
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/brand-sentinel/posts-made-details"
           />
           <DetailsCard
             title="User Talking"
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/brand-sentinel/user-talking-details"
           />
           <DetailsCard
             title="User Reached"
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/brand-sentinel/user-reached-details"
           />
           <DetailsCard
             title="User Likes"
             caseID="01"
             status="finished"
             img={Ssp}
+            navigateLink="/brand-sentinel/user-likes-details"
           />
           <DetailsCard
             title="Mentions"
@@ -43,7 +47,13 @@ export default function BrandSentinel() {
             img={Ssp}
             navigateLink="/social-scan-detials/mentions-details"
           />
-          <DetailsCard title="Topics" caseID="01" status="finished" img={Ssp} />
+          <DetailsCard
+            title="Topics"
+            caseID="01"
+            status="finished"
+            img={Ssp}
+            navigateLink="/brand-sentinel/topics-details"
+          />
           <DetailsCard
             title="Language"
             caseID="01"

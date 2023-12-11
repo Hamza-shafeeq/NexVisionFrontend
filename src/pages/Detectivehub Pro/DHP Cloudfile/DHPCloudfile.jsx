@@ -1,7 +1,7 @@
 import React from "react";
 import DetailsCard from "../../../component/DetectiveHub Pro/Surface/DetailsCard";
 import { DhpCloudfile } from "./dhp-cloudfile";
-import DHPHeader from "../../../component/DetectiveHub Pro/Surface/DHPHeader";
+import DHPHeader from "../../../component/DetectiveHub Pro/Cloudfile/DHPHeader";
 import dhpcloudfile from "../../../image/cloudfile1.svg";
 
 
