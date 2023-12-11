@@ -61,7 +61,6 @@ import GazettesDetailsBox from "./component/KYCComplyPro Details/third party vie
 import DataSetsDetails from "./component/Detectivehubdetails/DataSetsDetails/DataSetsDetails.jsx";
 import TypesDetails from "./component/Detectivehubdetails/TypesDetails/TypesDetails.jsx";
 import LanguageDetailsBox from "./component/Detectivehubdetails/languagedetailsbox/LanguageDetailsBox.jsx";
-import { GeneralInfoDetailsStyled } from "./component/ArmorNet Pro details/Email Lookup Details/General Info Details/style.js";
 import GeneraldataAdd from "./component/GeneralDataAdd/GeneraldataAdd.jsx";
 import GeneralPersonalBox from "./component/Generalpersonalbox/GeneralPersonalBox.jsx";
 import GeneralUserbox from "./component/Generaluserbox/GeneralUserbox.jsx";
@@ -106,6 +105,9 @@ import PhoneLockupForm from "./component/PhoneLockupForm/PhoneLockupForm.jsx";
 import EmailLockupForm from "./component/EmailLockupForm/EmailLockupForm.jsx";
 import CardLockupForm from "./component/CardLockupForm/CardLockupForm.jsx";
 import SanctionForm from "./component/SanctionForm/SanctionForm.jsx";
+
+import DHPSurfaceCategory from "./pages/Detectivehub Pro/DHP Surface/DHPSurface.jsx";
+import DHPCloudfile from "./pages/Detectivehub Pro/DHP Cloudfile/DHPCloudfile.jsx";
 
 function App() {
   const location = {
@@ -338,6 +340,11 @@ function App() {
           element={<DiscoveryAddressDetails />}
         ></Route>
         <Route
+          path="/discovery/filetypes-details"
+          element={<DiscoveryFileTypesDetails />}
+        ></Route>
+        
+        <Route
           path="/generalimageresearch"
           element={<GeneralImageResearch />}
         ></Route>
@@ -416,6 +423,16 @@ function App() {
           path="/geopolitical-intelligence/map"
           element={<SocialMap />}
         ></Route>
+        <Route
+          path="/surface"
+          element={<DHPSurfaceCategory />}
+        ></Route>
+        <Route
+          path="/cloudfile"
+          element={<DHPCloudfile />}
+        ></Route>
+
+
         <Route path="/geoaddform" element={<GeoForm />}></Route>
         <Route path="/geoprimary" element={<GeoPrimary />}></Route>
         <Route path="/geosetting" element={<GeoSetting />}></Route>
