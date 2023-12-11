@@ -118,6 +118,8 @@ import UserTalkingDetails from "./component/BrandSentineldetails/User Talking de
 import UserReachedDetails from "./component/BrandSentineldetails/User Reached details/UserReachedDetails.jsx";
 import UserLikesDetails from './component/BrandSentineldetails/User Likes details/UserLikesDetails.jsx'
 import TopicsDetails from "./component/BrandSentineldetails/Topics details/TopicsDetails.jsx";
+import PostsDetails from "./component/BrandSentineldetails/Post details/PostsDetails.jsx";
+
 
 function App() {
   const location = {
@@ -471,6 +473,10 @@ function App() {
         <Route
           path="/brand-sentinel/topics-details"
           element={<TopicsDetails />}
+        ></Route>
+         <Route
+          path="/brand-sentinel/posts-details"
+          element={<PostsDetails />}
         ></Route>
 
         <Route path="/geoaddform" element={<GeoForm />}></Route>

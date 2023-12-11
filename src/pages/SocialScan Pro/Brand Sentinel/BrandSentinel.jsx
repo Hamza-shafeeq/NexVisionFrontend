@@ -108,6 +108,7 @@ export default function BrandSentinel() {
             caseID="01"
             status="incomplete"
             img={Ssp}
+            navigateLink ="/brand-sentinel/posts-details"
           />
         </div>
       </Sidebar>

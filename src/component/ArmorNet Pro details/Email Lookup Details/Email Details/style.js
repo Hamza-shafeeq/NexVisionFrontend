@@ -43,4 +43,49 @@ export const EmailDetailsStyled = styled.div`
     border: none;
     background-color: #e7e7e7;
   }
+  @media all and (max-width: 570px) {
+    .Email-input {
+      height: 55px;
+      width: 326px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      border: none;
+      background-color: #e7e7e7;
+    }
+    .Email-deatils {
+      background-color: #faf8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 250px;
+      gap: 100px;
+      /* padding-left: 50px; */
+    }
+    .Email-Title {
+      margin-top: 8px;
+    }
+  }
+  @media all and (max-width: 380px) {
+    .Email-input {
+      height: 55px;
+      width: 280px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      border: none;
+      background-color: #e7e7e7;
+    }
+    .Email-deatils {
+      background-color: #faf8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 250px;
+      gap: 100px;
+      /* padding-left: 50px; */
+    }
+    .Email-Title {
+      margin-top: 8px;
+      font-size: 22px;
+    }
+  } 
 `;
