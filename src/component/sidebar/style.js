@@ -175,7 +175,33 @@ export const SidebarStyled = styled.div`
     color: white;
     margin-right: 10px;
   }
+  .Sidebar-Links2.active {
+    width: 210px;
+    border-radius: 11px;
 
+    gap: 8px;
+    background-color: #4617b2;
+  }
+  .Sidebar-Links4.active {
+    width: 210px;
+    border-radius: 11px;
+
+    gap: 8px;
+    background-color: #4617b2;
+  }
+  .Sidebar-Links6.active {
+    width: 210px;
+    border-radius: 11px;
+
+    gap: 8px;
+    background-color: #4617b2;
+  }
+  .Sidebar-Links-drown.active {
+    width: 200px;
+    border-radius: 11px;
+
+    background-color: #4617b2;
+  }
   .Sidebar-Main-Admin-Tools {
     width: 100%;
     margin-bottom: 80px;
@@ -555,6 +581,31 @@ export const SidebarStyled = styled.div`
       background-color: #4617b2;
     }
     .Sidebar-Links.active {
+      width: 200px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links1.active {
+      width: 200px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links2.active {
+      width: 200px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+
+    .Sidebar-Links4.active {
+      width: 200px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links6.active {
       width: 200px;
       border-radius: 11px;
       gap: 8px;

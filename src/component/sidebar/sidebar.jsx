@@ -3,7 +3,7 @@ import { SidebarStyled } from "./style";
 import Sidebarlogo from "../../image/logo.png";
 
 import { PiSuitcaseSimple } from "react-icons/pi";
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoIosInformationCircleOutline } from "react-icons/io";
@@ -23,7 +23,62 @@ function Sidebar({ children }) {
   const [showSocialDropdown, setShowSocialDropdown] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(true);
 
+  const { pathname } = useLocation();
   const [isNarrowScreen, setIsNarrowScreen] = useState(window.innerWidth < 700);
+  useEffect(() => {
+    changeRoute();
+  }, []);
+  console.log(activeLink);
+  const changeRoute = () => {
+    try {
+      if (pathname) {
+        if (pathname === "/insightAi") {
+          setActiveLink("insightAi");
+        } else if (pathname === "/email-lookup") {
+          setActiveLink("email-lookup");
+          setShowARMORDropdown(!showARMORDropdown);
+        } else if (pathname === "/phone-lookup") {
+          setActiveLink("phone-lookup");
+          setShowARMORDropdown(!showARMORDropdown);
+        } else if (pathname === "/darknet") {
+          setActiveLink("darknet");
+          setShowHubDropdown(!showHubDropdown);
+        } else if (pathname === "/discovery") {
+          setActiveLink("discovery");
+          setShowHubDropdown(!showHubDropdown);
+        } else if (pathname === "/surface") {
+          setActiveLink("surface");
+          setShowHubDropdown(!showHubDropdown);
+        } else if (pathname === "/cloudfile") {
+          setActiveLink("cloudfile");
+          setShowHubDropdown(!showHubDropdown);
+        } else if (pathname === "/geopolitical-intelligence") {
+          setActiveLink("geopolitical-intelligence");
+          setShowGlobalDropdown(!showGlobalDropdown);
+        } else if (pathname === "/real-time-crisis") {
+          setActiveLink("real-time-crisis");
+          setShowGlobalDropdown(!showGlobalDropdown);
+        } else if (pathname === "/brand-sentinel") {
+          setActiveLink("brand-sentinel");
+          setShowSocialDropdown(!showSocialDropdown);
+        } else if (pathname === "/kyc-third-party") {
+          setActiveLink("kyc-third-party");
+          setShowKYCDropdown(!showKYCDropdown);
+        } else if (pathname === "/kyc-organization") {
+          setActiveLink("kyc-organization");
+          setShowKYCDropdown(!showKYCDropdown);
+        } else if (pathname === "/kyc-sanction-check") {
+          setActiveLink("kyc-sanction-check");
+          setShowKYCDropdown(!showKYCDropdown);
+        } else if (pathname === "/kyc-card-lookup") {
+          setActiveLink("kyc-card-lookup");
+          setShowKYCDropdown(!showKYCDropdown);
+        }
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
   useEffect(() => {
     const checkScreenSize = () => {
@@ -99,6 +154,12 @@ function Sidebar({ children }) {
 
       case "brand-sentinel":
         navigate("/brand-sentinel");
+        break;
+      case "surface":
+        navigate("/surface");
+        break;
+      case "cloudfile":
+        navigate("/cloudfile");
         break;
 
       case "about":
@@ -290,9 +351,9 @@ function Sidebar({ children }) {
                     </span>
                     <span
                       className={`Sidebar-Links-drown ${
-                        activeLink === "cloud" ? "active" : ""
+                        activeLink === "cloudfile" ? "active" : ""
                       }`}
-                      onClick={() => handleLinkClick("cloud")}
+                      onClick={() => handleLinkClick("cloudfile")}
                     >
                       Cloud File
                     </span>
