@@ -8,10 +8,10 @@ export const SidebarStyled = styled.div`
     background-color: #220367;
     width: 300px;
     height: 100vh;
-    overflow: auto;
-
+    overflow-y: scroll;
     border-right: 1px solid #72668d;
   }
+
   .Sidebar-Main-Section {
     display: flex;
     flex-direction: column;
@@ -319,7 +319,7 @@ export const SidebarStyled = styled.div`
     border-radius: 7px;
     z-index: 1;
     position: absolute;
-    left: 206px;
+    left: 242px;
     top: 28px;
   }
 
@@ -336,6 +336,51 @@ export const SidebarStyled = styled.div`
     transform: rotate(180deg); /* or the opposite angle */
   }
 
+  @media all and (max-width: 1240px) {
+    .SidebarMenu {
+      background-color: #220367;
+      width: 314px;
+      height: 100vh;
+
+      border-right: 1px solid #72668d;
+    }
+    .Sidebar-Links:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links1:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links2:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links3:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links4:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links6:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links.active {
+      width: 196px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+  }
   @media all and (max-width: 700px) {
     .SidebarMenu {
       background-color: #220367;

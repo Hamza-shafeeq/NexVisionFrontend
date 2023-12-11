@@ -176,6 +176,140 @@ export const InsightStyled = styled.div`
     color: #ded2f8;
     border-radius: 11px;
   }
+  @media all and (max-width: 1240px) {
+    .Ai-Text {
+      font-size: 16px;
+      width: 440px;
+      color: black;
+    }
+    .Ai-Title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #591ddd;
+    }
+    .Card-Rotating {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .NameBox {
+      width: 363px;
+      height: 37px;
+      font-size: 17px;
+      background-color: #f9f9f9;
+      border: none;
+      outline: none;
+      padding-left: 10px;
+    }
+    .FormBox {
+      background-color: #f9f9f9;
+      padding: 4px;
+      border-radius: 9px;
+      width: 331px;
+      cursor: pointer;
+    }
+    .Generate-Button {
+      display: flex;
+      width: 120px;
+      justify-content: center;
+      height: 50px;
+      align-items: center;
+      border: none;
+      background-color: #591ddd;
+      color: #ded2f8;
+      margin-left: 24px;
+      border-radius: 11px;
+    }
+    .NexVision-Main-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+      width: 47%;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 1140px) {
+    .Ai-Text {
+      font-size: 16px;
+      width: 440px;
+      color: black;
+    }
+    .Ai-Title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #591ddd;
+    }
+    .Card-Rotating {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .NameBox {
+      width: 363px;
+      height: 37px;
+      font-size: 17px;
+      background-color: #f9f9f9;
+      border: none;
+      outline: none;
+      padding-left: 10px;
+    }
+    .FormBox {
+      background-color: #f9f9f9;
+      padding: 4px;
+      border-radius: 9px;
+      width: 331px;
+      cursor: pointer;
+    }
+    .Generate-Button {
+      display: flex;
+      width: 120px;
+      justify-content: center;
+      height: 50px;
+      align-items: center;
+      border: none;
+      background-color: #591ddd;
+      color: #ded2f8;
+      margin-left: 24px;
+      border-radius: 11px;
+    }
+    .NexVision-Main-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+      width: 47%;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+    }
+  }
   @media all and (max-width: 900px) {
     .Ai-Text {
       font-size: 16px;

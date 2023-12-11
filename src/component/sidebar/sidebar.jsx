@@ -135,20 +135,6 @@ function Sidebar({ children }) {
       <SidebarStyled isSidebarVisible={isSidebarVisible}>
         <div className="sidebar-container">
           <div
-            className="ArrowIcon-Hamberg"
-            style={{
-              marginLeft: isSidebarVisible ? "-198px" : "",
-              marginTop: isSidebarVisible ? "4px" : "",
-            }}
-          >
-            <IoIosArrowBack
-              className={`ArrowIcon ${
-                isSidebarVisible ? "arrow-closed" : "arrow-open"
-              }`}
-              onClick={toggleSidebar}
-            />
-          </div>
-          <div
             className="SidebarMenu"
             style={{
               width: isSidebarVisible ? "0px" : "",
@@ -595,6 +581,20 @@ function Sidebar({ children }) {
           </div>
           <div className="Credit-Main-Section">
             <div className="sidebar-header">
+              <div
+                className="ArrowIcon-Hamberg"
+                style={{
+                  marginLeft: isSidebarVisible ? "-198px" : "",
+                  marginTop: isSidebarVisible ? "16px" : "",
+                }}
+              >
+                <IoIosArrowBack
+                  className={`ArrowIcon ${
+                    isSidebarVisible ? "arrow-closed" : "arrow-open"
+                  }`}
+                  onClick={toggleSidebar}
+                />
+              </div>
               <div className="Credit-Section">
                 <span className="Credit">
                   <LiaCoinsSolid className="Coin-icon" /> 50 Credited
