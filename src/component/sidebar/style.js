@@ -371,40 +371,47 @@ export const SidebarStyled = styled.div`
       border-right: 1px solid #72668d;
     }
     .Sidebar-Links:hover {
-      width: 206px;
+      width: 201px;
       border-radius: 11px;
       background-color: #4617b2;
+      margin-left: 6px;
     }
     .Sidebar-Links1:hover {
-      width: 206px;
+      width: 201px;
       border-radius: 11px;
       background-color: #4617b2;
+      margin-left: 6px;
     }
     .Sidebar-Links2:hover {
-      width: 206px;
+      width: 201px;
       border-radius: 11px;
       background-color: #4617b2;
+      margin-left: 6px;
     }
     .Sidebar-Links3:hover {
-      width: 206px;
+      width: 201px;
       border-radius: 11px;
       background-color: #4617b2;
+      margin-left: 6px;
     }
     .Sidebar-Links4:hover {
-      width: 206px;
+      width: 201px;
       border-radius: 11px;
       background-color: #4617b2;
+      margin-left: 6px;
     }
     .Sidebar-Links6:hover {
-      width: 206px;
+      width: 201px;
       border-radius: 11px;
       background-color: #4617b2;
+      margin-left: 6px;
     }
     .Sidebar-Links.active {
-      width: 205px;
+      width: 192px;
       border-radius: 11px;
       gap: 8px;
       background-color: #4617b2;
+      margin-left: 11px;
     }
   }
   @media all and (max-width: 1125px) {
