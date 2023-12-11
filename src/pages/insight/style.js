@@ -320,6 +320,7 @@ export const InsightStyled = styled.div`
       font-size: 24px;
       font-weight: 700;
       color: #591ddd;
+      width: 300px;
     }
     .Card-Rotating {
       display: flex;
@@ -360,7 +361,7 @@ export const InsightStyled = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 77%;
       margin-bottom: 40px;
     }
     .Ai-Text-Section {
@@ -369,6 +370,172 @@ export const InsightStyled = styled.div`
       color: #ececec;
       flex-direction: column;
       width: 47%;
+    }
+    .Ai-Stars {
+      font-size: 18px;
+      font-weight: 500;
+      display: flex;
+      padding-top: 5px;
+      align-items: center;
+      padding-bottom: 20px;
+      width: 250px;
+      color: #591ddd;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 830px) {
+    .Ai-Text {
+      font-size: 16px;
+      width: 440px;
+      color: black;
+    }
+    .Ai-Title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #591ddd;
+      width: 300px;
+    }
+    .Card-Rotating {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .NameBox {
+      width: 363px;
+      height: 37px;
+      font-size: 17px;
+      background-color: #f9f9f9;
+      border: none;
+      outline: none;
+      padding-left: 10px;
+    }
+    .FormBox {
+      background-color: #f9f9f9;
+      padding: 4px;
+      border-radius: 9px;
+      width: 331px;
+      cursor: pointer;
+    }
+    .Generate-Button {
+      display: flex;
+      width: 120px;
+      justify-content: center;
+      height: 50px;
+      align-items: center;
+      border: none;
+      background-color: #591ddd;
+      color: #ded2f8;
+      margin-left: 24px;
+      border-radius: 11px;
+    }
+    .NexVision-Main-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 64%;
+      margin-bottom: 40px;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+      width: 47%;
+    }
+    .Ai-Stars {
+      font-size: 18px;
+      font-weight: 500;
+      display: flex;
+      padding-top: 5px;
+      align-items: center;
+      padding-bottom: 20px;
+      width: 250px;
+      color: #591ddd;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+    }
+  }
+  @media all and (max-width: 785px) {
+    .Ai-Text {
+      font-size: 16px;
+      width: 440px;
+      color: black;
+    }
+    .Ai-Title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #591ddd;
+      width: 300px;
+    }
+    .Card-Rotating {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .NameBox {
+      width: 363px;
+      height: 37px;
+      font-size: 17px;
+      background-color: #f9f9f9;
+      border: none;
+      outline: none;
+      padding-left: 10px;
+    }
+    .FormBox {
+      background-color: #f9f9f9;
+      padding: 4px;
+      border-radius: 9px;
+      width: 331px;
+      cursor: pointer;
+    }
+    .Generate-Button {
+      display: flex;
+      width: 120px;
+      justify-content: center;
+      height: 50px;
+      align-items: center;
+      border: none;
+      background-color: #591ddd;
+      color: #ded2f8;
+      margin-left: 24px;
+      border-radius: 11px;
+    }
+    .NexVision-Main-Section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48%;
+      margin-bottom: 40px;
+    }
+    .Ai-Text-Section {
+      display: flex;
+      justify-content: center;
+      color: #ececec;
+      flex-direction: column;
+      width: 47%;
+    }
+    .Ai-Stars {
+      font-size: 18px;
+      font-weight: 500;
+      display: flex;
+      padding-top: 5px;
+      align-items: center;
+      padding-bottom: 20px;
+      width: 250px;
+      color: #591ddd;
     }
     .Ai-Text-Section {
       display: flex;

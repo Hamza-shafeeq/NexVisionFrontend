@@ -375,7 +375,187 @@ export const SidebarStyled = styled.div`
       background-color: #4617b2;
     }
     .Sidebar-Links.active {
-      width: 196px;
+      width: 205px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+  }
+  @media all and (max-width: 1125px) {
+    .SidebarMenu {
+      background-color: #220367;
+      width: 330px;
+      height: 100vh;
+
+      border-right: 1px solid #72668d;
+    }
+    .Sidebar-Links:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links1:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links2:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links3:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links4:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links6:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links.active {
+      width: 205px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+  }
+  @media all and (max-width: 1000px) {
+    .SidebarMenu {
+      background-color: #220367;
+      width: 350px;
+      height: 100vh;
+
+      border-right: 1px solid #72668d;
+    }
+    .Sidebar-Links:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links1:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links2:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links3:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links4:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links6:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links.active {
+      width: 205px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+  }
+  @media all and (max-width: 825px) {
+    .SidebarMenu {
+      background-color: #220367;
+      width: 365px;
+      height: 100vh;
+
+      border-right: 1px solid #72668d;
+    }
+    .Sidebar-Links:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links1:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links2:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links3:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links4:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links6:hover {
+      width: 206px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links.active {
+      width: 205px;
+      border-radius: 11px;
+      gap: 8px;
+      background-color: #4617b2;
+    }
+  }
+  @media all and (max-width: 755px) {
+    .SidebarMenu {
+      background-color: #220367;
+      width: 365px;
+      height: 100vh;
+
+      border-right: 1px solid #72668d;
+    }
+    .Sidebar-Links:hover {
+      width: 200px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links1:hover {
+      width: 200px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links2:hover {
+      width: 200px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links3:hover {
+      width: 200px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links4:hover {
+      width: 200px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links6:hover {
+      width: 200px;
+      border-radius: 11px;
+      background-color: #4617b2;
+    }
+    .Sidebar-Links.active {
+      width: 200px;
       border-radius: 11px;
       gap: 8px;
       background-color: #4617b2;
