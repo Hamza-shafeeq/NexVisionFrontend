@@ -22,7 +22,7 @@ function Sidebar({ children }) {
   const [showGlobalDropdown, setShowGlobalDropdown] = useState(false);
   const [showSocialDropdown, setShowSocialDropdown] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(true);
-
+  const [activedropdown, setactivedropdown] = useState(null);
   const { pathname } = useLocation();
   const [isNarrowScreen, setIsNarrowScreen] = useState(window.innerWidth < 700);
   useEffect(() => {
@@ -37,42 +37,55 @@ function Sidebar({ children }) {
         } else if (pathname === "/email-lookup") {
           setActiveLink("email-lookup");
           setShowARMORDropdown(!showARMORDropdown);
+          setactivedropdown("armor");
         } else if (pathname === "/phone-lookup") {
           setActiveLink("phone-lookup");
           setShowARMORDropdown(!showARMORDropdown);
+          setactivedropdown("armor");
         } else if (pathname === "/darknet") {
           setActiveLink("darknet");
           setShowHubDropdown(!showHubDropdown);
+          setactivedropdown("hub");
         } else if (pathname === "/discovery") {
           setActiveLink("discovery");
           setShowHubDropdown(!showHubDropdown);
+          setactivedropdown("hub");
         } else if (pathname === "/surface") {
           setActiveLink("surface");
           setShowHubDropdown(!showHubDropdown);
+          setactivedropdown("hub");
         } else if (pathname === "/cloudfile") {
           setActiveLink("cloudfile");
           setShowHubDropdown(!showHubDropdown);
+          setactivedropdown("hub");
         } else if (pathname === "/geopolitical-intelligence") {
           setActiveLink("geopolitical-intelligence");
           setShowGlobalDropdown(!showGlobalDropdown);
+          setactivedropdown("global");
         } else if (pathname === "/real-time-crisis") {
           setActiveLink("real-time-crisis");
           setShowGlobalDropdown(!showGlobalDropdown);
+          setactivedropdown("global");
         } else if (pathname === "/brand-sentinel") {
           setActiveLink("brand-sentinel");
           setShowSocialDropdown(!showSocialDropdown);
+          setactivedropdown("social");
         } else if (pathname === "/kyc-third-party") {
           setActiveLink("kyc-third-party");
           setShowKYCDropdown(!showKYCDropdown);
+          setactivedropdown("kyccomplypro");
         } else if (pathname === "/kyc-organization") {
           setActiveLink("kyc-organization");
           setShowKYCDropdown(!showKYCDropdown);
+          setactivedropdown("kyccomplypro");
         } else if (pathname === "/kyc-sanction-check") {
           setActiveLink("kyc-sanction-check");
           setShowKYCDropdown(!showKYCDropdown);
+          setactivedropdown("kyccomplypro");
         } else if (pathname === "/kyc-card-lookup") {
           setActiveLink("kyc-card-lookup");
           setShowKYCDropdown(!showKYCDropdown);
+          setactivedropdown("kyccomplypro");
         }
       }
     } catch (e) {
@@ -119,47 +132,60 @@ function Sidebar({ children }) {
         break;
       case "kyc-card-lookup":
         navigate("/kyc-card-lookup");
+        setactivedropdown("kyccomplypro");
         break;
       case "kyc-sanction-check":
         navigate("/kyc-sanction-check");
+        setactivedropdown("kyccomplypro");
         break;
       case "kyc-third-party":
         navigate("/kyc-third-party");
+        setactivedropdown("kyccomplypro");
         break;
       case "kyc-organization":
         navigate("/kyc-organization");
+        setactivedropdown("kyccomplypro");
         break;
       case "real-time-crisis":
         navigate("/real-time-crisis");
+        setactivedropdown("global");
         break;
       case "geopolitical-intelligence":
         navigate("/geopolitical-intelligence");
+        setactivedropdown("global");
         break;
 
       case "email-lookup":
         navigate("/email-lookup");
+        setactivedropdown("armor");
         break;
 
       case "phone-lookup":
         navigate("/phone-lookup");
+        setactivedropdown("armor");
         break;
 
       case "darknet":
         navigate("/darknet");
+        setactivedropdown("hub");
         break;
 
       case "discovery":
         navigate("/discovery");
+        setactivedropdown("hub");
         break;
 
       case "brand-sentinel":
         navigate("/brand-sentinel");
+        setactivedropdown("social");
         break;
       case "surface":
         navigate("/surface");
+        setactivedropdown("hub");
         break;
       case "cloudfile":
         navigate("/cloudfile");
+        setactivedropdown("hub");
         break;
 
       case "about":
@@ -170,21 +196,28 @@ function Sidebar({ children }) {
     }
   };
 
-  const toggleKYCDropdown = () => {
+  const toggleKYCDropdown = (name) => {
     setShowKYCDropdown(!showKYCDropdown);
-  };
-  const toggleARMORDropdown = () => {
-    setShowARMORDropdown(!showARMORDropdown);
-  };
-  const toggleHubDropdown = () => {
-    setShowHubDropdown(!showHubDropdown);
+    setactivedropdown(name);
   };
 
-  const toggleGlobalDropdown = () => {
-    setShowGlobalDropdown(!showGlobalDropdown);
+  const toggleARMORDropdown = (name) => {
+    setShowARMORDropdown(!showARMORDropdown);
+    setactivedropdown(name);
   };
-  const toggleSocialDropdown = () => {
+  const toggleHubDropdown = (name) => {
+    setShowHubDropdown(!showHubDropdown);
+    setactivedropdown(name);
+  };
+
+  const toggleGlobalDropdown = (name) => {
+    console.log(name);
+    setShowGlobalDropdown(!showGlobalDropdown);
+    setactivedropdown(name);
+  };
+  const toggleSocialDropdown = (name) => {
     setShowSocialDropdown(!showSocialDropdown);
+    setactivedropdown(name);
   };
 
   const toggleSidebar = () => {
@@ -244,9 +277,9 @@ function Sidebar({ children }) {
               </div>
               <div
                 className={`Sidebar-Links4 ${
-                  activeLink === "armor" ? "active" : ""
+                  activedropdown === "armor" ? "active" : ""
                 }`}
-                onClick={toggleARMORDropdown}
+                onClick={() => toggleARMORDropdown("armor")}
                 style={{
                   display: isSidebarVisible ? "none" : "",
                 }}
@@ -303,9 +336,9 @@ function Sidebar({ children }) {
 
               <div
                 className={`Sidebar-Links ${
-                  activeLink === "hub" ? "active" : ""
+                  activedropdown === "hub" ? "active" : ""
                 }`}
-                onClick={toggleHubDropdown}
+                onClick={() => toggleHubDropdown("hub")}
                 style={{
                   display: isSidebarVisible ? "none" : "",
                 }}
@@ -362,7 +395,7 @@ function Sidebar({ children }) {
               )}
               <div
                 className={`Sidebar-Links ${
-                  activeLink === "global" ? "active" : ""
+                  activedropdown === "global" ? "active" : ""
                 }`}
                 onClick={() => toggleGlobalDropdown("global")}
                 style={{
@@ -412,7 +445,7 @@ function Sidebar({ children }) {
               )}
               <div
                 className={`Sidebar-Links ${
-                  activeLink === "social" ? "active" : ""
+                  activedropdown === "social" ? "active" : ""
                 }`}
                 onClick={() => toggleSocialDropdown("social")}
                 style={{
@@ -444,9 +477,9 @@ function Sidebar({ children }) {
 
               <div
                 className={`Sidebar-Links ${
-                  activeLink === "kyccomplypro" ? "active" : ""
+                  activedropdown === "kyccomplypro" ? "active" : ""
                 }`}
-                onClick={toggleKYCDropdown}
+                onClick={() => toggleKYCDropdown("kyccomplypro")}
                 style={{
                   display: isSidebarVisible ? "none" : "",
                 }}
