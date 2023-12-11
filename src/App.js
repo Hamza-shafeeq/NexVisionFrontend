@@ -108,6 +108,11 @@ import SanctionForm from "./component/SanctionForm/SanctionForm.jsx";
 
 import DHPSurfaceCategory from "./pages/Detectivehub Pro/DHP Surface/DHPSurface.jsx";
 import DHPCloudfile from "./pages/Detectivehub Pro/DHP Cloudfile/DHPCloudfile.jsx";
+import DHPSurfaceCategoryDetails from "./component/Detectivehubdetails/Surface/Category Details/CategoryDetails.jsx";
+import DHPSurfaceResultDetails from "./component/Detectivehubdetails/Surface/Result Details/ResultDetails.jsx";
+import DHPCloudfileTaskDetails from './component/Detectivehubdetails/Cloudfile/Task details/TaskDetails.jsx'
+import DHPCloudfileNewLinksDetails from './component/Detectivehubdetails/Cloudfile/Newlinks details/NewlinksDetails.jsx'
+
 
 function App() {
   const location = {
@@ -343,7 +348,7 @@ function App() {
           path="/discovery/filetypes-details"
           element={<DiscoveryFileTypesDetails />}
         ></Route>
-        
+
         <Route
           path="/generalimageresearch"
           element={<GeneralImageResearch />}
@@ -423,15 +428,25 @@ function App() {
           path="/geopolitical-intelligence/map"
           element={<SocialMap />}
         ></Route>
+        <Route path="/surface" element={<DHPSurfaceCategory />}></Route>
+        <Route path="/cloudfile" element={<DHPCloudfile />}></Route>
         <Route
-          path="/surface"
-          element={<DHPSurfaceCategory />}
+          path="/surface/category-details"
+          element={<DHPSurfaceCategoryDetails />}
         ></Route>
         <Route
-          path="/cloudfile"
-          element={<DHPCloudfile />}
+          path="/surface/result-details"
+          element={<DHPSurfaceResultDetails />}
         ></Route>
 
+        <Route
+          path="/cloudfile/task-details"
+          element={<DHPCloudfileTaskDetails />}
+        ></Route>
+        <Route
+          path="/cloudfile/new-links-details"
+          element={<DHPCloudfileNewLinksDetails />}
+        ></Route>
 
         <Route path="/geoaddform" element={<GeoForm />}></Route>
         <Route path="/geoprimary" element={<GeoPrimary />}></Route>

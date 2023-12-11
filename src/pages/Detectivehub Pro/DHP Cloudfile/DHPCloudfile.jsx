@@ -18,14 +18,14 @@ export default function DHPCloudfile() {
             caseID="01"
             status="finished"
             img={dhpcloudfile}
-            navigateLink="/surface/category-details"
+            navigateLink="/cloudfile/task-details"
           />
           <DetailsCard
             title="New Links"
             caseID="01"
             status="finished"
             img={dhpcloudfile}
-            navigateLink="/surface/result-details"
+            navigateLink="/cloudfile/new-links-details"
           />
           
         </div>
