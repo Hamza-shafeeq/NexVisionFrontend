@@ -43,7 +43,8 @@ function Homepage() {
               <div className="Welcome-Section">
                 <h1 className="Contact">Welcome</h1>
                 <span className="Welcome-Text">
-                  Enter your email only
+                  Enter your email only.. 
+                  Changed the text
                 </span>
               </div>
 
