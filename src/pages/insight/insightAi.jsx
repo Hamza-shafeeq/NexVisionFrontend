@@ -12,7 +12,7 @@ function insightAi() {
           <div className="Insight-Main-Page"></div>
           <div className="NexVision-Main-Section">
             <div className="Ai-Text-Section ">
-              <span className="Ai-Title">Introducing Nexvision AI</span>
+              <span className="Ai-Title"> Nexvision AI</span>
               <span className="Ai-Text">
                 In a short while, we'll unveil a groundbreaking fusion of
                 Open Source Intelligence and cutting-edge AI technology.
