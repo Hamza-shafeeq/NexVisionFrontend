@@ -43,7 +43,7 @@ function Homepage() {
               <div className="Welcome-Section">
                 <h1 className="Contact">Welcome</h1>
                 <span className="Welcome-Text">
-                  Enter your email and password to sign UP
+                  Enter your email and password to sign UP AGAIN
                 </span>
               </div>
 
