@@ -254,7 +254,7 @@ function Sidebar({ children }) {
                   display: isSidebarVisible ? "none" : "",
                 }}
               >
-                Main
+                Mains
               </p>
               <div
                 className={`Sidebar-Links2 ${

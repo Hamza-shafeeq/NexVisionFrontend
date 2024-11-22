@@ -14,7 +14,7 @@ function insightAi() {
             <div className="Ai-Text-Section ">
               <span className="Ai-Title"> Nexvision AI</span>
               <span className="Ai-Text">
-                In a short while, we'll unveil a groundbreaking fusion of
+                just a short while, we'll unveil a groundbreaking fusion of
                 Open Source Intelligence and cutting-edge AI technology.
               </span>
               <span className="Ai-Stars">
